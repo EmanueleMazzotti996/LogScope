@@ -1,6 +1,6 @@
 {
   "name": "parvis-loggy-eye",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Parvis Loggy-Eye - The Friendly Abaco Log Companion",
   "main": "electron/main.js",
   "scripts": {
@@ -39,7 +39,8 @@
     "win": {
       "target": [
         "nsis",
-        "zip"
+        "zip",
+        "portable"
       ],
       "icon": "public/icon.png"
     },

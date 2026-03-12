@@ -26,6 +26,8 @@ export default function App() {
   const [extractedFiles, setExtractedFiles] = useState([]);
   const [filterTypes, setFilterTypes] = useState(['ics', 'server']);
   const [globalLoading, setGlobalLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const PAGE_SIZE = 100;
 
   // Helper per mostrare loader anche in task sincrone pesanti (React rendering)
   const withLoading = async (fn) => {
@@ -177,6 +179,18 @@ export default function App() {
     });
   }, [extractedFiles, filterTypes, fileSearch]);
 
+  // Reset page when filtering or searching
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [fileSearch, filterTypes]);
+
+  const paginatedFiles = useMemo(() => {
+    const start = (currentPage - 1) * PAGE_SIZE;
+    return filteredFiles.slice(start, start + PAGE_SIZE);
+  }, [filteredFiles, currentPage]);
+
+  const totalPages = Math.max(1, Math.ceil(filteredFiles.length / PAGE_SIZE));
+
   useEffect(() => {
     if (config.destination && results.length > 0) {
       handleRefreshFiles();
@@ -275,7 +289,7 @@ export default function App() {
         </nav>
 
         <div className="sidebar-footer">
-          <div className="version-badge">v1.0.0</div>
+          <div className="version-badge">v1.2.0</div>
         </div>
       </aside>
 
@@ -412,7 +426,7 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                  {filteredFiles.map((f, i) => (
+                  {paginatedFiles.map((f, i) => (
                       <div key={i} className="file-item" onClick={() => handleOpenViewer(f.path, f.clientName)}>
                         <div className="file-icon">
                           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -442,6 +456,38 @@ export default function App() {
                         </div>
                       </div>
                     ))}
+
+                  {/* Pagination Controls */}
+                  {totalPages > 1 && (
+                    <div className="pagination-footer">
+                      <div className="pagination-info">
+                        Visualizzati {paginatedFiles.length} di {filteredFiles.length} log
+                      </div>
+                      <div className="pagination-controls">
+                        <button 
+                          className="btn btn-secondary btn-sm" 
+                          onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                          disabled={currentPage === 1}
+                        >
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                          </svg>
+                        </button>
+                        <span className="pagination-page">
+                          Pagina {currentPage} di {totalPages}
+                        </span>
+                        <button 
+                          className="btn btn-secondary btn-sm" 
+                          onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                          disabled={currentPage === totalPages}
+                        >
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
@@ -450,9 +496,17 @@ export default function App() {
 
         {activeTab === 'viewer' && (
           <div className="page">
-            <div className="page-header">
-              <h1>{t('viewer_header')}</h1>
-              <p className="page-desc">{t('viewer_desc')}</p>
+            <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+              <div>
+                <h1>{t('viewer_header')}</h1>
+                <p className="page-desc">{t('viewer_desc')}</p>
+              </div>
+              <button className="btn btn-secondary" onClick={() => setActiveTab('files')}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: 8 }}>
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+                {t('viewer_back_to_list')}
+              </button>
             </div>
             <LogViewer file={viewerFile} onOpenFile={handleOpenViewer} isElectron={isElectron} />
           </div>

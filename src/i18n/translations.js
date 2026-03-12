@@ -1,8 +1,8 @@
 export const translations = {
   it: {
     // Sidebar
-    nav_extract: "Estrai Log",
-    nav_analysis: "File Estratti",
+    nav_extract: "Estrai da sito",
+    nav_analysis: "Importa & Analizza",
     nav_viewer: "Log Viewer",
     nav_about: "Guida",
     nav_settings: "Lingua",
@@ -27,7 +27,7 @@ export const translations = {
     back: "Indietro",
     
     // Config Panel
-    config_header: "Estrazione Log",
+    config_header: "Estrazione da sito",
     config_desc: "Configura sorgente, destinazione, date e client per estrarre i log di Abaco Server.",
     config_paths: "Percorsi",
     config_source: "Cartella Radice Log (contiene le date)",
@@ -56,7 +56,7 @@ export const translations = {
     results_progress: "Estrazione in corso...",
     
     // Analysis Tab
-    analysis_header: "File Estratti",
+    analysis_header: "Importa & Analizza",
     analysis_desc: "Log precedentemente estratti nella cartella di destinazione.",
     analysis_import: "Importa cartella log...",
     analysis_reset: "Resetta Analisi",
@@ -93,6 +93,7 @@ export const translations = {
     viewer_results_count: "{count} risultati",
     viewer_no_results: "Nessun risultato trovato",
     viewer_line_num: "Riga {num}",
+    viewer_back_to_list: "Torna alla lista file",
     
     analysis_title: "Analisi",
     analysis_err_too_large: "File troppo grande per l'analisi dettagliata",
@@ -104,7 +105,7 @@ export const translations = {
     stat_lots: "Lotti Prodotti",
     stat_restarts: "Avvii Rilevati",
     analysis_offline_detected: "SISTEMA OFFLINE RILEVATO",
-    analysis_offline_desc: "Il client è andato in modalità OFFLINE per {count} volte.",
+    analysis_offline_desc: "Il client è stato in modalità OFFLINE per {count} volte.",
     analysis_compliance_header: "AVVISO DI COMPLIANCE:",
     analysis_compliance_desc: "Rilevate **anomalie sistematiche** nel cambio stato lotti. Verificare l'integrità del processo per i lotti evidenziati.",
     analysis_restart_anomaly: "WARNING Numero anomalo di avvii: {count}",
@@ -147,7 +148,7 @@ export const translations = {
     about_analysis_desc: "Dashboard diagnostica dedicata: per gli ICS Log identifica gli eventi di produzione; per la Server Library monitora le operazioni server e i tempi di risposta critici. Per entrambi è possibile rilevare un numero anomalo di avvii giornalieri.",
     about_nav_title: "Navigazione",
     about_nav_desc: "Sincronizzazione tra Dashboard e file: l'interfaccia evidenzia le righe interessate e permette l'uso del \"Find All\" per isolare istantaneamente ogni occorrenza nel log.",
-    about_footer: "© 2026 Progetto Parvis Loggy-Eye — Progettato per l'Eccellenza.",
+    about_footer: "© 2026 Progetto Parvis Loggy-Eye — Architected by Emanuele Mazzotti",
     
     // ICS Events (Translating the descriptions from eventmap_detailed.csv)
     "PROC_PRODUCTION_END_PAUSE": "Fermata automatica a fine produzione",
@@ -224,8 +225,8 @@ export const translations = {
   },
   en: {
     // Sidebar
-    nav_extract: "Extract Logs",
-    nav_analysis: "Extracted Files",
+    nav_extract: "Extract from site",
+    nav_analysis: "Import & Analyse",
     nav_viewer: "Log Viewer",
     nav_about: "Guide",
     nav_settings: "Language",
@@ -250,7 +251,7 @@ export const translations = {
     back: "Back",
     
     // Config Panel
-    config_header: "Log Extraction",
+    config_header: "Remote Extraction",
     config_desc: "Configure source, destination, dates, and clients to extract Abaco Server logs.",
     config_paths: "Paths",
     config_source: "Log Root Folder (contains dates)",
@@ -279,7 +280,7 @@ export const translations = {
     results_progress: "Extraction in progress...",
     
     // Analysis Tab
-    analysis_header: "Extracted Files",
+    analysis_header: "Import & Analyse",
     analysis_desc: "Logs previously extracted in the destination folder.",
     analysis_import: "Import log folder...",
     analysis_reset: "Reset Analysis",
@@ -316,6 +317,7 @@ export const translations = {
     viewer_results_count: "{count} results",
     viewer_no_results: "No results found",
     viewer_line_num: "Line {num}",
+    viewer_back_to_list: "Back to file list",
     
     analysis_title: "Analysis",
     analysis_err_too_large: "File too large for detailed analysis",
@@ -374,7 +376,7 @@ export const translations = {
     about_analysis_desc: "Dedicated diagnostic dashboard: for ICS Logs, it identifies production events; for Server Library, it monitors server operations and critical response times. Supports detection of abnormal daily boots.",
     about_nav_title: "Navigation",
     about_nav_desc: "Synchronization between Dashboard and file: the interface highlights relevant lines and allows using 'Find All' to instantly isolate every occurrence in the log.",
-    about_footer: "© 2026 Parvis Loggy-Eye Project — Designed for Excellence.",
+    about_footer: "© 2026 Parvis Loggy-Eye Project — Architected by Emanuele Mazzotti",
 
     // ICS Events (Extended)
     "PROC_PRODUCTION_END_PAUSE": "Automatic stop at end of production",
@@ -449,8 +451,8 @@ export const translations = {
   },
   es: {
     // Sidebar
-    nav_extract: "Extraer Logs",
-    nav_analysis: "Archivos Extraídos",
+    nav_extract: "Extraer del sitio",
+    nav_analysis: "Importar y Analizar",
     nav_viewer: "Visor de Logs",
     nav_about: "Guía",
     nav_settings: "Idioma",
@@ -503,7 +505,7 @@ export const translations = {
     results_progress: "Extracción en curso...",
     
     // Analysis Tab
-    analysis_header: "Archivos Extraídos",
+    analysis_header: "Importar y Analizar",
     analysis_desc: "Logs extraídos anteriormente en la carpeta de destino.",
     analysis_import: "Importar carpeta de logs...",
     analysis_reset: "Restablecer Análisis",
@@ -630,7 +632,7 @@ export const translations = {
     about_analysis_desc: "Panel de diagnóstico dedicado: identifica eventos de producción en logs ICS y monitorea operaciones del servidor en Server Library. Detecta reinicios anómalos.",
     about_nav_title: "Navegación",
     about_nav_desc: "Sincronización entre panel y archivo: resalta líneas relevantes y permite 'Buscar Todo' para aislar incidentes instantáneamente.",
-    about_footer: "© 2026 Proyecto LogScope — Diseñado para la Excelencia.",
+    about_footer: "© 2026 Progetto Parvis Loggy-Eye — Architected by Emanuele Mazzotti",
 
     // ICS Events
     "PROC_PRODUCTION_END_PAUSE": "Parada automática al final de la producción",
@@ -705,12 +707,12 @@ export const translations = {
   },
   fr: {
     // Sidebar
-    nav_extract: "Extraire Log",
-    nav_analysis: "Fichiers Extraits",
+    nav_extract: "Extraire du site",
+    nav_analysis: "Importer & Analyser",
     nav_viewer: "Visionneuse Log",
     nav_about: "Guide",
     nav_settings: "Langue",
-    config_header: "Extraction des Logs",
+    config_header: "Extraction du site",
     config_desc: "Configurez la source, la destination, les dates et les clients pour extraire les logs d'Abaco Server.",
     config_paths: "Chemins",
     config_source: "Dossier Racine des Logs (contient les dates)",
@@ -739,7 +741,7 @@ export const translations = {
     results_progress: "Extraction en cours...",
 
     // Analysis Tab
-    analysis_header: "Fichiers Extraits",
+    analysis_header: "Importer & Analyser",
     analysis_desc: "Logs précédemment extraits dans le dossier de destination.",
     analysis_import: "Importer dossier log...",
     analysis_reset: "Réinitialiser l'Analyse",
@@ -832,7 +834,7 @@ export const translations = {
     about_analysis_desc: "Tableau de bord de diagnostic dédié : identifie les événements de production pour les logs ICS et surveille les opérations serveur pour la Server Library. Détecte les redémarrages anormaux.",
     about_nav_title: "Navigation",
     about_nav_desc: "Synchronisation entre le tableau de bord et le fichier : l'interface surligne les lignes concernées et permet d'utiliser 'Rechercher Tout' per isoler instantanément chaque occurrence.",
-    about_footer: "© 2026 Projet LogScope — Conçu pour l'Excellence.",
+    about_footer: "© 2026 Progetto Parvis Loggy-Eye — Architected by Emanuele Mazzotti",
 
     // ICS Events
     "PROC_PRODUCTION_END_PAUSE": "Arrêt automatique fin de production",

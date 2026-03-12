@@ -1,195 +1,163 @@
 import os
 from pptx import Presentation
 from pptx.util import Inches, Pt
-from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
 
-def create_presentation(language):
-    prs = Presentation()
+def create_executive_presentation():
+    template_path = r'c:\Users\emanu\Desktop\Parvis\GODLOG\TEMPLATEprvs.pptx'
+    output_filename = 'Parvis_Loggy-Eye_Executive_Presentation_IT.pptx'
+    screenshots_dir = r'c:\Users\emanu\Desktop\Parvis\GODLOG\screenshots presentazione'
     
-    # Define colors
-    BG_COLOR = RGBColor(30, 30, 46)  # Dark Blue/Slate
-    TEXT_COLOR = RGBColor(255, 255, 255)
-    ACCENT_COLOR = RGBColor(0, 255, 255)  # Cyan
+    if not os.path.exists(template_path):
+        print(f"Template not found at {template_path}")
+        return
+
+    # Load presentation
+    prs = Presentation(template_path)
     
-    content = {
-        'it': {
-            'filename': 'Parvis Loggy-Eye_Presentation_IT.pptx',
-            'slides': [
-                {
-                    'title': 'Parvis Loggy-Eye: Diagnostic Intelligence',
-                    'subtitle': 'L\'integrazione forense per l\'Ecosistema Abaco Server',
-                    'type': 'title'
-                },
-                {
-                    'title': 'Sfide e Complessità Attuali',
-                    'points': [
-                        'Dati frammentati tra ICS e Server Library.',
-                        'File di grandi dimensioni (>100MB) complessi da navigare.',
-                        'MTTR elevato dovuto a identificazione lenta del root cause.'
-                    ]
-                },
-                {
-                    'title': 'La Soluzione: Performance & UI',
-                    'points': [
-                        'Architettura Standalone basata su Electron/React.',
-                        'Rendering virtualizzato ad alta fluidità.',
-                        'Parsing asincrono per un\'esperienza d\'uso premium.'
-                    ]
-                },
-                {
-                    'title': 'Motore di Analisi Avanzato',
-                    'points': [
-                        'Boot Tracking: Rilevamento automatico di anomalie e blackout.',
-                        'Dashboard Integrazione: Ogni evento è cliccabile per il jump istantaneo al log.',
-                        'MDR Ready: Estrazione automatica locale e remota.'
-                    ]
-                },
-                {
-                    'title': 'Valore Aziendale',
-                    'points': [
-                        'Field Support: Diagnostica immediata senza dipendenza da sviluppatori.',
-                        'Report Professionali: Comunicazione chiara verso il cliente finale.',
-                        'QA Optimization: Validazione flussi di produzione accelerata.'
-                    ]
-                },
-                {
-                    'title': 'Conclusioni',
-                    'points': [
-                        'Standardizzazione della diagnostica Abaco.',
-                        'Repo GitHub attivo e tool pronto al deployment.',
-                        'Migliore percezione tecnologica del brand.'
-                    ]
-                }
-            ],
-            'footer': '© 2026 Parvis Loggy-Eye Analysis Suite — Progettato per l\'Eccellenza.'
+    # CLEAR ALL EXISTING SLIDES in the template to avoid confusion
+    # We iterate over the slide ID list and remove each element
+    for sld in list(prs.slides._sldIdLst):
+        prs.slides._sldIdLst.remove(sld)
+    
+    # Slides content
+    slides_data = [
+        {
+            'title': 'Parvis Loggy Eye',
+            'subtitle': 'Diagnostic Intelligence per l\'Ecosistema Abaco Server',
+            'layout_idx': 5, # 1_Titolo (has placeholders)
+            'type': 'title'
         },
-        'en': {
-            'filename': 'Parvis Loggy-Eye_Presentation_EN.pptx',
-            'slides': [
-                {
-                    'title': 'Parvis Loggy-Eye: Diagnostic Intelligence',
-                    'subtitle': 'Forensic integration for the Abaco Server Ecosystem',
-                    'type': 'title'
-                },
-                {
-                    'title': 'Current Challenges & Complexity',
-                    'points': [
-                        'Fragmented data between ICS and Server Library.',
-                        'Large files (>100MB) complex to navigate.',
-                        'High MTTR due to slow root cause identification.'
-                    ]
-                },
-                {
-                    'title': 'The Solution: Performance & UI',
-                    'points': [
-                        'Standalone architecture based on Electron/React.',
-                        'High-fluidity virtualized rendering.',
-                        'Asynchronous parsing for a premium user experience.'
-                    ]
-                },
-                {
-                    'title': 'Advanced Analysis Engine',
-                    'points': [
-                        'Boot Tracking: Automatic detection of anomalies and blackouts.',
-                        'Integration Dashboard: Every event is clickable for instant jump to log.',
-                        'MDR Ready: Automatic local and remote extraction.'
-                    ]
-                },
-                {
-                    'title': 'Business Value',
-                    'points': [
-                        'Field Support: Immediate diagnostics without developer dependency.',
-                        'Professional Reports: Clear communication with the end client.',
-                        'QA Optimization: Accelerated production flow validation.'
-                    ]
-                },
-                {
-                    'title': 'Conclusion',
-                    'points': [
-                        'Standardization of Abaco diagnostics.',
-                        'Active GitHub repo and tool ready for deployment.',
-                        'Improved technological perception of the brand.'
-                    ]
-                }
+        {
+            'title': 'Il Gap Operativo: Complessità e Volumi',
+            'points': [
+                'Log frammentati tra ICS e Server Library.',
+                'File >100MB: navigazione lenta e dispendiosa.',
+                'MTTR elevato per identificazione "root cause".'
             ],
-            'footer': '© 2026 Parvis Loggy-Eye Analysis Suite — Designed for Excellence.'
+            'image': 'logsyntesis.png',
+            'layout_idx': 1
+        },
+        {
+            'title': 'La Visione: Intelligence a Portata di Mano',
+            'points': [
+                'Dashboard unificata per analisi forense immediata.',
+                'Interfaccia Premium: navigazione fluida e virtualizzata.',
+                'Supporto Multi-lingua e Guida Integrata.'
+            ],
+            'image': 'guide.png',
+            'layout_idx': 1
+        },
+        {
+            'title': 'Motore di Analisi ad Alte Prestazioni',
+            'points': [
+                'Tracking automatico dei Boot e anomalie di sistema.',
+                'Deduplicazione intelligente dei thread.',
+                'Jump istantaneo dal report all\'evento nel log.'
+            ],
+            'image': 'riassunto eventi server.png',
+            'layout_idx': 1
+        },
+        {
+            'title': 'Impatto Customer Service e Monitoring',
+            'points': [
+                'Rilevamento automatico di blackout e switch offline.',
+                'Identificazione rapida di lotti di produzione critici.',
+                'Analisi delle performance (Operations >60s).'
+            ],
+            'image': 'offlinedetection.png',
+            'layout_idx': 1
+        },
+        {
+            'title': 'Valore Strategico: Efficienza e Brand',
+            'points': [
+                'Riduzione dipendenza da R&D per analisi di campo.',
+                'Percezione tecnologica elevata verso il cliente.',
+                'Soluzione Standalone (Portable EXE) pronta all\'uso.'
+            ],
+            'image': 'funzione findall.png',
+            'layout_idx': 1
+        },
+        {
+            'title': 'Conclusioni e Roadmap',
+            'points': [
+                'Standardizzazione della diagnostica Parvis.',
+                'Scalabile per futuri moduli di analisi.',
+                'Pronta per il deployment su scala globale.'
+            ],
+            'image': 'querylogscustomerserver.png',
+            'layout_idx': 1
         }
-    }
-    
-    lang_content = content[language]
-    
-    for slide_data in lang_content['slides']:
-        if slide_data.get('type') == 'title':
-            slide_layout = prs.slide_layouts[0]
-            slide = prs.slides.add_slide(slide_layout)
+    ]
+
+    for data in slides_data:
+        layout = prs.slide_layouts[data['layout_idx']]
+        slide = prs.slides.add_slide(layout)
+        
+        # Handle Title (usually placeholder 0)
+        try:
+            title_shape = None
+            if slide.shapes.title:
+                title_shape = slide.shapes.title
+            else:
+                # Fallback: look for placeholder 0
+                for shape in slide.placeholders:
+                    if shape.placeholder_format.idx == 0:
+                        title_shape = shape
+                        break
             
-            # Background
-            background = slide.background
-            fill = background.fill
-            fill.solid()
-            fill.fore_color.rgb = BG_COLOR
-            
-            title = slide.shapes.title
-            subtitle = slide.placeholders[1]
-            
-            title.text = slide_data['title']
-            subtitle.text = slide_data['subtitle']
-            
-            # Styling
-            for p in title.text_frame.paragraphs:
-                p.font.color.rgb = ACCENT_COLOR
-                p.font.bold = True
-                p.font.size = Pt(44)
-            
-            for p in subtitle.text_frame.paragraphs:
-                p.font.color.rgb = TEXT_COLOR
-                p.font.size = Pt(24)
-        else:
-            slide_layout = prs.slide_layouts[1]
-            slide = prs.slides.add_slide(slide_layout)
-            
-            background = slide.background
-            fill = background.fill
-            fill.solid()
-            fill.fore_color.rgb = BG_COLOR
-            
-            title = slide.shapes.title
-            body = slide.placeholders[1]
-            
-            title.text = slide_data['title']
-            
-            # Title styling
-            for p in title.text_frame.paragraphs:
-                p.font.color.rgb = ACCENT_COLOR
-                p.font.bold = True
-                p.font.size = Pt(36)
-            
-            # Body points
-            tf = body.text_frame
-            tf.text = slide_data['points'][0]
-            for point in slide_data['points'][1:]:
-                p = tf.add_paragraph()
-                p.text = point
-                p.level = 0
+            if title_shape:
+                title_shape.text = data['title']
+        except Exception as e:
+            print(f"Could not set title for '{data['title']}': {e}")
+
+        if data.get('type') == 'title':
+            # Handle Copertina (Layout 0)
+            try:
+                # Subtitle is usually at idx 1
+                subtitle_shape = None
+                for shape in slide.placeholders:
+                    if shape.placeholder_format.idx == 1:
+                        subtitle_shape = shape
+                        break
                 
-            for p in tf.paragraphs:
-                p.font.color.rgb = TEXT_COLOR
-                p.font.size = Pt(20)
-                p.space_after = Pt(12)
+                if subtitle_shape:
+                    subtitle_shape.text = data.get('subtitle', '')
+            except Exception as e:
+                print(f"Could not set subtitle: {e}")
+        else:
+            # Handle Content Slide (Layout 1)
+            try:
+                # Find body placeholder (idx 10 based on inspection)
+                body_shape = None
+                for shape in slide.placeholders:
+                    if shape.placeholder_format.idx == 10:
+                        body_shape = shape
+                        break
+                
+                if body_shape:
+                    tf = body_shape.text_frame
+                    tf.text = data['points'][0]
+                    for point in data['points'][1:]:
+                        p = tf.add_paragraph()
+                        p.text = point
+                        p.level = 0
+                
+                # Add Image if present
+                if 'image' in data:
+                    img_path = os.path.join(screenshots_dir, data['image'])
+                    if os.path.exists(img_path):
+                        # Postion image: middle-right
+                        # Slide is approx 10 inches wide
+                        left = Inches(5.0)
+                        top = Inches(1.5)
+                        width = Inches(4.5)
+                        slide.shapes.add_picture(img_path, left, top, width=width)
+            except Exception as e:
+                print(f"Error on slide content '{data['title']}': {e}")
 
-        # Add Footer
-        txBox = slide.shapes.add_textbox(Inches(0.5), Inches(7.1), Inches(9), Inches(0.4))
-        tf = txBox.text_frame
-        p = tf.paragraphs[0]
-        p.text = lang_content['footer']
-        p.font.size = Pt(10)
-        p.font.color.rgb = RGBColor(120, 120, 120)
-        p.alignment = PP_ALIGN.CENTER
-
-    prs.save(lang_content['filename'])
-    print(f"Generated {lang_content['filename']}")
+    prs.save(output_filename)
+    print(f"Generata presentazione PULITA: {output_filename}")
 
 if __name__ == "__main__":
-    create_presentation('it')
-    create_presentation('en')
+    create_executive_presentation()
