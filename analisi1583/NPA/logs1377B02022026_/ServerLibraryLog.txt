@@ -1,0 +1,1278 @@
+[2026-02-02 06:33:01][INF] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> LOG START <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-02-02 06:33:01][INF] LOG FILE: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs\ServerLibraryLog.txt
+[2026-02-02 06:33:01][INF] VERSION OF ICS-CA (E:\ABACO\DeployB\bin\ICS-CA.exe): 8.2.1.6 ()
+[2026-02-02 06:33:01][INF] VERSION OF Parvis.ProcessControl.Client (E:\ABACO\DeployB\bin\Parvis.ProcessControl.Client.dll): 8.2.1.0 (8.2.1.1)
+[2026-02-02 06:33:01][INF] VERSION OF Parvis.ProcessControl.Client.Common (E:\ABACO\DeployB\bin\Parvis.ProcessControl.Client.Common.dll): 8.2.1.0 (8.2.1.0)
+[2026-02-02 06:33:01][INF] XML configuration read from: E:\ABACO\DeployB\config\ServerConfig.xml
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'LAST_INPUT_DENOM' = ''
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'LAST_INPUT_LOT' = ''
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'LAST_INPUT_TYPE' = '1'
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'LOCAL_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'LOCAL_DB_VERSION' = '8.2.1.0'
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '0'
+[2026-02-02 06:33:01][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'False'
+[2026-02-02 06:33:02][WRN] Remote DB (Oracle) 'ABACO_DS.COMMON_CLIENT_PKG.READ_SYS_CFG' (timeout 160s) (elapsed 1027.2569ms) -- Parameters: OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.1565ms; GetAdapter: 814.2368ms
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'MEASUREMENT_UNITS' = 'Pcs,g,Kg,m,l'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'TRACEABILITY_SHEET_NUMBER' = '1000'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ENABLE_QUARANTINE' = 'False'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'USER_INACTIVE_DAYS' = '365'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'USER_EXPIRED_PASSWORD_DAY' = '365'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'USER_MAX_ATTEMPT_LOGIN' = '6'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'USER_PASSWORD_HISTORY_LENGHT' = '10'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'WASTE_VARNISHING_NUMBERED' = 'False'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'USER_REVOKED_DAYS' = '730'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '10'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ENABLE_MATERIALS' = 'True'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'REPLACE_NUMBERED_SHEET' = 'NUMBERED'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ORALOAD_PREFIX' = 'ORALOAD'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'DENOMINATIONS_DATA_ROOT_PATH' = '\\ABACONAS1383\Denominations'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'DATE_FORMAT' = 'YYYY-MM-DD'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'TIME_FORMAT' = 'HH24:MI:SS'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'PAGE_SIZE' = '12'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ADA_DEFAULT_DAYS_SHOWN' = '5'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ADA_TAKE_LAST_NOTE' = 'False'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'CLIENT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoDa/'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'BPS_NOT_READ_CHAR' = '?'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ADA_ALL_SHREDDED_NO_READ_SNR' = 'true'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ENABLE_PO' = 'true'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'true'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'USER_AUTO_LOGOUT_SEC' = '300'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_ORANGE' = '10'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_BLUE' = '5'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'REMOTE_DB_VERSION' = '8.2.1.6'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'REMOTE_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ENABLE_VAULT' = 'true'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'ENABLE_RECOUNT' = 'true'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'PRESENCE_MUTUALLY_EXCLUSIVE' = '0'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'GENERAL_DISABLE' = '1'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'PRESENCE_TIMEOUT' = '8'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'REC_ALL_LOCATION' = 'False'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'VM_AUTOLOGOUT_TIMEOUT' = '600'
+[2026-02-02 06:33:02][INF] SYS_CFG load: 'VM_EXPIRED_VOUCHER_DAY' = '3'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'RPT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoRPT/'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'ADA_ADJUST_CART_SIZE' = '10'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'CARD_TYPE' = 'MIFARE_1K'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'PINLEN' = '6'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'PINRETRY' = '3'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'OPERATIONRETRY' = '3'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'MASTERKEYHEX' = '00112233445566778899AABBCCDDEEFF'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'START_DATE_VOUCHERS' = '2016-10-23 12:00:00'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'MIN_DATE_ARQUEO' = '2016-10-23 12:00:00'
+[2026-02-02 06:33:02][WRN] SYS_CFG Invalid TAG: 'DR_CLIENT_TYPE' = 'ICS,NUM,ICS_V,ICSN,ICSL'
+[2026-02-02 06:33:03][INF] VERSION OF Local DB: 8.2.1.0
+[2026-02-02 06:33:03][INF] VERSION OF Remote DB: 8.2.1.6
+[2026-02-02 06:33:03][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 06:33:03][INF] Command type is StoredProcedure
+[2026-02-02 06:33:03][INF] User Syncronization with skipRemote False result: SYNC_OK
+[2026-02-02 06:33:03][INF] Command type is 'CARDREADER_GET_PRESENCE_TO_SYNC'
+[2026-02-02 06:33:03][INF] Command type is StoredProcedure
+[2026-02-02 06:33:03][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:03][INF] CardReader Manager result: SYNC_OK
+[2026-02-02 06:33:03][INF] Command type is 'SELECT_CLIENT_PRODUCTIVITY_OFFLINE'
+[2026-02-02 06:33:03][INF] Command type is StoredProcedure
+[2026-02-02 06:33:03][INF] PRODUCTIVITY: SYNCRONIZE TO REMOTE: sync '0' records
+[2026-02-02 06:33:03][INF] Command type is 'SELECT_DIARY'
+[2026-02-02 06:33:03][INF] Command type is StoredProcedure
+[2026-02-02 06:33:04][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:04][INF] Diary Syncronized!
+[2026-02-02 06:33:04][INF] Diary Syncronization result: SYNC_OK
+[2026-02-02 06:33:04][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 06:33:04][INF] Command type is StoredProcedure
+[2026-02-02 06:33:04][INF] Lot Note Syncronization result: SYNC_OK
+[2026-02-02 06:33:04][WRN] Nothing to Commit on Local DB (SQL)
+[2026-02-02 06:33:04][INF] PASS PARAM RESET
+[2026-02-02 06:33:04][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 000022$026
+[2026-02-02 06:33:04][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 031400$038
+[2026-02-02 06:33:04][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 888889$038
+[2026-02-02 06:33:04][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 993111$038
+[2026-02-02 06:33:04][INF] Lot to Syncronized - Number Lots to process: 4
+[2026-02-02 06:33:04][WRN] Automatic RollBack on Local DB (SQL) due to Dispose on command object without eplicit commit!
+[2026-02-02 06:33:04][ERR] Lot:993111, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 06:33:04][ERR] Error Deleting Cart 993111 (038): Invalid Lot 993111
+[2026-02-02 06:33:04][ERR] Error Syncronizing Cart of Lot: 993111 and Denom: 038 
+[2026-02-02 06:33:04][ERR] Lot:888889, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 06:33:04][ERR] Error Deleting Cart 888889 (038): Invalid Lot 888889
+[2026-02-02 06:33:04][ERR] Error Syncronizing Cart of Lot: 888889 and Denom: 038 
+[2026-02-02 06:33:04][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 06:33:04][INF] Command type is StoredProcedure
+[2026-02-02 06:33:04][ERR] Error Syncronizing Cart Line: Cart full, unable to load [-5] 
+[2026-02-02 06:33:04][ERR] Error Syncronizing Cart of Lot: 000022 and Denom: 026 
+[2026-02-02 06:33:04][ERR] Lot:031400, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 06:33:04][ERR] Error Deleting Cart 031400 (038): Invalid Lot 031400
+[2026-02-02 06:33:04][ERR] Error Syncronizing Cart of Lot: 031400 and Denom: 038 
+[2026-02-02 06:33:04][INF] Vault Syncronization result: SYNC_OK
+[2026-02-02 06:33:04][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:04][WRN] GetReinsertableSheetRemoteInt return code not 0: Remote DB (Oracle) 'ABACO_DS.QC_SHEETS_PKG.GET_REINSERTABLE_SHEETS' (timeout 160s) (elapsed 0ms) -- Parameters: IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = 'NULL'; IN'IN_LOT_TYPE_ID' = 'NULL'; IN'IN_PHASE_TAG' = 'INTAGLIO_B'; IN'IN_CART_BARCODE' = 'NULL'; IN'IN_EXT_INPUT_PILE' = 'NULL'; IN'IN_READ_PREVIOUS_PHASE' = '1'; IN'IN_REINSERTABLE_ONLY' = '0'; IN'IN_PROCESSABLE_ONLY' = '0'; OUT'OU_CURSOR' = cursor; OUT'OU_RET' = '-5'; OUT'OU_MSG' = 'BAD_PARAMETER: previous phase not found'; 
+[2026-02-02 06:33:04][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 06:33:05][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:05][INF] Lots Syncronization result: SYNC_OK
+[2026-02-02 06:33:05][INF] Checkers started!
+[2026-02-02 06:33:05][INF] Common Lib Initialized
+[2026-02-02 06:33:05][INF] Remote DB is NOT Synchronize with Local DB
+[2026-02-02 06:33:05][INF] XML configuration read from: E:\ABACO\DeployB\config\ServerConfig.xml
+[2026-02-02 06:33:05][WRN] Net time result: net.exe time \\DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP /set /yes 
+[2026-02-02 06:33:06][INF] Command type is 'SELECT_CLIENT_CFG'
+[2026-02-02 06:33:06][INF] Command type is StoredProcedure
+[2026-02-02 06:33:06][INF] Command type is 'SELECT ID FROM PHASES WHERE TAG = @IN_MACHINE_PRINT_PHASE'
+[2026-02-02 06:33:06][INF] Command type is Text
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'LAST_INPUT_DENOM' = ''
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'LAST_INPUT_LOT' = ''
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'LAST_INPUT_TYPE' = '1'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'LOCAL_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'LOCAL_DB_VERSION' = '8.2.1.0'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '0'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'False'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'MEASUREMENT_UNITS' = 'Pcs,g,Kg,m,l'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'TRACEABILITY_SHEET_NUMBER' = '1000'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ENABLE_QUARANTINE' = 'False'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'USER_INACTIVE_DAYS' = '365'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_EXPIRED_PASSWORD_DAY' = '365'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_MAX_ATTEMPT_LOGIN' = '6'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_PASSWORD_HISTORY_LENGHT' = '10'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'WASTE_VARNISHING_NUMBERED' = 'False'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'USER_REVOKED_DAYS' = '730'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '10'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ENABLE_MATERIALS' = 'True'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'REPLACE_NUMBERED_SHEET' = 'NUMBERED'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ORALOAD_PREFIX' = 'ORALOAD'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'DENOMINATIONS_DATA_ROOT_PATH' = '\\ABACONAS1383\Denominations'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'DATE_FORMAT' = 'YYYY-MM-DD'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'TIME_FORMAT' = 'HH24:MI:SS'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'PAGE_SIZE' = '12'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ADA_DEFAULT_DAYS_SHOWN' = '5'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ADA_TAKE_LAST_NOTE' = 'False'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'CLIENT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoDa/'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'BPS_NOT_READ_CHAR' = '?'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ADA_ALL_SHREDDED_NO_READ_SNR' = 'true'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ENABLE_PO' = 'true'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'true'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'USER_AUTO_LOGOUT_SEC' = '300'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_ORANGE' = '10'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_BLUE' = '5'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'REMOTE_DB_VERSION' = '8.2.1.6'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'REMOTE_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ENABLE_VAULT' = 'true'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'ENABLE_RECOUNT' = 'true'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'PRESENCE_MUTUALLY_EXCLUSIVE' = '0'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'GENERAL_DISABLE' = '1'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'PRESENCE_TIMEOUT' = '8'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'REC_ALL_LOCATION' = 'False'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'VM_AUTOLOGOUT_TIMEOUT' = '600'
+[2026-02-02 06:33:06][INF] SYS_CFG load: 'VM_EXPIRED_VOUCHER_DAY' = '3'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'RPT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoRPT/'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'ADA_ADJUST_CART_SIZE' = '10'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'CARD_TYPE' = 'MIFARE_1K'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'PINLEN' = '6'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'PINRETRY' = '3'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'OPERATIONRETRY' = '3'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'MASTERKEYHEX' = '00112233445566778899AABBCCDDEEFF'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'START_DATE_VOUCHERS' = '2016-10-23 12:00:00'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'MIN_DATE_ARQUEO' = '2016-10-23 12:00:00'
+[2026-02-02 06:33:06][WRN] SYS_CFG Invalid TAG: 'DR_CLIENT_TYPE' = 'ICS,NUM,ICS_V,ICSN,ICSL'
+[2026-02-02 06:33:06][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 06:33:06][INF] Command type is StoredProcedure
+[2026-02-02 06:33:06][INF] User Syncronization with skipRemote False result: SYNC_OK
+[2026-02-02 06:33:06][INF] Command type is 'CARDREADER_GET_PRESENCE_TO_SYNC'
+[2026-02-02 06:33:06][INF] Command type is StoredProcedure
+[2026-02-02 06:33:06][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:06][INF] CardReader Manager result: SYNC_OK
+[2026-02-02 06:33:06][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:06][WRN] GetReinsertableSheetRemoteInt return code not 0: Remote DB (Oracle) 'ABACO_DS.QC_SHEETS_PKG.GET_REINSERTABLE_SHEETS' (timeout 160s) (elapsed 0ms) -- Parameters: IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = 'NULL'; IN'IN_LOT_TYPE_ID' = 'NULL'; IN'IN_PHASE_TAG' = 'INTAGLIO_B'; IN'IN_CART_BARCODE' = 'NULL'; IN'IN_EXT_INPUT_PILE' = 'NULL'; IN'IN_READ_PREVIOUS_PHASE' = '1'; IN'IN_REINSERTABLE_ONLY' = '0'; IN'IN_PROCESSABLE_ONLY' = '0'; OUT'OU_CURSOR' = cursor; OUT'OU_RET' = '-5'; OUT'OU_MSG' = 'BAD_PARAMETER: previous phase not found'; 
+[2026-02-02 06:33:06][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 06:33:07][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:07][INF] Lots Syncronization result: SYNC_OK
+[2026-02-02 06:33:07][INF] Updating Lots
+[2026-02-02 06:33:07][INF] Command type is 'SELECT l.ID
+                                              ,l.DENOM_ID
+                                              ,l.lot_name
+                                              ,l.lot_type_id
+                                              ,l.creation_date
+                                              ,l.last_update_date
+											  ,d.Tag
+                                              ,s.PRODUCTION_SESSION
+                                          FROM [dbo].[LOT_PRODUCTION] as l
+										  JOIN [dbo].[SESSION_PRODUCTION] s on s.ID = l.session_id join Denominations d on d.Id = l.DENOM_ID
+                                          WHERE l.TO_SYNC = '1''
+[2026-02-02 06:33:07][INF] Command type is Text
+[2026-02-02 06:33:07][INF] Start sync of 0 lots
+[2026-02-02 06:33:07][INF] Command type is 'SELECT [LOCAL_HIST_ID] ,[REMOTE_HIST_ID] ,[STATUS_ID] ,[OPER_TIME] FROM [dbo].[LOTS_HISTORY_MAPPING]'
+[2026-02-02 06:33:07][INF] Command type is Text
+[2026-02-02 06:33:07][INF] Command type is 'SELECT_CLIENT_PRODUCTIVITY_OFFLINE'
+[2026-02-02 06:33:07][INF] Command type is StoredProcedure
+[2026-02-02 06:33:07][INF] PRODUCTIVITY: SYNCRONIZE TO REMOTE: sync '0' records
+[2026-02-02 06:33:07][INF] Command type is 'SELECT_DIARY'
+[2026-02-02 06:33:07][INF] Command type is StoredProcedure
+[2026-02-02 06:33:08][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:08][INF] Diary Syncronized!
+[2026-02-02 06:33:08][INF] Diary Syncronization result: SYNC_OK
+[2026-02-02 06:33:08][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 06:33:08][INF] Command type is StoredProcedure
+[2026-02-02 06:33:08][INF] Lot Note Syncronization result: SYNC_OK
+[2026-02-02 06:33:08][WRN] Nothing to Commit on Local DB (SQL)
+[2026-02-02 06:33:08][INF] PASS PARAM RESET
+[2026-02-02 06:33:08][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 000022$026
+[2026-02-02 06:33:08][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 031400$038
+[2026-02-02 06:33:08][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 888889$038
+[2026-02-02 06:33:08][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 993111$038
+[2026-02-02 06:33:08][INF] Lot to Syncronized - Number Lots to process: 4
+[2026-02-02 06:33:08][WRN] Automatic RollBack on Local DB (SQL) due to Dispose on command object without eplicit commit!
+[2026-02-02 06:33:08][ERR] Lot:993111, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 06:33:08][ERR] Error Deleting Cart 993111 (038): Invalid Lot 993111
+[2026-02-02 06:33:08][ERR] Error Syncronizing Cart of Lot: 993111 and Denom: 038 
+[2026-02-02 06:33:08][ERR] Lot:888889, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 06:33:08][ERR] Error Deleting Cart 888889 (038): Invalid Lot 888889
+[2026-02-02 06:33:08][ERR] Error Syncronizing Cart of Lot: 888889 and Denom: 038 
+[2026-02-02 06:33:08][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 06:33:08][INF] Command type is StoredProcedure
+[2026-02-02 06:33:08][ERR] Error Syncronizing Cart Line: Cart full, unable to load [-5] 
+[2026-02-02 06:33:08][ERR] Error Syncronizing Cart of Lot: 000022 and Denom: 026 
+[2026-02-02 06:33:08][ERR] Lot:031400, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 06:33:08][ERR] Error Deleting Cart 031400 (038): Invalid Lot 031400
+[2026-02-02 06:33:08][ERR] Error Syncronizing Cart of Lot: 031400 and Denom: 038 
+[2026-02-02 06:33:08][INF] Vault Syncronization result: SYNC_OK
+[2026-02-02 06:33:08][INF] END SynchronizeRemoteDB Successfully
+[2026-02-02 06:33:08][WRN] CHECKERS Productivity: Unable to set LPS_IDLE status without a lot open
+[2026-02-02 06:33:09][INF] Command type is 'SELECT_CLIENT_CFG'
+[2026-02-02 06:33:09][INF] Command type is StoredProcedure
+[2026-02-02 06:33:09][INF] Command type is 'SELECT ID FROM PHASES WHERE TAG = @IN_MACHINE_PRINT_PHASE'
+[2026-02-02 06:33:09][INF] Command type is Text
+[2026-02-02 06:33:33][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 06:33:33][INF] Command type is StoredProcedure
+[2026-02-02 06:33:33][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 06:33:33][INF] Login user 'nick' result: LOGIN_OK_ValidUser
+[2026-02-02 06:33:33][INF] CHECKERS Productivity: Production status set to LPS_USER_LOGIN
+[2026-02-02 06:34:23][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 06:34:23][INF] Command type is StoredProcedure
+[2026-02-02 06:34:29][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 06:34:29][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329\trace.txt
+[2026-02-02 06:34:29][WRN] serverData is null
+[2026-02-02 06:34:29][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 06:34:29][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 06:34:29][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 06:34:29][INF] Unexpected barcode info value ' '
+[2026-02-02 06:34:30][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 06:34:30][INF] Calling CopyToServer: lotName='003329', date='2026-02-02'
+[2026-02-02 06:34:30][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329
+[2026-02-02 06:34:31][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 06:34:31][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 06:34:31][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 06:34:31][INF] Called CopyToServer: lotName='003329', date='2026-02-02' done=True
+[2026-02-02 06:34:31][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 06:34:31][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 06:34:31][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 06:34:31][INF] Productivity: Start Lot '003329'
+[2026-02-02 06:34:31][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 07:55:54][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 07:56:06][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 09:19:35][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 09:19:36][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 09:20:48][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 09:20:53][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 09:26:48][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 09:26:50][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 09:27:02][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 09:27:13][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 11:27:18][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 11:27:18][INF] Command type is StoredProcedure
+[2026-02-02 11:27:32][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 11:27:32][INF] Command type is StoredProcedure
+[2026-02-02 11:27:32][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 11:27:32][INF] Check user 'sanchod' result: CHECK_FAIL_InvalidUser
+[2026-02-02 11:27:59][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 11:27:59][INF] Command type is StoredProcedure
+[2026-02-02 11:27:59][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 11:27:59][INF] Check user 'KalappN' result: CHECK_OK_ValidUser
+[2026-02-02 11:27:59][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 11:27:59][INF] Command type is StoredProcedure
+[2026-02-02 12:04:37][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 12:06:14][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 12:06:27][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 12:06:35][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 12:06:37][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 12:06:37][INF] Command type is StoredProcedure
+[2026-02-02 12:06:46][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 12:06:48][INF] Barcode from PaperMill Added. Count: 9967 
+[2026-02-02 12:06:48][INF] Check switch lot status SUCCESS current: open, new: validating
+[2026-02-02 12:06:48][INF] Inconsistent status_id input_value: validating, lot_value: create
+[2026-02-02 12:06:48][VER] Processed (read) Barcodes: 9967
+[2026-02-02 12:06:48][VER] Expected Barcodes: 9991
+[2026-02-02 12:06:48][VER] No-read Barcodes: 0
+[2026-02-02 12:06:48][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329\add_barcode_ora.txt
+[2026-02-02 12:06:48][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 12:06:49][INF] Calling CopyToServer: lotName='003329', date=''
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 12:06:49][INF] Called CopyToServer: lotName='003329', date='' done=True
+[2026-02-02 12:06:49][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 12:06:49][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 12:06:49][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 12:06:49][INF] Calling CopyToServer: lotName='003329', date='2026-02-02'
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 12:06:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 12:06:49][INF] Called CopyToServer: lotName='003329', date='2026-02-02' done=True
+[2026-02-02 12:06:49][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 12:06:49][INF] Command type is StoredProcedure
+[2026-02-02 12:06:49][VER] Processed (read) Barcodes: 9967
+[2026-02-02 12:06:49][VER] Expected Barcodes: 9991
+[2026-02-02 12:06:49][VER] No-read Barcodes: 0
+[2026-02-02 12:06:49][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329\add_barcode_ora.txt
+[2026-02-02 12:06:49][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 12:06:54][WRN] Remote DB (Oracle) 'ABACO_DS.TRACEABILITY_PKG.INSERT_TRACEABILITY' (timeout 300s) (elapsed 4885.5029ms) -- Parameters: IN'IN_CLIENT_TAG' = 'ICS-1377_B'; IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = '003329'; IN'IN_BARCODE_FILE' = ''; IN'IN_TRACE_FILE' = 'p_trace_ora_ICS-1377_B.txt'; IN'IN_SERIAL' = '0'; IN'IN_CHECK_ONLY' = '0'; OUT'OU_ERR_CODE' = '24'; 
+		ParamReset: 0.0064ms; ExecCommand: 4885.4767ms
+[2026-02-02 12:06:54][INF] CommitChangeLotStatus: PushTraceability OK
+[2026-02-02 12:06:54][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 12:06:54][INF] Command type is StoredProcedure
+[2026-02-02 12:06:54][INF] GetCartBarcodeFromSheetExtract found 1 extracted and not reinserted carts
+[2026-02-02 12:06:54][INF] Cart 020260202111018SH085001 Reactivated  Locally
+[2026-02-02 12:06:54][INF] Cart 020260202111018SH085001 Reactivated  Remotely
+[2026-02-02 12:06:54][INF] Added 488 files to deletion queue
+[2026-02-02 12:06:54][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 12:06:54][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 12:06:54][INF] Productivity: End Lot
+[2026-02-02 12:06:57][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2401.9416ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0559ms; GetAdapter: 0.4435ms
+[2026-02-02 12:06:59][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2363.0627ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0503ms; GetAdapter: 0.4207ms
+[2026-02-02 12:07:17][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2336.5582ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0533ms; GetAdapter: 0.4788ms
+[2026-02-02 12:07:31][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 12:07:33][INF] Barcode from PaperMill Added. Count: 9967 
+[2026-02-02 12:07:33][INF] Check switch lot status SUCCESS current: validating, new: closed
+[2026-02-02 12:07:33][INF] Inconsistent status_id input_value: closed, lot_value: validating
+[2026-02-02 12:07:33][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 12:07:33][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 12:07:33][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 12:07:33][INF] Calling CopyToServer: lotName='003329', date='2026-02-02'
+[2026-02-02 12:07:33][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329
+[2026-02-02 12:07:33][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 12:07:33][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 12:07:33][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 12:07:33][INF] Called CopyToServer: lotName='003329', date='2026-02-02' done=True
+[2026-02-02 12:07:33][INF] Added 1 files to deletion queue
+[2026-02-02 12:07:33][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 12:07:33][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 12:07:34][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 12:07:34][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 12:07:34][INF] Command type is StoredProcedure
+[2026-02-02 12:07:49][INF] Calling CopyToServer: lotName='003329', date=''
+[2026-02-02 12:07:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003329
+[2026-02-02 12:07:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 12:07:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 12:07:49][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 12:07:49][INF] Called CopyToServer: lotName='003329', date='' done=True
+[2026-02-02 12:07:53][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 12:07:53][INF] Command type is StoredProcedure
+[2026-02-02 12:08:04][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 12:08:04][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330\trace.txt
+[2026-02-02 12:08:04][WRN] serverData is null
+[2026-02-02 12:08:04][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 12:08:04][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 12:08:04][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 12:08:04][INF] Unexpected barcode info value ' '
+[2026-02-02 12:08:05][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 12:08:05][INF] Calling CopyToServer: lotName='003330', date='2026-02-02'
+[2026-02-02 12:08:05][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330
+[2026-02-02 12:08:05][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 12:08:05][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 12:08:05][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 12:08:05][INF] Called CopyToServer: lotName='003330', date='2026-02-02' done=True
+[2026-02-02 12:08:05][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 12:08:05][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 12:08:05][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 12:08:05][INF] Productivity: Start Lot '003330'
+[2026-02-02 12:08:05][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 12:08:47][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2389.4188ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0541ms; GetAdapter: 0.6633ms
+[2026-02-02 12:08:54][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2507.8382ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0515ms; GetAdapter: 0.4364ms
+[2026-02-02 12:09:03][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2371.1247ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0522ms; GetAdapter: 0.4528ms
+[2026-02-02 13:24:47][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2384.176ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.2709ms; GetAdapter: 0.7802ms
+[2026-02-02 13:25:14][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2330.4755ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0462ms; GetAdapter: 0.3846ms
+[2026-02-02 13:25:21][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2430.5535ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.5229ms; GetAdapter: 0.4208ms
+[2026-02-02 13:30:25][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 13:30:28][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 13:30:41][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 13:30:49][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 13:30:49][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 13:30:49][INF] Command type is StoredProcedure
+[2026-02-02 13:30:55][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 13:30:57][INF] Barcode from PaperMill Added. Count: 9946 
+[2026-02-02 13:30:57][INF] Check switch lot status SUCCESS current: open, new: validating
+[2026-02-02 13:30:57][INF] Inconsistent status_id input_value: validating, lot_value: create
+[2026-02-02 13:30:58][VER] Processed (read) Barcodes: 9946
+[2026-02-02 13:30:58][VER] Expected Barcodes: 9995
+[2026-02-02 13:30:58][VER] No-read Barcodes: 0
+[2026-02-02 13:30:58][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330\add_barcode_ora.txt
+[2026-02-02 13:30:58][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 13:30:58][INF] Calling CopyToServer: lotName='003330', date=''
+[2026-02-02 13:30:58][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330
+[2026-02-02 13:30:58][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 13:30:58][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 13:30:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 13:30:59][INF] Called CopyToServer: lotName='003330', date='' done=True
+[2026-02-02 13:30:59][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 13:30:59][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 13:30:59][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 13:30:59][INF] Calling CopyToServer: lotName='003330', date='2026-02-02'
+[2026-02-02 13:30:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330
+[2026-02-02 13:30:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 13:30:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 13:30:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 13:30:59][INF] Called CopyToServer: lotName='003330', date='2026-02-02' done=True
+[2026-02-02 13:30:59][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 13:30:59][INF] Command type is StoredProcedure
+[2026-02-02 13:30:59][VER] Processed (read) Barcodes: 9946
+[2026-02-02 13:30:59][VER] Expected Barcodes: 9995
+[2026-02-02 13:30:59][VER] No-read Barcodes: 0
+[2026-02-02 13:30:59][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330\add_barcode_ora.txt
+[2026-02-02 13:30:59][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 13:31:02][WRN] Remote DB (Oracle) 'ABACO_DS.TRACEABILITY_PKG.INSERT_TRACEABILITY' (timeout 300s) (elapsed 3479.2733ms) -- Parameters: IN'IN_CLIENT_TAG' = 'ICS-1377_B'; IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = '003330'; IN'IN_BARCODE_FILE' = ''; IN'IN_TRACE_FILE' = 'p_trace_ora_ICS-1377_B.txt'; IN'IN_SERIAL' = '0'; IN'IN_CHECK_ONLY' = '0'; OUT'OU_ERR_CODE' = '24'; 
+		ParamReset: 0.005ms; ExecCommand: 3479.2473ms
+[2026-02-02 13:31:02][INF] CommitChangeLotStatus: PushTraceability OK
+[2026-02-02 13:31:02][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 13:31:02][INF] Command type is StoredProcedure
+[2026-02-02 13:31:02][INF] GetCartBarcodeFromSheetExtract found 0 extracted and not reinserted carts
+[2026-02-02 13:31:02][INF] Added 81 files to deletion queue
+[2026-02-02 13:31:02][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 13:31:02][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 13:31:02][INF] Productivity: End Lot
+[2026-02-02 13:31:05][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2401.7949ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0541ms; GetAdapter: 0.4638ms
+[2026-02-02 13:31:07][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2336.6281ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0352ms; GetAdapter: 0.3986ms
+[2026-02-02 13:31:21][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2351.0481ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0737ms; GetAdapter: 0.7573ms
+[2026-02-02 13:31:35][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 13:31:37][INF] Barcode from PaperMill Added. Count: 9946 
+[2026-02-02 13:31:37][INF] Check switch lot status SUCCESS current: validating, new: closed
+[2026-02-02 13:31:37][INF] Inconsistent status_id input_value: closed, lot_value: validating
+[2026-02-02 13:31:37][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 13:31:37][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 13:31:37][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 13:31:37][INF] Calling CopyToServer: lotName='003330', date='2026-02-02'
+[2026-02-02 13:31:37][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330
+[2026-02-02 13:31:37][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 13:31:37][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 13:31:37][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 13:31:37][INF] Called CopyToServer: lotName='003330', date='2026-02-02' done=True
+[2026-02-02 13:31:37][INF] Added 1 files to deletion queue
+[2026-02-02 13:31:37][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 13:31:37][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 13:31:38][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 13:31:38][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 13:31:38][INF] Command type is StoredProcedure
+[2026-02-02 13:31:51][INF] Calling CopyToServer: lotName='003330', date=''
+[2026-02-02 13:31:51][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003330
+[2026-02-02 13:31:52][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 13:31:52][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 13:31:52][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 13:31:52][INF] Called CopyToServer: lotName='003330', date='' done=True
+[2026-02-02 13:32:17][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 13:32:17][INF] Command type is StoredProcedure
+[2026-02-02 13:32:20][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 13:32:20][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331\trace.txt
+[2026-02-02 13:32:20][WRN] serverData is null
+[2026-02-02 13:32:20][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 13:32:20][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 13:32:20][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 13:32:20][INF] Unexpected barcode info value ' '
+[2026-02-02 13:32:21][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 13:32:21][INF] Calling CopyToServer: lotName='003331', date='2026-02-02'
+[2026-02-02 13:32:21][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331
+[2026-02-02 13:32:21][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 13:32:21][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 13:32:21][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 13:32:21][INF] Called CopyToServer: lotName='003331', date='2026-02-02' done=True
+[2026-02-02 13:32:21][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 13:32:21][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 13:32:21][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 13:32:21][INF] Productivity: Start Lot '003331'
+[2026-02-02 13:32:21][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 13:34:28][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2544.2968ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0596ms; GetAdapter: 0.4907ms
+[2026-02-02 13:34:36][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2443.7509ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0518ms; GetAdapter: 1.0357ms
+[2026-02-02 13:34:44][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2409.8303ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0467ms; GetAdapter: 0.4685ms
+[2026-02-02 14:54:42][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 14:54:43][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 14:54:54][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 14:54:57][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 14:54:57][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 14:54:57][INF] Command type is StoredProcedure
+[2026-02-02 14:55:21][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 14:55:22][INF] Barcode from PaperMill Added. Count: 9921 
+[2026-02-02 14:55:22][INF] Check switch lot status SUCCESS current: open, new: validating
+[2026-02-02 14:55:22][INF] Inconsistent status_id input_value: validating, lot_value: create
+[2026-02-02 14:55:22][VER] Processed (read) Barcodes: 9921
+[2026-02-02 14:55:22][VER] Expected Barcodes: 9996
+[2026-02-02 14:55:22][WRN] No-read Barcodes: 1
+[2026-02-02 14:55:22][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331\add_barcode_ora.txt
+[2026-02-02 14:55:22][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 14:55:23][INF] Calling CopyToServer: lotName='003331', date=''
+[2026-02-02 14:55:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331
+[2026-02-02 14:55:27][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 14:55:27][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 14:55:27][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 14:55:27][INF] Called CopyToServer: lotName='003331', date='' done=True
+[2026-02-02 14:55:27][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 14:55:27][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 14:55:27][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 14:55:27][INF] Calling CopyToServer: lotName='003331', date='2026-02-02'
+[2026-02-02 14:55:27][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331
+[2026-02-02 14:55:28][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 14:55:28][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 14:55:28][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 14:55:28][INF] Called CopyToServer: lotName='003331', date='2026-02-02' done=True
+[2026-02-02 14:55:28][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 14:55:28][INF] Command type is StoredProcedure
+[2026-02-02 14:55:28][VER] Processed (read) Barcodes: 9921
+[2026-02-02 14:55:28][VER] Expected Barcodes: 9996
+[2026-02-02 14:55:28][WRN] No-read Barcodes: 1
+[2026-02-02 14:55:28][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331\add_barcode_ora.txt
+[2026-02-02 14:55:28][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 14:55:31][WRN] Remote DB (Oracle) 'ABACO_DS.TRACEABILITY_PKG.INSERT_TRACEABILITY' (timeout 300s) (elapsed 3678.02ms) -- Parameters: IN'IN_CLIENT_TAG' = 'ICS-1377_B'; IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = '003331'; IN'IN_BARCODE_FILE' = ''; IN'IN_TRACE_FILE' = 'p_trace_ora_ICS-1377_B.txt'; IN'IN_SERIAL' = '0'; IN'IN_CHECK_ONLY' = '0'; OUT'OU_ERR_CODE' = '24'; 
+		ParamReset: 0.0049ms; ExecCommand: 3677.9956ms
+[2026-02-02 14:55:31][INF] CommitChangeLotStatus: PushTraceability OK
+[2026-02-02 14:55:31][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 14:55:31][INF] Command type is StoredProcedure
+[2026-02-02 14:55:31][INF] GetCartBarcodeFromSheetExtract found 0 extracted and not reinserted carts
+[2026-02-02 14:55:31][INF] Added 57 files to deletion queue
+[2026-02-02 14:55:31][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 14:55:32][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 14:55:32][INF] Productivity: End Lot
+[2026-02-02 14:55:34][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2414.6473ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0503ms; GetAdapter: 0.4296ms
+[2026-02-02 14:55:36][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2312.0681ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0338ms; GetAdapter: 0.37ms
+[2026-02-02 14:55:50][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2321.8457ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0575ms; GetAdapter: 0.7476ms
+[2026-02-02 14:56:40][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 14:56:41][INF] Barcode from PaperMill Added. Count: 9921 
+[2026-02-02 14:56:41][INF] Check switch lot status SUCCESS current: validating, new: closed
+[2026-02-02 14:56:41][INF] Inconsistent status_id input_value: closed, lot_value: validating
+[2026-02-02 14:56:41][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 14:56:41][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 14:56:41][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 14:56:41][INF] Calling CopyToServer: lotName='003331', date='2026-02-02'
+[2026-02-02 14:56:41][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331
+[2026-02-02 14:56:41][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 14:56:41][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 14:56:41][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 14:56:41][INF] Called CopyToServer: lotName='003331', date='2026-02-02' done=True
+[2026-02-02 14:56:41][INF] Added 1 files to deletion queue
+[2026-02-02 14:56:41][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 14:56:41][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 14:56:44][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 14:56:44][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 14:56:44][INF] Command type is StoredProcedure
+[2026-02-02 14:56:57][INF] Calling CopyToServer: lotName='003331', date=''
+[2026-02-02 14:56:57][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003331
+[2026-02-02 14:56:58][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 14:56:58][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 14:56:58][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 14:56:58][INF] Called CopyToServer: lotName='003331', date='' done=True
+[2026-02-02 14:57:53][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 14:57:53][INF] Command type is StoredProcedure
+[2026-02-02 14:57:56][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 14:57:56][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332\trace.txt
+[2026-02-02 14:57:56][WRN] serverData is null
+[2026-02-02 14:57:56][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 14:57:56][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 14:57:56][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 14:57:56][INF] Unexpected barcode info value ' '
+[2026-02-02 14:57:57][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 14:57:57][INF] Calling CopyToServer: lotName='003332', date='2026-02-02'
+[2026-02-02 14:57:57][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 14:57:57][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 14:57:57][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 14:57:57][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 14:57:57][INF] Called CopyToServer: lotName='003332', date='2026-02-02' done=True
+[2026-02-02 14:57:58][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 14:57:58][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 14:57:58][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 14:57:58][INF] Productivity: Start Lot '003332'
+[2026-02-02 14:57:58][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 14:58:40][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2460.7656ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0571ms; GetAdapter: 0.4886ms
+[2026-02-02 14:58:46][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2380.0373ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0459ms; GetAdapter: 0.3962ms
+[2026-02-02 14:58:53][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2399.0153ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0499ms; GetAdapter: 0.4209ms
+[2026-02-02 15:18:42][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2405.5966ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0693ms; GetAdapter: 0.7653ms
+[2026-02-02 15:35:44][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 15:35:44][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 15:35:44][INF] CHECKERS Productivity: Lot status set to LPS_BLOCK
+[2026-02-02 15:37:52][INF] CHECKERS Productivity: Lot status set to LPS_BLOCK
+[2026-02-02 15:39:09][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 15:39:10][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 15:39:10][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 15:39:10][INF] Command type is StoredProcedure
+[2026-02-02 15:39:13][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 15:39:13][INF] Check switch lot status SUCCESS current: open, new: suspendedValidating
+[2026-02-02 15:39:13][INF] Inconsistent status_id input_value: suspendedValidating, lot_value: create
+[2026-02-02 15:39:13][WRN] LotsDB::InsertBarcodesTraceInLocal No barcodes to insert in table
+[2026-02-02 15:39:13][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 15:39:13][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 15:39:13][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 15:39:13][INF] Calling CopyToServer: lotName='003332', date='2026-02-02'
+[2026-02-02 15:39:13][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 15:39:13][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 15:39:13][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 15:39:13][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 15:39:13][INF] Called CopyToServer: lotName='003332', date='2026-02-02' done=True
+[2026-02-02 15:39:14][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 15:39:14][INF] Command type is StoredProcedure
+[2026-02-02 15:39:14][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 15:39:14][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 15:39:14][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 15:39:14][INF] Productivity: End Lot
+[2026-02-02 15:39:16][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2285.1848ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.05ms; GetAdapter: 0.4681ms
+[2026-02-02 15:39:18][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2281.7755ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0346ms; GetAdapter: 0.38ms
+[2026-02-02 15:39:32][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2341.4132ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.1223ms; GetAdapter: 0.6298ms
+[2026-02-02 15:39:34][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2340.7093ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0359ms; GetAdapter: 0.3619ms
+[2026-02-02 15:39:50][INF] Logout user 'nick'
+[2026-02-02 15:39:50][INF] CHECKERS Productivity: Production status set to LPS_USER_LOGOUT
+[2026-02-02 15:39:50][INF] Logout user 'nick'
+[2026-02-02 15:39:50][INF] CHECKERS Productivity: Production status set to LPS_USER_LOGOUT
+[2026-02-02 15:39:50][INF] CHECKERS Productivity: Production status set to LPS_POWER_OFF
+[2026-02-02 15:39:50][INF] Checkers stopped!
+[2026-02-02 15:39:50][INF] Common Lib Disposed
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:39:50][ERR] UserManager not Inilialized! - Parvis.ProcessControl.Client.Common.UserManager::CheckInitialize
+[2026-02-02 15:45:13][INF] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> LOG START <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-02-02 15:45:13][INF] LOG FILE: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs\ServerLibraryLog.txt
+[2026-02-02 15:45:13][INF] VERSION OF ICS-CA (E:\ABACO\DeployB\bin\ICS-CA.exe): 8.2.1.6 ()
+[2026-02-02 15:45:13][INF] VERSION OF Parvis.ProcessControl.Client (E:\ABACO\DeployB\bin\Parvis.ProcessControl.Client.dll): 8.2.1.0 (8.2.1.1)
+[2026-02-02 15:45:13][INF] VERSION OF Parvis.ProcessControl.Client.Common (E:\ABACO\DeployB\bin\Parvis.ProcessControl.Client.Common.dll): 8.2.1.0 (8.2.1.0)
+[2026-02-02 15:45:13][INF] XML configuration read from: E:\ABACO\DeployB\config\ServerConfig.xml
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'LAST_INPUT_DENOM' = ''
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'LAST_INPUT_LOT' = ''
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'LAST_INPUT_TYPE' = '1'
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'LOCAL_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'LOCAL_DB_VERSION' = '8.2.1.0'
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '0'
+[2026-02-02 15:45:13][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'False'
+[2026-02-02 15:45:14][WRN] Remote DB (Oracle) 'ABACO_DS.COMMON_CLIENT_PKG.READ_SYS_CFG' (timeout 160s) (elapsed 1053.6121ms) -- Parameters: OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.1568ms; GetAdapter: 840.1964ms
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'MEASUREMENT_UNITS' = 'Pcs,g,Kg,m,l'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'TRACEABILITY_SHEET_NUMBER' = '1000'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ENABLE_QUARANTINE' = 'False'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'USER_INACTIVE_DAYS' = '365'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'USER_EXPIRED_PASSWORD_DAY' = '365'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'USER_MAX_ATTEMPT_LOGIN' = '6'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'USER_PASSWORD_HISTORY_LENGHT' = '10'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'WASTE_VARNISHING_NUMBERED' = 'False'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'USER_REVOKED_DAYS' = '730'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '10'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ENABLE_MATERIALS' = 'True'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'REPLACE_NUMBERED_SHEET' = 'NUMBERED'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ORALOAD_PREFIX' = 'ORALOAD'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'DENOMINATIONS_DATA_ROOT_PATH' = '\\ABACONAS1383\Denominations'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'DATE_FORMAT' = 'YYYY-MM-DD'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'TIME_FORMAT' = 'HH24:MI:SS'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'PAGE_SIZE' = '12'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ADA_DEFAULT_DAYS_SHOWN' = '5'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ADA_TAKE_LAST_NOTE' = 'False'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'CLIENT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoDa/'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'BPS_NOT_READ_CHAR' = '?'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ADA_ALL_SHREDDED_NO_READ_SNR' = 'true'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ENABLE_PO' = 'true'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'true'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'USER_AUTO_LOGOUT_SEC' = '300'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_ORANGE' = '10'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_BLUE' = '5'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'REMOTE_DB_VERSION' = '8.2.1.6'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'REMOTE_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ENABLE_VAULT' = 'true'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'ENABLE_RECOUNT' = 'true'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'PRESENCE_MUTUALLY_EXCLUSIVE' = '0'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'GENERAL_DISABLE' = '1'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'PRESENCE_TIMEOUT' = '8'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'REC_ALL_LOCATION' = 'False'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'VM_AUTOLOGOUT_TIMEOUT' = '600'
+[2026-02-02 15:45:14][INF] SYS_CFG load: 'VM_EXPIRED_VOUCHER_DAY' = '3'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'RPT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoRPT/'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'ADA_ADJUST_CART_SIZE' = '10'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'CARD_TYPE' = 'MIFARE_1K'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'PINLEN' = '6'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'PINRETRY' = '3'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'OPERATIONRETRY' = '3'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'MASTERKEYHEX' = '00112233445566778899AABBCCDDEEFF'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'START_DATE_VOUCHERS' = '2016-10-23 12:00:00'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'MIN_DATE_ARQUEO' = '2016-10-23 12:00:00'
+[2026-02-02 15:45:14][WRN] SYS_CFG Invalid TAG: 'DR_CLIENT_TYPE' = 'ICS,NUM,ICS_V,ICSN,ICSL'
+[2026-02-02 15:45:15][INF] VERSION OF Local DB: 8.2.1.0
+[2026-02-02 15:45:15][INF] VERSION OF Remote DB: 8.2.1.6
+[2026-02-02 15:45:15][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 15:45:15][INF] Command type is StoredProcedure
+[2026-02-02 15:45:15][INF] User Syncronization with skipRemote False result: SYNC_OK
+[2026-02-02 15:45:15][INF] Command type is 'CARDREADER_GET_PRESENCE_TO_SYNC'
+[2026-02-02 15:45:15][INF] Command type is StoredProcedure
+[2026-02-02 15:45:15][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:15][INF] CardReader Manager result: SYNC_OK
+[2026-02-02 15:45:15][INF] Command type is 'SELECT_CLIENT_PRODUCTIVITY_OFFLINE'
+[2026-02-02 15:45:15][INF] Command type is StoredProcedure
+[2026-02-02 15:45:15][INF] PRODUCTIVITY: SYNCRONIZE TO REMOTE: sync '0' records
+[2026-02-02 15:45:15][INF] Command type is 'SELECT_DIARY'
+[2026-02-02 15:45:15][INF] Command type is StoredProcedure
+[2026-02-02 15:45:16][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:16][INF] Diary Syncronized!
+[2026-02-02 15:45:16][INF] Diary Syncronization result: SYNC_OK
+[2026-02-02 15:45:16][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 15:45:16][INF] Command type is StoredProcedure
+[2026-02-02 15:45:16][INF] Lot Note Syncronization result: SYNC_OK
+[2026-02-02 15:45:16][INF] PASS PARAM RESET
+[2026-02-02 15:45:16][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 000022$026
+[2026-02-02 15:45:16][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 031400$038
+[2026-02-02 15:45:16][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 888889$038
+[2026-02-02 15:45:16][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 993111$038
+[2026-02-02 15:45:16][INF] Lot to Syncronized - Number Lots to process: 4
+[2026-02-02 15:45:16][WRN] Automatic RollBack on Local DB (SQL) due to Dispose on command object without eplicit commit!
+[2026-02-02 15:45:16][ERR] Lot:993111, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 15:45:16][ERR] Error Deleting Cart 993111 (038): Invalid Lot 993111
+[2026-02-02 15:45:16][ERR] Error Syncronizing Cart of Lot: 993111 and Denom: 038 
+[2026-02-02 15:45:16][ERR] Lot:888889, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 15:45:16][ERR] Error Deleting Cart 888889 (038): Invalid Lot 888889
+[2026-02-02 15:45:16][ERR] Error Syncronizing Cart of Lot: 888889 and Denom: 038 
+[2026-02-02 15:45:16][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 15:45:16][INF] Command type is StoredProcedure
+[2026-02-02 15:45:16][ERR] Error Syncronizing Cart Line: Cart full, unable to load [-5] 
+[2026-02-02 15:45:16][ERR] Error Syncronizing Cart of Lot: 000022 and Denom: 026 
+[2026-02-02 15:45:16][ERR] Lot:031400, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 15:45:16][ERR] Error Deleting Cart 031400 (038): Invalid Lot 031400
+[2026-02-02 15:45:16][ERR] Error Syncronizing Cart of Lot: 031400 and Denom: 038 
+[2026-02-02 15:45:16][INF] Vault Syncronization result: SYNC_OK
+[2026-02-02 15:45:16][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:17][WRN] GetReinsertableSheetRemoteInt return code not 0: Remote DB (Oracle) 'ABACO_DS.QC_SHEETS_PKG.GET_REINSERTABLE_SHEETS' (timeout 160s) (elapsed 0ms) -- Parameters: IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = 'NULL'; IN'IN_LOT_TYPE_ID' = 'NULL'; IN'IN_PHASE_TAG' = 'INTAGLIO_B'; IN'IN_CART_BARCODE' = 'NULL'; IN'IN_EXT_INPUT_PILE' = 'NULL'; IN'IN_READ_PREVIOUS_PHASE' = '1'; IN'IN_REINSERTABLE_ONLY' = '0'; IN'IN_PROCESSABLE_ONLY' = '0'; OUT'OU_CURSOR' = cursor; OUT'OU_RET' = '-5'; OUT'OU_MSG' = 'BAD_PARAMETER: previous phase not found'; 
+[2026-02-02 15:45:17][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 15:45:17][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:17][INF] Lots Syncronization result: SYNC_OK
+[2026-02-02 15:45:17][INF] Checkers started!
+[2026-02-02 15:45:17][INF] Common Lib Initialized
+[2026-02-02 15:45:17][INF] Remote DB is NOT Synchronize with Local DB
+[2026-02-02 15:45:17][INF] XML configuration read from: E:\ABACO\DeployB\config\ServerConfig.xml
+[2026-02-02 15:45:17][WRN] Net time result: net.exe time \\DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP /set /yes 
+[2026-02-02 15:45:18][INF] Command type is 'SELECT_CLIENT_CFG'
+[2026-02-02 15:45:18][INF] Command type is StoredProcedure
+[2026-02-02 15:45:18][INF] Command type is 'SELECT ID FROM PHASES WHERE TAG = @IN_MACHINE_PRINT_PHASE'
+[2026-02-02 15:45:18][INF] Command type is Text
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'LAST_INPUT_DENOM' = ''
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'LAST_INPUT_LOT' = ''
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'LAST_INPUT_TYPE' = '1'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'LOCAL_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'LOCAL_DB_VERSION' = '8.2.1.0'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '0'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'False'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'MEASUREMENT_UNITS' = 'Pcs,g,Kg,m,l'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'TRACEABILITY_SHEET_NUMBER' = '1000'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ENABLE_QUARANTINE' = 'False'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'USER_INACTIVE_DAYS' = '365'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_EXPIRED_PASSWORD_DAY' = '365'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_MAX_ATTEMPT_LOGIN' = '6'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_PASSWORD_HISTORY_LENGHT' = '10'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'WASTE_VARNISHING_NUMBERED' = 'False'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'USER_REVOKED_DAYS' = '730'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_PASSWORD_MIN_SIZE' = '10'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ENABLE_MATERIALS' = 'True'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'REPLACE_NUMBERED_SHEET' = 'NUMBERED'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ORALOAD_PREFIX' = 'ORALOAD'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'DENOMINATIONS_DATA_ROOT_PATH' = '\\ABACONAS1383\Denominations'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'DATE_FORMAT' = 'YYYY-MM-DD'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'TIME_FORMAT' = 'HH24:MI:SS'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'PAGE_SIZE' = '12'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ADA_DEFAULT_DAYS_SHOWN' = '5'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ADA_TAKE_LAST_NOTE' = 'False'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'CLIENT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoDa/'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'BPS_NOT_READ_CHAR' = '?'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ADA_ALL_SHREDDED_NO_READ_SNR' = 'true'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ENABLE_PO' = 'true'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_PASSWORD_SECURE' = 'true'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'USER_AUTO_LOGOUT_SEC' = '300'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_ORANGE' = '10'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ADA_SHEET_DEF_TRESHOLD_BLUE' = '5'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'REMOTE_DB_VERSION' = '8.2.1.6'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'REMOTE_DB_COMPATIBILITY' = '8.2'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ENABLE_VAULT' = 'true'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'ENABLE_RECOUNT' = 'true'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'PRESENCE_MUTUALLY_EXCLUSIVE' = '0'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'GENERAL_DISABLE' = '1'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'PRESENCE_TIMEOUT' = '8'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'REC_ALL_LOCATION' = 'False'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'VM_AUTOLOGOUT_TIMEOUT' = '600'
+[2026-02-02 15:45:18][INF] SYS_CFG load: 'VM_EXPIRED_VOUCHER_DAY' = '3'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'RPT_WEB_APP_URI' = 'http://ABACODS1383/WebAppAbacoRPT/'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'ADA_ADJUST_CART_SIZE' = '10'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'CARD_TYPE' = 'MIFARE_1K'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'PINLEN' = '6'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'PINRETRY' = '3'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'OPERATIONRETRY' = '3'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'MASTERKEYHEX' = '00112233445566778899AABBCCDDEEFF'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'START_DATE_VOUCHERS' = '2016-10-23 12:00:00'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'MIN_DATE_ARQUEO' = '2016-10-23 12:00:00'
+[2026-02-02 15:45:18][WRN] SYS_CFG Invalid TAG: 'DR_CLIENT_TYPE' = 'ICS,NUM,ICS_V,ICSN,ICSL'
+[2026-02-02 15:45:18][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 15:45:18][INF] Command type is StoredProcedure
+[2026-02-02 15:45:18][INF] User Syncronization with skipRemote False result: SYNC_OK
+[2026-02-02 15:45:18][INF] Command type is 'CARDREADER_GET_PRESENCE_TO_SYNC'
+[2026-02-02 15:45:18][INF] Command type is StoredProcedure
+[2026-02-02 15:45:18][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:18][INF] CardReader Manager result: SYNC_OK
+[2026-02-02 15:45:18][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:18][WRN] GetReinsertableSheetRemoteInt return code not 0: Remote DB (Oracle) 'ABACO_DS.QC_SHEETS_PKG.GET_REINSERTABLE_SHEETS' (timeout 160s) (elapsed 0ms) -- Parameters: IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = 'NULL'; IN'IN_LOT_TYPE_ID' = 'NULL'; IN'IN_PHASE_TAG' = 'INTAGLIO_B'; IN'IN_CART_BARCODE' = 'NULL'; IN'IN_EXT_INPUT_PILE' = 'NULL'; IN'IN_READ_PREVIOUS_PHASE' = '1'; IN'IN_REINSERTABLE_ONLY' = '0'; IN'IN_PROCESSABLE_ONLY' = '0'; OUT'OU_CURSOR' = cursor; OUT'OU_RET' = '-5'; OUT'OU_MSG' = 'BAD_PARAMETER: previous phase not found'; 
+[2026-02-02 15:45:18][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 15:45:19][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:19][INF] Lots Syncronization result: SYNC_OK
+[2026-02-02 15:45:19][INF] Updating Lots
+[2026-02-02 15:45:19][INF] Command type is 'SELECT l.ID
+                                              ,l.DENOM_ID
+                                              ,l.lot_name
+                                              ,l.lot_type_id
+                                              ,l.creation_date
+                                              ,l.last_update_date
+											  ,d.Tag
+                                              ,s.PRODUCTION_SESSION
+                                          FROM [dbo].[LOT_PRODUCTION] as l
+										  JOIN [dbo].[SESSION_PRODUCTION] s on s.ID = l.session_id join Denominations d on d.Id = l.DENOM_ID
+                                          WHERE l.TO_SYNC = '1''
+[2026-02-02 15:45:19][INF] Command type is Text
+[2026-02-02 15:45:19][INF] Start sync of 0 lots
+[2026-02-02 15:45:19][INF] Command type is 'SELECT [LOCAL_HIST_ID] ,[REMOTE_HIST_ID] ,[STATUS_ID] ,[OPER_TIME] FROM [dbo].[LOTS_HISTORY_MAPPING]'
+[2026-02-02 15:45:19][INF] Command type is Text
+[2026-02-02 15:45:19][INF] Command type is 'SELECT_CLIENT_PRODUCTIVITY_OFFLINE'
+[2026-02-02 15:45:19][INF] Command type is StoredProcedure
+[2026-02-02 15:45:19][INF] PRODUCTIVITY: SYNCRONIZE TO REMOTE: sync '0' records
+[2026-02-02 15:45:19][INF] Command type is 'SELECT_DIARY'
+[2026-02-02 15:45:19][INF] Command type is StoredProcedure
+[2026-02-02 15:45:20][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:45:20][INF] Diary Syncronized!
+[2026-02-02 15:45:20][INF] Diary Syncronization result: SYNC_OK
+[2026-02-02 15:45:20][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 15:45:20][INF] Command type is StoredProcedure
+[2026-02-02 15:45:20][INF] Lot Note Syncronization result: SYNC_OK
+[2026-02-02 15:45:20][INF] PASS PARAM RESET
+[2026-02-02 15:45:20][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 000022$026
+[2026-02-02 15:45:20][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 031400$038
+[2026-02-02 15:45:20][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 888889$038
+[2026-02-02 15:45:20][INF] Lot to Syncronized - Delete Carts of lot with local created carts: 993111$038
+[2026-02-02 15:45:20][INF] Lot to Syncronized - Number Lots to process: 4
+[2026-02-02 15:45:20][WRN] Automatic RollBack on Local DB (SQL) due to Dispose on command object without eplicit commit!
+[2026-02-02 15:45:20][ERR] Lot:993111, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 15:45:20][ERR] Error Deleting Cart 993111 (038): Invalid Lot 993111
+[2026-02-02 15:45:20][ERR] Error Syncronizing Cart of Lot: 993111 and Denom: 038 
+[2026-02-02 15:45:20][ERR] Lot:888889, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 15:45:20][ERR] Error Deleting Cart 888889 (038): Invalid Lot 888889
+[2026-02-02 15:45:20][ERR] Error Syncronizing Cart of Lot: 888889 and Denom: 038 
+[2026-02-02 15:45:20][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 15:45:20][INF] Command type is StoredProcedure
+[2026-02-02 15:45:20][ERR] Error Syncronizing Cart Line: Cart full, unable to load [-5] 
+[2026-02-02 15:45:20][ERR] Error Syncronizing Cart of Lot: 000022 and Denom: 026 
+[2026-02-02 15:45:20][ERR] Lot:031400, Denomination:038 Unable to unload Cart on remote
+[2026-02-02 15:45:20][ERR] Error Deleting Cart 031400 (038): Invalid Lot 031400
+[2026-02-02 15:45:20][ERR] Error Syncronizing Cart of Lot: 031400 and Denom: 038 
+[2026-02-02 15:45:20][INF] Vault Syncronization result: SYNC_OK
+[2026-02-02 15:45:20][INF] END SynchronizeRemoteDB Successfully
+[2026-02-02 15:45:20][WRN] CHECKERS Productivity: Unable to set LPS_IDLE status without a lot open
+[2026-02-02 15:45:21][INF] Command type is 'SELECT_CLIENT_CFG'
+[2026-02-02 15:45:21][INF] Command type is StoredProcedure
+[2026-02-02 15:45:21][INF] Command type is 'SELECT ID FROM PHASES WHERE TAG = @IN_MACHINE_PRINT_PHASE'
+[2026-02-02 15:45:21][INF] Command type is Text
+[2026-02-02 15:50:37][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 15:50:37][INF] Command type is StoredProcedure
+[2026-02-02 15:50:37][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 15:50:37][INF] Login user 'willism' result: LOGIN_OK_ValidUser
+[2026-02-02 15:50:37][INF] CHECKERS Productivity: Production status set to LPS_USER_LOGIN
+[2026-02-02 15:50:39][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 15:50:39][INF] Command type is StoredProcedure
+[2026-02-02 15:50:41][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 15:50:41][INF] Check switch lot status SUCCESS current: suspendedValidating, new: open
+[2026-02-02 15:50:41][INF] Inconsistent status_id input_value: open, lot_value: suspendedValidating
+[2026-02-02 15:50:41][WRN] LotsDB::InsertBarcodesTraceInLocal No barcodes to insert in table
+[2026-02-02 15:50:41][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 15:50:41][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 15:50:43][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 15:50:43][INF] Calling CopyToServer: lotName='003332', date='2026-02-02'
+[2026-02-02 15:50:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 15:50:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 15:50:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 15:50:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 15:50:43][INF] Called CopyToServer: lotName='003332', date='2026-02-02' done=True
+[2026-02-02 15:50:43][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 15:50:43][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 15:50:44][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 15:50:44][INF] Productivity: Start Lot '003332'
+[2026-02-02 15:50:44][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 16:57:34][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 16:58:23][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 16:58:38][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 16:59:34][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 16:59:34][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 16:59:34][INF] Command type is StoredProcedure
+[2026-02-02 17:00:15][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 17:00:17][INF] Barcode from PaperMill Added. Count: 9929 
+[2026-02-02 17:00:17][INF] Check switch lot status SUCCESS current: open, new: validating
+[2026-02-02 17:00:17][INF] Inconsistent status_id input_value: validating, lot_value: suspendedValidating
+[2026-02-02 17:00:17][VER] Processed (read) Barcodes: 9929
+[2026-02-02 17:00:17][VER] Expected Barcodes: 9994
+[2026-02-02 17:00:17][WRN] No-read Barcodes: 2
+[2026-02-02 17:00:17][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332\add_barcode_ora.txt
+[2026-02-02 17:00:17][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 17:00:17][INF] Calling CopyToServer: lotName='003332', date=''
+[2026-02-02 17:00:17][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 17:00:23][INF] Called CopyToServer: lotName='003332', date='' done=True
+[2026-02-02 17:00:23][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 17:00:23][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 17:00:23][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 17:00:23][INF] Calling CopyToServer: lotName='003332', date='2026-02-02'
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 17:00:23][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 17:00:23][INF] Called CopyToServer: lotName='003332', date='2026-02-02' done=True
+[2026-02-02 17:00:23][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 17:00:23][INF] Command type is StoredProcedure
+[2026-02-02 17:00:23][VER] Processed (read) Barcodes: 9929
+[2026-02-02 17:00:23][VER] Expected Barcodes: 9994
+[2026-02-02 17:00:23][WRN] No-read Barcodes: 2
+[2026-02-02 17:00:23][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332\add_barcode_ora.txt
+[2026-02-02 17:00:23][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 17:00:27][WRN] Remote DB (Oracle) 'ABACO_DS.TRACEABILITY_PKG.INSERT_TRACEABILITY' (timeout 300s) (elapsed 3496.3263ms) -- Parameters: IN'IN_CLIENT_TAG' = 'ICS-1377_B'; IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = '003332'; IN'IN_BARCODE_FILE' = ''; IN'IN_TRACE_FILE' = 'p_trace_ora_ICS-1377_B.txt'; IN'IN_SERIAL' = '0'; IN'IN_CHECK_ONLY' = '0'; OUT'OU_ERR_CODE' = '24'; 
+		ParamReset: 0.0047ms; ExecCommand: 3496.3006ms
+[2026-02-02 17:00:27][INF] CommitChangeLotStatus: PushTraceability OK
+[2026-02-02 17:00:27][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 17:00:27][INF] Command type is StoredProcedure
+[2026-02-02 17:00:27][INF] GetCartBarcodeFromSheetExtract found 0 extracted and not reinserted carts
+[2026-02-02 17:00:27][INF] Added 99 files to deletion queue
+[2026-02-02 17:00:27][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 17:00:27][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 17:00:27][INF] Productivity: End Lot
+[2026-02-02 17:00:29][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2295.1224ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0547ms; GetAdapter: 0.4861ms
+[2026-02-02 17:00:32][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2294.7529ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0386ms; GetAdapter: 0.4323ms
+[2026-02-02 17:00:49][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2542.91ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.061ms; GetAdapter: 0.5547ms
+[2026-02-02 17:01:27][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 17:01:28][INF] Barcode from PaperMill Added. Count: 9929 
+[2026-02-02 17:01:28][INF] Check switch lot status SUCCESS current: validating, new: closed
+[2026-02-02 17:01:28][INF] Inconsistent status_id input_value: closed, lot_value: validating
+[2026-02-02 17:01:29][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 17:01:29][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 17:01:29][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 17:01:29][INF] Calling CopyToServer: lotName='003332', date='2026-02-02'
+[2026-02-02 17:01:29][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 17:01:29][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 17:01:29][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 17:01:29][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 17:01:29][INF] Called CopyToServer: lotName='003332', date='2026-02-02' done=True
+[2026-02-02 17:01:29][INF] Added 1 files to deletion queue
+[2026-02-02 17:01:29][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 17:01:29][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 17:01:30][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 17:01:30][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 17:01:30][INF] Command type is StoredProcedure
+[2026-02-02 17:01:44][INF] Calling CopyToServer: lotName='003332', date=''
+[2026-02-02 17:01:44][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003332
+[2026-02-02 17:01:45][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 17:01:45][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 17:01:45][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 17:01:45][INF] Called CopyToServer: lotName='003332', date='' done=True
+[2026-02-02 17:02:21][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 17:02:21][INF] Command type is StoredProcedure
+[2026-02-02 17:02:24][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 17:02:24][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333\trace.txt
+[2026-02-02 17:02:24][WRN] serverData is null
+[2026-02-02 17:02:24][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 17:02:24][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 17:02:24][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 17:02:24][INF] Unexpected barcode info value ' '
+[2026-02-02 17:02:25][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 17:02:25][INF] Calling CopyToServer: lotName='003333', date='2026-02-02'
+[2026-02-02 17:02:25][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333
+[2026-02-02 17:02:25][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 17:02:25][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 17:02:25][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 17:02:25][INF] Called CopyToServer: lotName='003333', date='2026-02-02' done=True
+[2026-02-02 17:02:25][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 17:02:25][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 17:02:25][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 17:02:25][INF] Productivity: Start Lot '003333'
+[2026-02-02 17:02:25][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 17:03:02][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2525.0619ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0548ms; GetAdapter: 2.4173ms
+[2026-02-02 17:03:10][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2361.0278ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0609ms; GetAdapter: 0.4178ms
+[2026-02-02 17:03:17][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2338.3968ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0504ms; GetAdapter: 0.4072ms
+[2026-02-02 17:33:56][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 17:33:56][INF] Command type is StoredProcedure
+[2026-02-02 17:34:06][INF] Command type is 'SELECT_USERS_TRANSACTIONS'
+[2026-02-02 17:34:06][INF] Command type is StoredProcedure
+[2026-02-02 17:34:06][WRN] Nothing to Commit on Remote DB (Oracle)
+[2026-02-02 17:34:06][INF] Check user 'Paminr' result: CHECK_OK_ValidUser
+[2026-02-02 17:34:06][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 17:34:06][INF] Command type is StoredProcedure
+[2026-02-02 17:39:41][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 17:39:41][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 17:39:41][INF] CHECKERS Productivity: Lot status set to LPS_BLOCK
+[2026-02-02 17:39:53][INF] CHECKERS Productivity: Lot status set to LPS_BLOCK
+[2026-02-02 17:39:54][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 17:39:55][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 18:59:40][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 19:00:35][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 19:00:49][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 19:00:49][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 19:00:51][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 19:00:51][INF] Command type is StoredProcedure
+[2026-02-02 19:00:57][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 19:00:58][INF] Barcode from PaperMill Added. Count: 9937 
+[2026-02-02 19:00:58][INF] Check switch lot status SUCCESS current: open, new: validating
+[2026-02-02 19:00:58][INF] Inconsistent status_id input_value: validating, lot_value: create
+[2026-02-02 19:00:58][VER] Processed (read) Barcodes: 9937
+[2026-02-02 19:00:58][VER] Expected Barcodes: 9997
+[2026-02-02 19:00:58][WRN] No-read Barcodes: 1
+[2026-02-02 19:00:58][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333\add_barcode_ora.txt
+[2026-02-02 19:00:59][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 19:00:59][INF] Calling CopyToServer: lotName='003333', date=''
+[2026-02-02 19:00:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333
+[2026-02-02 19:00:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 19:00:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 19:00:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 19:00:59][INF] Called CopyToServer: lotName='003333', date='' done=True
+[2026-02-02 19:00:59][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 19:00:59][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 19:00:59][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 19:00:59][INF] Calling CopyToServer: lotName='003333', date='2026-02-02'
+[2026-02-02 19:00:59][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333
+[2026-02-02 19:01:00][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 19:01:00][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 19:01:00][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 19:01:00][INF] Called CopyToServer: lotName='003333', date='2026-02-02' done=True
+[2026-02-02 19:01:00][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 19:01:00][INF] Command type is StoredProcedure
+[2026-02-02 19:01:00][VER] Processed (read) Barcodes: 9937
+[2026-02-02 19:01:00][VER] Expected Barcodes: 9997
+[2026-02-02 19:01:00][WRN] No-read Barcodes: 1
+[2026-02-02 19:01:00][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333\add_barcode_ora.txt
+[2026-02-02 19:01:00][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 19:01:04][WRN] Remote DB (Oracle) 'ABACO_DS.TRACEABILITY_PKG.INSERT_TRACEABILITY' (timeout 300s) (elapsed 4662.0666ms) -- Parameters: IN'IN_CLIENT_TAG' = 'ICS-1377_B'; IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = '003333'; IN'IN_BARCODE_FILE' = ''; IN'IN_TRACE_FILE' = 'p_trace_ora_ICS-1377_B.txt'; IN'IN_SERIAL' = '0'; IN'IN_CHECK_ONLY' = '0'; OUT'OU_ERR_CODE' = '24'; 
+		ParamReset: 0.0052ms; ExecCommand: 4662.0423ms
+[2026-02-02 19:01:04][INF] CommitChangeLotStatus: PushTraceability OK
+[2026-02-02 19:01:04][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 19:01:04][INF] Command type is StoredProcedure
+[2026-02-02 19:01:04][INF] GetCartBarcodeFromSheetExtract found 1 extracted and not reinserted carts
+[2026-02-02 19:01:04][INF] Cart 020260202111018SH085018 Reactivated  Locally
+[2026-02-02 19:01:04][INF] Cart 020260202111018SH085018 Reactivated  Remotely
+[2026-02-02 19:01:04][INF] Added 73 files to deletion queue
+[2026-02-02 19:01:04][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 19:01:04][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 19:01:04][INF] Productivity: End Lot
+[2026-02-02 19:01:07][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2331.3857ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0528ms; GetAdapter: 0.4231ms
+[2026-02-02 19:01:09][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2325.9722ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0353ms; GetAdapter: 0.3484ms
+[2026-02-02 19:01:23][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2285.6935ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0576ms; GetAdapter: 0.6029ms
+[2026-02-02 19:01:46][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 19:01:48][INF] Barcode from PaperMill Added. Count: 9937 
+[2026-02-02 19:01:48][INF] Check switch lot status SUCCESS current: validating, new: closed
+[2026-02-02 19:01:48][INF] Inconsistent status_id input_value: closed, lot_value: validating
+[2026-02-02 19:01:48][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 19:01:48][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 19:01:48][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 19:01:48][INF] Calling CopyToServer: lotName='003333', date='2026-02-02'
+[2026-02-02 19:01:48][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333
+[2026-02-02 19:01:48][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 19:01:48][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 19:01:48][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 19:01:48][INF] Called CopyToServer: lotName='003333', date='2026-02-02' done=True
+[2026-02-02 19:01:48][INF] Added 1 files to deletion queue
+[2026-02-02 19:01:48][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 19:01:48][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 19:01:58][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 19:01:58][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 19:01:58][INF] Command type is StoredProcedure
+[2026-02-02 19:02:12][INF] Calling CopyToServer: lotName='003333', date=''
+[2026-02-02 19:02:12][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003333
+[2026-02-02 19:02:12][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 19:02:12][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 19:02:12][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 19:02:12][INF] Called CopyToServer: lotName='003333', date='' done=True
+[2026-02-02 19:04:40][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 19:04:40][INF] Command type is StoredProcedure
+[2026-02-02 19:04:42][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 19:04:42][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334\trace.txt
+[2026-02-02 19:04:42][WRN] serverData is null
+[2026-02-02 19:04:42][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 19:04:42][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 19:04:42][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 19:04:42][INF] Unexpected barcode info value ' '
+[2026-02-02 19:04:43][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 19:04:43][INF] Calling CopyToServer: lotName='003334', date='2026-02-02'
+[2026-02-02 19:04:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334
+[2026-02-02 19:04:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 19:04:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 19:04:43][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 19:04:43][INF] Called CopyToServer: lotName='003334', date='2026-02-02' done=True
+[2026-02-02 19:04:43][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 19:04:43][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 19:04:43][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 19:04:43][INF] Productivity: Start Lot '003334'
+[2026-02-02 19:04:43][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 19:04:50][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2395.0814ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0543ms; GetAdapter: 2.1708ms
+[2026-02-02 19:04:58][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2414.2773ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.1529ms; GetAdapter: 0.3987ms
+[2026-02-02 19:05:05][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2447.1583ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 13.865ms; GetAdapter: 2.7096ms
+[2026-02-02 20:25:15][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 20:25:38][INF] CHECKERS Productivity: Lot status set to LPS_RECONCILE
+[2026-02-02 20:25:48][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 20:25:48][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 20:25:48][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 20:25:48][INF] Command type is StoredProcedure
+[2026-02-02 20:26:04][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 20:26:06][INF] Barcode from PaperMill Added. Count: 9920 
+[2026-02-02 20:26:06][INF] Check switch lot status SUCCESS current: open, new: validating
+[2026-02-02 20:26:06][INF] Inconsistent status_id input_value: validating, lot_value: create
+[2026-02-02 20:26:06][VER] Processed (read) Barcodes: 9920
+[2026-02-02 20:26:06][VER] Expected Barcodes: 9991
+[2026-02-02 20:26:06][WRN] No-read Barcodes: 1
+[2026-02-02 20:26:06][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334\add_barcode_ora.txt
+[2026-02-02 20:26:06][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 20:26:06][INF] Calling CopyToServer: lotName='003334', date=''
+[2026-02-02 20:26:06][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 20:26:07][INF] Called CopyToServer: lotName='003334', date='' done=True
+[2026-02-02 20:26:07][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 20:26:07][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 20:26:07][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 20:26:07][INF] Calling CopyToServer: lotName='003334', date='2026-02-02'
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 20:26:07][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 20:26:07][INF] Called CopyToServer: lotName='003334', date='2026-02-02' done=True
+[2026-02-02 20:26:07][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 20:26:07][INF] Command type is StoredProcedure
+[2026-02-02 20:26:07][VER] Processed (read) Barcodes: 9920
+[2026-02-02 20:26:07][VER] Expected Barcodes: 9991
+[2026-02-02 20:26:07][WRN] No-read Barcodes: 1
+[2026-02-02 20:26:07][INF] Expected Barcode list missing E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334\add_barcode_ora.txt
+[2026-02-02 20:26:07][INF] Copied E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334\insert_bulk_ora.txt to \\ABACODS1383\ORALOAD\ICS\p_trace_ora_ICS-1377_B.txt
+[2026-02-02 20:26:10][WRN] Remote DB (Oracle) 'ABACO_DS.TRACEABILITY_PKG.INSERT_TRACEABILITY' (timeout 300s) (elapsed 3484.4341ms) -- Parameters: IN'IN_CLIENT_TAG' = 'ICS-1377_B'; IN'IN_DENOM_TAG' = '038'; IN'IN_LOT_NAME' = '003334'; IN'IN_BARCODE_FILE' = ''; IN'IN_TRACE_FILE' = 'p_trace_ora_ICS-1377_B.txt'; IN'IN_SERIAL' = '0'; IN'IN_CHECK_ONLY' = '0'; OUT'OU_ERR_CODE' = '24'; 
+		ParamReset: 0.006ms; ExecCommand: 3484.4047ms
+[2026-02-02 20:26:10][INF] CommitChangeLotStatus: PushTraceability OK
+[2026-02-02 20:26:10][INF] Command type is 'SELECT_QC_SHEET_TO_REENABLE_CART'
+[2026-02-02 20:26:10][INF] Command type is StoredProcedure
+[2026-02-02 20:26:10][INF] GetCartBarcodeFromSheetExtract found 0 extracted and not reinserted carts
+[2026-02-02 20:26:10][INF] Added 87 files to deletion queue
+[2026-02-02 20:26:10][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 20:26:11][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 20:26:11][INF] Productivity: End Lot
+[2026-02-02 20:26:13][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2334.0534ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0527ms; GetAdapter: 0.4434ms
+[2026-02-02 20:26:15][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2327.7728ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0356ms; GetAdapter: 0.3705ms
+[2026-02-02 20:26:29][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2295.4364ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'NULL'; IN'IN_LINK_TYPE_ID' = 'NULL'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0591ms; GetAdapter: 1.1898ms
+[2026-02-02 20:26:49][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 20:26:50][INF] Barcode from PaperMill Added. Count: 9920 
+[2026-02-02 20:26:50][INF] Check switch lot status SUCCESS current: validating, new: closed
+[2026-02-02 20:26:50][INF] Inconsistent status_id input_value: closed, lot_value: validating
+[2026-02-02 20:26:50][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 20:26:50][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 20:26:50][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 20:26:50][INF] Calling CopyToServer: lotName='003334', date='2026-02-02'
+[2026-02-02 20:26:50][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334
+[2026-02-02 20:26:50][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 20:26:50][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 20:26:50][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 20:26:50][INF] Called CopyToServer: lotName='003334', date='2026-02-02' done=True
+[2026-02-02 20:26:50][INF] Added 1 files to deletion queue
+[2026-02-02 20:26:50][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 20:26:50][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 20:26:52][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 20:26:52][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 20:26:52][INF] Command type is StoredProcedure
+[2026-02-02 20:27:06][INF] Calling CopyToServer: lotName='003334', date=''
+[2026-02-02 20:27:06][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003334
+[2026-02-02 20:27:06][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 20:27:06][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 20:27:06][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 20:27:06][INF] Called CopyToServer: lotName='003334', date='' done=True
+[2026-02-02 20:27:43][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 20:27:43][INF] Command type is StoredProcedure
+[2026-02-02 20:28:06][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 20:28:06][INF] Command type is StoredProcedure
+[2026-02-02 20:28:07][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 20:28:07][ERR] Trace file do not exist; searching path: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003335\trace.txt
+[2026-02-02 20:28:07][WRN] serverData is null
+[2026-02-02 20:28:07][INF] Check switch lot status SUCCESS current: create, new: open
+[2026-02-02 20:28:07][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 20:28:07][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 20:28:07][INF] Unexpected barcode info value ' '
+[2026-02-02 20:28:09][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 20:28:09][INF] Calling CopyToServer: lotName='003335', date='2026-02-02'
+[2026-02-02 20:28:09][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003335 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003335
+[2026-02-02 20:28:09][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 20:28:09][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs
+[2026-02-02 20:28:09][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\KMS to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\KMS
+[2026-02-02 20:28:09][INF] Called CopyToServer: lotName='003335', date='2026-02-02' done=True
+[2026-02-02 20:28:09][INF] CommitChangeLotStatus: remote commit result: LotCommitResult.OK
+[2026-02-02 20:28:09][WRN] LocalDb.GetCountNoReadBarcodes --> Cannot retrieve barcodes information
+[2026-02-02 20:28:09][INF] Called ServerManager::CommitChangeLotStatus --> Result: LotCommitResult.OK
+[2026-02-02 20:28:09][INF] Productivity: Start Lot '003335'
+[2026-02-02 20:28:09][INF] CHECKERS Productivity: Lot status set to LPS_PRODUCTION
+[2026-02-02 20:29:13][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2369.1332ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0567ms; GetAdapter: 0.5206ms
+[2026-02-02 20:29:19][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2417.1325ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0451ms; GetAdapter: 0.3795ms
+[2026-02-02 20:29:30][WRN] Remote DB (Oracle) 'ABACO_DS.VM_CARTS_PKG.GET_CARTS_CLIENT' (timeout 160s) (elapsed 2354.2593ms) -- Parameters: IN'IN_CART_ID' = 'NULL'; IN'IN_AREA_ID' = '18'; IN'IN_PO_ID' = '-3'; IN'IN_TYPE_CATEGORY' = 'P'; IN'IN_LINK_TYPE_ID' = '-11'; IN'IN_LINKED_CART_ID' = 'NULL'; IN'IN_VOUCHER_ID' = '0'; IN'IN_STATUS_ID' = '2'; IN'IN_LINES' = '0'; IN'IN_LANG' = 'EN'; OUT'OU_CURSOR' = cursor; 
+		Initialize: 0.0536ms; GetAdapter: 0.4275ms
+[2026-02-02 22:11:00][INF] CHECKERS Productivity: Lot status set to LPS_PAUSE
+[2026-02-02 22:11:11][WRN] Automatic RollBack on Remote DB (Oracle) due to Dispose on command object without eplicit commit!
+[2026-02-02 22:11:11][INF] Command type is 'SELECT_NOTE_ROWS_OFFLINE'
+[2026-02-02 22:11:11][INF] Command type is StoredProcedure
+[2026-02-02 22:11:14][WRN] CommitChangeLotStatus: dr.denom_tag is NULL set default '038'
+[2026-02-02 22:11:15][INF] Check switch lot status SUCCESS current: open, new: suspended
+[2026-02-02 22:11:15][INF] Inconsistent status_id input_value: suspended, lot_value: create
+[2026-02-02 22:11:15][WRN] LotsDB::InsertBarcodesTraceInLocal No barcodes to insert in table
+[2026-02-02 22:11:15][INF] InternalRequestChangeLotStatus: readyForNext Step 1 = True
+[2026-02-02 22:11:15][INF] InternalRequestChangeLotStatus: readyForNext Step 2 = True
+[2026-02-02 22:11:15][INF] Calling ServerManager::CommitChangeLotStatus
+[2026-02-02 22:11:15][INF] Calling CopyToServer: lotName='003335', date='2026-02-02'
+[2026-02-02 22:11:15][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003335 to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\lots\INTAGLIO_B\038\003335
+[2026-02-02 22:11:15][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\diary to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\diary
+[2026-02-02 22:11:15][INF] Copying E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\logs to \\172.16.210.3\DataDisk\AbacoServerData\2026-02-02\ICS-1377_B\logs

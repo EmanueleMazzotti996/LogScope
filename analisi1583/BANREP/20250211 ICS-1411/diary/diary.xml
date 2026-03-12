@@ -1,0 +1,1538 @@
+﻿<diary ClientTag="ICS-1411" date="2025/02/11 05:47:09" desc="PARVIS Systems - Daily log" FileVersion="2.0" >
+<Action Time="2025/02/11 05:47:09" User="jcastaum" Type="SystemStart" DenTag="04" Lot="">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha iniciado el sistema</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 06:03:04" User="jcastaum" Type="LotCreation" DenTag="04" Lot="">
+  <Msg>Creación del lote '16180'</Msg>
+  <Eng>Created batch '16180'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 06:03:04" User="jcastaum" Type="PartialConfig" DenTag="04" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila 3.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 06:08:54" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16180">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha recibido la alarma: 'Avería electrónica en el codificador'.</Msg>
+  <Eng>User Jimmy Alexander Castañeda Umbariba received alert: 'Avería electrónica en el codificador'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 06:09:49" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16180">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '1'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '1'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 06:14:07" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16180">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User Jimmy Alexander Castañeda Umbariba received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:53:22" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16180">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618009045' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618009045' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:53:22" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16180">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618009046' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618009046' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:53:23" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16180">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:53:31" User="jcastaum" Type="100002" DenTag="04" Lot="16180">
+  <Msg>papel ondulado</Msg>
+  <Eng>papel ondulado</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:53:59" User="jcastaum" Type="LotClosed" DenTag="04" Lot="">
+  <Msg>Cierre del lote '16180': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 10000; inicialización de parciales = 512; hojas en pila 1 = 5070, pila 2 = 5442, pila 3 = 0, pila 4 = 0; notas: 2 Hojas blancas: Se sacan 2 hojas blancas para Orlof; </Msg>
+  <Eng>Closed batch '16180': total production sheets = 10000; unproduced production = 0; partial production = 10000; partial test = 512; sheets in pile 1 = 5070, pile 2 = 5442, pile 3 = 0, pile 4 = 0; notes: 2 Hojas blancas: Se sacan 2 hojas blancas para Orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:55:37" User="jcastaum" Type="LotCreation" DenTag="04" Lot="">
+  <Msg>Creación del lote '16181'</Msg>
+  <Eng>Created batch '16181'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:55:37" User="jcastaum" Type="PartialConfig" DenTag="04" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila 3.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:57:39" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 21 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 21 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:57:40" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 21 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 21 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:57:40" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 21 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 21 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:20" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 22 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 22 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:21" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 23 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 23 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:23" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 24 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 24 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:25" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 25 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 25 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:27" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 26 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 26 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:29" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 27 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 27 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:29" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 27 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 27 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:30" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 28 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 28 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:30" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 28 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 28 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:32" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 29 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 29 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:32" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 29 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 29 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:34" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 30 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 30 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:34" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 30 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 30 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:36" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 31 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 31 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:36" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 31 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 31 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:38" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 32 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 32 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:38" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 32 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 32 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:39" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 33 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 33 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:39" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 33 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 33 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:40" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 34 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 34 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:40" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 34 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 34 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:41" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:41" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:42" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 36 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 36 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:42" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 36 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 36 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:43" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 37 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 37 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:43" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 37 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 37 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:43" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 38 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 38 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:43" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 38 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 38 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:44" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 39 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 39 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:44" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 39 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 39 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:45" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 40 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 40 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:45" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 40 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 40 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:46" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 41 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 41 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:46" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 41 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 41 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:46" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 42 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 42 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:46" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 42 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 42 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:47" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 43 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 43 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:47" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 44 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 44 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:48" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 45 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 45 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:48" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 46 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 46 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:49" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 47 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 47 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:49" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 48 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 48 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:50" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 49 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 49 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:50" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 50 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 50 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:51" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 51 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 51 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:51" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 52 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 52 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:52" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 53 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 53 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:52" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 54 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 54 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:53" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 55 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 55 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:53" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 56 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 56 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:54" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 57 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 57 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:54" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 58 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 58 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:55" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 59 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 59 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:55" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 60 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 60 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:55" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 61 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 61 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:56" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 62 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 62 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:56" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 63 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 63 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:57" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 64 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 64 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:57" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 65 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 65 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:58" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 66 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 66 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:58" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 67 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 67 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:59" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 68 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 68 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:59" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 69 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 69 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:58:59" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 70 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 70 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:00" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 71 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 71 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:00" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 72 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 72 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:01" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 73 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 73 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:01" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 74 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 74 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:02" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 75 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 75 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:02" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 76 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 76 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:03" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 77 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 77 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:03" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 78 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 78 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:04" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 79 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 79 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:04" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 80 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 80 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:04" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 81 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 81 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:05" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 82 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 82 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:05" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 83 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 83 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:06" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 84 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 84 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:06" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 85 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 85 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:07" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 86 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 86 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:07" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 87 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 87 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:08" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 88 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 88 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:08" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 89 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 89 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:09" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 90 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 90 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:09" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 91 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 91 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:10" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 92 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 92 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:10" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 93 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 93 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:10" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 94 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 94 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:11" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 95 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 95 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:11" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 96 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 96 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:12" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 97 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 97 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 07:59:12" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 98 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 98 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja de inicio no detectada en las pilas de salida' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja de inicio no detectada en las pilas de salida' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Ciclo de máquina con datos de detección incompletos' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile N/A from 'Ciclo de máquina con datos de detección incompletos' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:00:45" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:01:26" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '1'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '1'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:01:37" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 118 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 118 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:01:38" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 119 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 119 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:01:40" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 120 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 120 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:01:42" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>En el ciclo de máquina 121 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 121 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:07:50" User="jcastaum" Type="SystemStart" DenTag="04" Lot="">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha iniciado el sistema</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:08:16" User="jcastaum" Type="ApplyCounters" DenTag="04" Lot="">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' está tratando de recuperar el lote '16181' con los siguientes contadores de producción: hojas totales = 0 (era 0); pila 1 = 0 (era 0), pila 2 = 0 (era 0), pila 3 = 0 (era 0), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' is attempting to recover batch '16181' with the following counters: total production sheets = 0 (was 0); production in pile 1 = 0 (was 0), pile 2 = 0 (was 0), pile 3 = 0 (was 0), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:08:22" User="jcastaum" Type="LotOpen" DenTag="04" Lot="">
+  <Msg>Apertura del lote '16181' (plantilla '04_27_04_2023')</Msg>
+  <Eng>Opened batch '16181' (model '04_27_04_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:08:22" User="jcastaum" Type="PartialConfig" DenTag="04" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila 3.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:08:38" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:08:41" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha recuperado con éxito el lote '16181'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has correctly recovered batch '16181'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 08:08:44" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '1'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '1'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:31:09" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16181">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User Jimmy Alexander Castañeda Umbariba received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:36:28" User="jcastaum" Type="StartWithoutAutoStop" DenTag="04" Lot="16181">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:36:30" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '9998'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '9998'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:38:08" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618109998' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618109998' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:38:08" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618109999' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618109999' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:38:08" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618110000' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618110000' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:38:08" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16181">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:38:14" User="jcastaum" Type="100002" DenTag="04" Lot="16181">
+  <Msg>papel ondulado</Msg>
+  <Eng>papel ondulado</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:38:57" User="jcastaum" Type="LotClosed" DenTag="04" Lot="">
+  <Msg>Cierre del lote '16181': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 10000; inicialización de parciales = 34; hojas en pila 1 = 4991, pila 2 = 5041, pila 3 = 2, pila 4 = 0; notas: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Msg>
+  <Eng>Closed batch '16181': total production sheets = 10000; unproduced production = 0; partial production = 10000; partial test = 34; sheets in pile 1 = 4991, pile 2 = 5041, pile 3 = 2, pile 4 = 0; notes: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:39:13" User="jcastaum" Type="LotCreation" DenTag="04" Lot="">
+  <Msg>Creación del lote '16182'</Msg>
+  <Eng>Created batch '16182'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 09:39:13" User="jcastaum" Type="PartialConfig" DenTag="04" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila 3.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:00:33" User="jcastaum" Type="StartWithoutAutoStop" DenTag="04" Lot="16182">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:00:34" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16182">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '9998'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '9998'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:01:58" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16182">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User Jimmy Alexander Castañeda Umbariba received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:02:17" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16182">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618209998' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618209998' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:02:17" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16182">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618209999' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618209999' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:02:17" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16182">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618210000' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618210000' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:02:17" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16182">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:02:34" User="jcastaum" Type="100002" DenTag="04" Lot="16182">
+  <Msg>papel ondulado se baja velocidad para pasarlo</Msg>
+  <Eng>papel ondulado se baja velocidad para pasarlo</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:02:58" User="jcastaum" Type="LotClosed" DenTag="04" Lot="">
+  <Msg>Cierre del lote '16182': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 10000; inicialización de parciales = 37; hojas en pila 1 = 5018, pila 2 = 5017, pila 3 = 2, pila 4 = 0; notas: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Msg>
+  <Eng>Closed batch '16182': total production sheets = 10000; unproduced production = 0; partial production = 10000; partial test = 37; sheets in pile 1 = 5018, pile 2 = 5017, pile 3 = 2, pile 4 = 0; notes: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:03:57" User="jcastaum" Type="LotCreation" DenTag="04" Lot="">
+  <Msg>Creación del lote '16183'</Msg>
+  <Eng>Created batch '16183'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:03:57" User="jcastaum" Type="PartialConfig" DenTag="04" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila 3.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 11:15:01" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User Jimmy Alexander Castañeda Umbariba received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:14:33" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>En el ciclo de máquina 7992 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 7992 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:15:12" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>En el ciclo de máquina 7993 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 7993 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:15:14" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>En el ciclo de máquina 7994 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 7994 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado el código de barras de una hoja de la pila 3 de 'NOREAD' a '041618303502'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified the barcode of a sheet in pile 3 from 'NOREAD' to '041618303502'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de producción con código de barras no detectada' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de producción con código de barras no detectada' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307693' de la pila 1 a la pila 3.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307693' from pile 1 to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307694' de la pila 2 a la pila 3.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307694' from pile 2 to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307706' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307706' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307707' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307707' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307708' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307708' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:31" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:50" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:16:54" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '7709'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '7709'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:17:00" User="jcastaum" Type="100002" DenTag="04" Lot="16183">
+  <Msg>papel ondulado</Msg>
+  <Eng>papel ondulado</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:18:41" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>En el ciclo de máquina 8136 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 8136 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:22:10" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>En el ciclo de máquina 8137 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 8137 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:22:15" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>En el ciclo de máquina 8138 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 8138 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:25:13" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307737' de la pila 1 a la pila 3.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307737' from pile 1 to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:25:13" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha desplazado la hoja de producción '041618307738' de la pila 2 a la pila 3.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has moved the production sheet '041618307738' from pile 2 to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:25:13" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado el código de barras de una hoja de la pila 3 de 'NOREAD' a '041618307752'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified the barcode of a sheet in pile 3 from 'NOREAD' to '041618307752'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:25:13" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de producción con código de barras no detectada' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de producción con código de barras no detectada' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:25:13" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:25:29" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:26:55" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '7753'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '7753'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:32:15" User="jcastaum" Type="RaiseAlert" DenTag="04" Lot="16183">
+  <Msg>El usuario Jimmy Alexander Castañeda Umbariba ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User Jimmy Alexander Castañeda Umbariba received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:45:10" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:45:13" User="jcastaum" Type="StartWithoutAutoStop" DenTag="04" Lot="16183">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:45:15" User="jcastaum" Type="FirstBarcode" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha confirmado el nuevo valor del código de barras '9998'</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' has confirmed first barcode value '9998'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:47:37" User="jcastaum" Type="Reconciliation" DenTag="04" Lot="16183">
+  <Msg>El usuario 'Jimmy Alexander Castañeda Umbariba' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jimmy Alexander Castañeda Umbariba' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:47:43" User="jcastaum" Type="100002" DenTag="04" Lot="16183">
+  <Msg>papel ondulado</Msg>
+  <Eng>papel ondulado</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:48:48" User="jcastaum" Type="LotClosed" DenTag="04" Lot="">
+  <Msg>Cierre del lote '16183': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 10000; inicialización de parciales = 59; hojas en pila 1 = 5058, pila 2 = 4991, pila 3 = 10, pila 4 = 0; notas: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Msg>
+  <Eng>Closed batch '16183': total production sheets = 10000; unproduced production = 0; partial production = 10000; partial test = 59; sheets in pile 1 = 5058, pile 2 = 4991, pile 3 = 10, pile 4 = 0; notes: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:49:01" User="jcastaum" Type="LotCreation" DenTag="04" Lot="">
+  <Msg>Creación del lote '16184'</Msg>
+  <Eng>Created batch '16184'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/02/11 12:49:01" User="jcastaum" Type="PartialConfig" DenTag="04" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila 3.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+</diary>

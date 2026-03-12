@@ -1,0 +1,50 @@
+{
+  "name": "logscope",
+  "version": "1.0.0",
+  "description": "LogScope - Abaco Server Log Analyzer by EM",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && node scripts/launch-electron.js\"",
+    "electron:build": "vite build && electron-builder --win",
+    "electron:preview": "vite build && cross-env NODE_ENV=production electron ."
+  },
+  "author": "EM",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^31.7.7",
+    "electron-builder": "^25.1.8",
+    "vite": "^6.2.2",
+    "wait-on": "^8.0.3"
+  },
+  "build": {
+    "appId": "com.em.logscope",
+    "productName": "LogScope",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "public/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "public/icon.png"
+    },
+    "portable": {
+      "artifactName": "LogScope-${version}-portable.exe"
+    }
+  }
+}

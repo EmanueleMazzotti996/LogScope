@@ -1,0 +1,2092 @@
+ABACO Release : 8.2.1.6
+Computer Name : ICS-1377
+[ICS] [02/02/26 06:33:09] (I) ################################ ICS-CORE STARTED ###################################################
+[ICS] [02/02/26 06:33:10] (I) Alert_env:init done
+[ICS] [02/02/26 06:33:10] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 06:33:10] (I) Rhp: GUI: active class started
+[ICS] [02/02/26 06:33:10] (I) Rhp: DEV: device handler started
+[ICS] [02/02/26 06:33:10] (I) Rhp: IMG: image handler registered
+[ICS] [02/02/26 06:33:10] (I) Rhp: CRD: (Kernel Version V1.26)
+[ICS] [02/02/26 06:33:10] (I) Rhp: CRD: coordinator started
+[ICS] [02/02/26 06:33:10] (I) Rhp: CRD: state=off
+[ICS] [02/02/26 06:33:10] (I) Rhp: TRK: Tracker started
+[ICS] [02/02/26 06:33:10] (I) Rhp: CRD: state=setup
+[ICS] [02/02/26 06:33:10] (E) Dev_env::SetSemaphore Buzzer Status Update failed
+[ICS] [02/02/26 06:33:10] (I) Dev_env::Trying to start RT_StartApp
+[ICS] [02/02/26 06:33:10] (I) ICS-GUI: frmMain UpdateState setup
+[ICS] [02/02/26 06:33:10] (I) Rhapsody started
+[ICS] [02/02/26 06:33:15] (I) Rta Process File: E:\ABACO\DeployB\bin\Parvis-Rt-NewHw.rta
+[ICS] [02/02/26 06:33:15] (W) StartRtCore: START
+[ICS] [02/02/26 06:33:15] (W) StartRtCore: END
+[ICS] [02/02/26 06:33:15] (I) Dev_env::RT_StartApp succesfully started
+[ICS] [02/02/26 06:33:15] (I) Dev_env::Trying to start RT_ConfigApp
+[ICS] [02/02/26 06:33:15] (I) Dev_env::RT_ConfigApp succesfully started
+[ICS] [02/02/26 06:33:15] (I) Dev_env::Trying to start RT_StartMonitor
+[ICS] [02/02/26 06:33:15] (I) Dev_env::RT_StartMonitor succesfully started
+[ICS] [02/02/26 06:33:16] (I) Rhp: DEV: state=PowerOn_InkjetWait
+[ICS] [02/02/26 06:33:16] (I) Rhp: DEV: Inkjet is ON
+[ICS] [02/02/26 06:33:16] (I) SmartCamera retriving has follow params: 1000, 100, 3, 1000
+[ICS] [02/02/26 06:33:16] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 06:33:16] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 06:33:16] (I) Received: IRProcessing,2.1.0.2
+[ICS] [02/02/26 06:33:16] (I) SmartCamera retriving has follow params: 1000, 100, 3, 1000
+[ICS] [02/02/26 06:33:16] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 06:33:16] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 06:33:17] (I) Received: IRProcessing,2.1.0.2
+[ICS] [02/02/26 06:33:17] (I) Dev_env::Camera_Init START
+[ICS] [02/02/26 06:33:17] (I) Dev_env::Camera_Init IRFlash Initialize
+[ICS] [02/02/26 06:33:17] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 06:33:17] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 06:33:17] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 06:33:17] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 06:33:17] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 06:33:17] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 06:33:17] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 06:33:17] (I) Dev_env::Camera_Init Set Callback
+[ICS] [02/02/26 06:33:17] (I) FB: Create request
+[ICS] [02/02/26 06:33:17] (I) Vimba Version Major : 1 Minor : 9 Patch : 1
+[ICS] [02/02/26 06:33:18] (I) Opening camera with ID [DEV_000F315E5554] handle [0000000000000DFB]
+[ICS] [02/02/26 06:33:18] (I) VimbaCameraConfig::Load Camera name [Mako] 
+[ICS] [02/02/26 06:33:18] (I) CAMERA [Mako] successfully initialized!
+[ICS] [02/02/26 06:33:18] (I) FB: New Device
+[ICS] [02/02/26 06:33:18] (I) Dev_env::CameraMngrCallBack New Device Event
+[ICS] [02/02/26 06:33:18] (I) VimbaManager Init returning [1]
+[ICS] [02/02/26 06:33:18] (I) Dev_env::Camera_Init END
+[ICS] [02/02/26 06:33:18] (I) Rhp: DEV: state=powerOn_CamerInit
+[ICS] [02/02/26 06:33:18] (I) Camera ID <DEV_000F315E5554> (Model:  - Name: Mako)
+[ICS] [02/02/26 06:33:18] (I) CameraMngr::Camera ID set to 00F315E5554
+[ICS] [02/02/26 06:33:18] (I) CVimbaManager::GetCameraGain Gain [10.000000] converted value [10]
+[ICS] [02/02/26 06:33:18] (I) CameraMngr::Camera Gain set to 10
+[ICS] [02/02/26 06:33:18] (I) Dev_env::Camera_updateSettings: Returning 0
+[ICS] [02/02/26 06:33:18] (I) Dev_env::Camera_FirstImageHack START
+[ICS] [02/02/26 06:33:18] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 06:33:18] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 06:33:18] (I) Dev_env::FirstImageCameraCallBack START
+[ICS] [02/02/26 06:33:18] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 06:33:18] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 06:33:18] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 06:33:18] (I) Dev_env::Camera_FirstImageHack: Returning 0
+[ICS] [02/02/26 06:33:18] (I) Rhp: DEV: PowerOn completed all devices ok
+[ICS] [02/02/26 06:33:18] (I) Rhp: CRD: state=idle
+[ICS] [02/02/26 06:33:18] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 06:34:28] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 06:34:28] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 06:34:29] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 06:34:29] (I) ICS-GUI: Lot Info from server DB: lot '003329', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 06:34:29] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 06:34:29] (I) Rhp: CRD: start production
+[ICS] [02/02/26 06:34:29] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 06:34:29] (I) SAV: setLotName done
+[ICS] [02/02/26 06:34:29] (I) CVimbaManager::GetCameraGain Gain [10.000000] converted value [10]
+[ICS] [02/02/26 06:34:29] (I) CVimbaManager::GetCameraYOffset returning [356] 
+[ICS] [02/02/26 06:34:29] (I) CameraMngr::CameraMngr::GetCameraData(): GAIN [10] offset [356]
+[ICS] [02/02/26 06:34:29] (I) CameraMngr::SetCameraGain
+[ICS] [02/02/26 06:34:29] (I) CameraMngr::SetCameraGain setting Gain [1]
+[ICS] [02/02/26 06:34:29] (I) CVimbaManager::SetCameraGain VALUE TO SET [1] 
+[ICS] [02/02/26 06:34:29] (I) Gain Range Max <40> - min <0>
+[ICS] [02/02/26 06:34:29] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 06:34:29] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 06:34:29] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 06:34:29] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 06:34:30] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 06:34:30] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 06:34:30] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 06:34:30] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 06:34:30] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 06:34:30] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 06:34:30] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 06:34:30] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 06:34:30] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 06:34:30] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 06:34:30] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 06:34:30] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 06:34:30] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 06:34:30] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 06:34:30] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 06:34:30] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 06:34:30] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 06:34:30] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 06:34:30] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003329\trace_replacedbarcode.txt
+[ICS] [02/02/26 06:34:30] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003329\trace.txt
+[ICS] [02/02/26 06:34:30] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 06:34:30] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 06:34:30] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 06:34:30] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 06:34:30] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 06:34:30] (I) Alert_env:init done
+[ICS] [02/02/26 06:34:30] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 06:34:30] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 06:34:30] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 06:34:30] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 06:34:30] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 06:34:31] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003329' result: 'OK'
+[ICS] [02/02/26 06:34:31] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 07:28:07] (I) First CycleId = 1
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: -------------------------------------------------------------
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: <<<<< WARNING LEVEL AND RECONCILIATION ERROR - CONFIGURATION PARMETERS >>>>>
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: checkBarcode = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: InkJetEnable = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: testSheetAllowed = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: testSheetInProdPileAllowed = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: csAnomalyAllowed = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: checkBarcodeDuplicated = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: barcodeEnabled = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: checkBarcodePresence = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: barcodeDisable = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: barcodeNullAllowed = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: barcodeDuplicatedAllowed = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: barcodeWrongAllowed = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: alarmIfUnexpectedSample = True
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: clientType = Printing
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: isVarnishing = False
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: -------------------------------------------------------------
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: <<<<< WARNING LEVEL AND RECONCILIATION ERROR - CONFIGURED CONDITION >>>>>
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (000) >>> ( uncounted_Sheet | --- | pileNA | barcodeNotRead ) >>> (level0 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (001) >>> ( uncounted_Sheet | --- | pileProduction | --- ) >>> (level3 | --- | iPMREmptyInPile )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (002) >>> ( uncounted_Sheet | --- | pileTestDiscard | --- ) >>> (level3 | --- | iPMREmptyInPile )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (003) >>> ( uncounted_Sheet | --- | --- | barcodeRead ) >>> (level3 | --- | iPMREmptyWithBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (004) >>> ( classUncountedSheet | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (005) >>> ( undefined_Class | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (006) >>> ( --- | --- | pileUndefined | --- ) >>> (level3 | --- | iPMRUndefinedClassPile )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (007) >>> ( --- | --- | pileNA | --- ) >>> (level3 | --- | iPMRSheetNoPile )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (008) >>> ( prod_Sheet_wCountingAlarm | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (009) >>> ( prod_Sheet_double | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (010) >>> ( prod_Sheet_wScWarning | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (011) >>> ( classProductionSheet | --- | --- | barcodeCheckError ) >>> (level3 | prod_Sheet_withWrongBarcode | iPMRGoodWithWrongBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (012) >>> ( prod_Sheet_withWrongBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRGoodWithWrongBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (013) >>> ( classProductionSheet | --- | --- | barcodeDuplicated ) >>> (level3 | prod_Sheet_duplicateBarcode | iPMRDuplicateBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (014) >>> ( prod_Sheet_duplicateBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRDuplicateBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (015) >>> ( classProductionSheet | --- | --- | barcodeNotRead ) >>> (level2 | prod_Sheet_withoutBarcode | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (016) >>> ( prod_Sheet_withoutBarcode | --- | --- | --- ) >>> (level2 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (017) >>> ( prod_Sheet | --- | pileProduction | --- ) >>> (noWarn | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (018) >>> ( test_Sheet_wCountingAlarm | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (019) >>> ( test_Sheet_double | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (020) >>> ( test_Sheet_wScWarning | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (021) >>> ( classTestSheet | --- | --- | barcodeDuplicated ) >>> (level3 | test_Sheet_duplicateBarcode | iPMRDuplicateBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (022) >>> ( test_Sheet_duplicateBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRDuplicateBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (023) >>> ( test_Sheet_inProdPile | --- | pileTestDiscard | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (024) >>> ( test_Sheet_inProdPile | --- | pileProduction | --- ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (025) >>> ( classTestSheet | --- | pileProduction | --- ) >>> (level2 | test_Sheet_inProdPile | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (026) >>> ( classTestSheet | --- | --- | barcodeRead ) >>> (level1 | test_Sheet_withBarcode | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (027) >>> ( test_Sheet_withBarcode | --- | --- | --- ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (028) >>> ( test_Sheet | --- | pileTestDiscard | barcodeNotRead ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (029) >>> ( classChangeSheet | --- | pileProduction | --- ) >>> (level3 | changeSheet_InProdPile | iPMRIncoerentClassification )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (030) >>> ( changeSheet_InProdPile | --- | --- | --- ) >>> (level3 | --- | iPMRTestInProdPile )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (031) >>> ( changeSheet_CountingAlarm | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (032) >>> ( changeSheet_Double | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (033) >>> ( classChangeSheet | --- | --- | barcodeDuplicated ) >>> (level3 | changeSheet_DuplicateBarcode | iPMRDuplicateBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (034) >>> ( changeSheet_DuplicateBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRDuplicateBarcode )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (035) >>> ( classChangeSheet | --- | --- | barcodeRead ) >>> (level2 | changeSheet_WithBarcode | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (036) >>> ( changeSheet_WithBarcode | --- | --- | --- ) >>> (level2 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: (037) >>> ( changeSheet_Ok | SerialNumber_Not_Present | pileTestDiscard | barcodeNotRead ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 07:28:07] (I) ICS-GUI: -------------------------------------------------------------
+[ICS] [02/02/26 07:54:36] (I) Rhp: GUI: Pause Production
+[ICS] [02/02/26 07:54:36] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 07:54:36] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 07:54:36] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 07:54:36] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 07:54:36] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 07:54:36] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 07:55:36] (I) Rhp: TRK: empty timeout
+[ICS] [02/02/26 07:55:36] (I) Rhp: TRK:remaining =   = 8
+[ICS] [02/02/26 07:55:36] (I) AlertManager raised an alarm [level=WARNING, id=66, sheet=    0]
+[ICS] [02/02/26 07:55:54] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 07:55:54] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 07:55:54] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 07:55:54] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 07:55:54] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 07:55:54] (I) AlertManager clear an alarm [id=66, sheet=    0]
+[ICS] [02/02/26 07:55:54] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 07:56:06] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 07:56:06] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 07:56:06] (I) Rhp: GUI: Restart Production
+[ICS] [02/02/26 07:56:06] (I) Rhp: CRD: Restart requested
+[ICS] [02/02/26 07:56:06] (I) Rhp: CRD: state=Prod_TrkRestart_wait
+[ICS] [02/02/26 07:56:06] (I) Rhp: TRK: restart 
+[ICS] [02/02/26 07:56:06] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 07:56:06] (I) Rhp: CRD: state=Prod_AlertRestart_wait
+[ICS] [02/02/26 07:56:06] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 07:56:06] (I) ********** - Inkjet_ProgramMessage PASS **********
+[ICS] [02/02/26 07:56:06] (I) Rhp: CRD: state=Prod_DevRestart_wait
+[ICS] [02/02/26 07:56:06] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 07:56:06] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 09:18:11] (I) Rhp: GUI: Pause Production
+[ICS] [02/02/26 09:18:11] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 09:18:11] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 09:18:11] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 09:18:11] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 09:18:11] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 09:18:11] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 09:19:11] (I) Rhp: TRK: empty timeout
+[ICS] [02/02/26 09:19:11] (I) Rhp: TRK:remaining =   = 20
+[ICS] [02/02/26 09:19:11] (I) AlertManager raised an alarm [level=WARNING, id=66, sheet=    0]
+[ICS] [02/02/26 09:19:35] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 09:19:35] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 09:19:35] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 09:19:35] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 09:19:35] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 09:19:35] (I) AlertManager clear an alarm [id=66, sheet=    0]
+[ICS] [02/02/26 09:19:35] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 09:20:48] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 09:20:48] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 09:20:53] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 09:20:53] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 09:20:53] (I) Rhp: GUI: Restart Production
+[ICS] [02/02/26 09:20:53] (I) Rhp: CRD: Restart requested
+[ICS] [02/02/26 09:20:53] (I) Rhp: CRD: state=Prod_TrkRestart_wait
+[ICS] [02/02/26 09:20:53] (I) Rhp: TRK: restart 
+[ICS] [02/02/26 09:20:53] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 09:20:53] (I) Rhp: CRD: state=Prod_AlertRestart_wait
+[ICS] [02/02/26 09:20:53] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 09:20:53] (I) ********** - Inkjet_ProgramMessage PASS **********
+[ICS] [02/02/26 09:20:53] (I) Rhp: CRD: state=Prod_DevRestart_wait
+[ICS] [02/02/26 09:20:53] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 09:20:53] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 09:26:03] (I) Rhp: GUI: Pause Production
+[ICS] [02/02/26 09:26:03] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 09:26:03] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 09:26:03] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 09:26:03] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 09:26:03] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 09:26:03] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 09:26:48] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 09:26:48] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 09:26:48] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 09:26:48] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 09:26:48] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 09:26:48] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 09:27:02] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 09:27:02] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 09:27:12] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 09:27:12] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 09:27:12] (I) Rhp: GUI: Restart Production
+[ICS] [02/02/26 09:27:12] (I) Rhp: CRD: Restart requested
+[ICS] [02/02/26 09:27:12] (I) Rhp: CRD: state=Prod_TrkRestart_wait
+[ICS] [02/02/26 09:27:12] (I) Rhp: TRK: restart 
+[ICS] [02/02/26 09:27:12] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 09:27:12] (I) Rhp: CRD: state=Prod_AlertRestart_wait
+[ICS] [02/02/26 09:27:13] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 09:27:13] (I) ********** - Inkjet_ProgramMessage PASS **********
+[ICS] [02/02/26 09:27:13] (I) Rhp: CRD: state=Prod_DevRestart_wait
+[ICS] [02/02/26 09:27:13] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 09:27:13] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 11:01:46] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 11:01:46] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 11:03:44] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 11:03:44] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 11:27:59] (I) ICS-GUI: ackModifyCounters request
+[ICS] [02/02/26 11:27:59] (I) Sending to TAU: reqModifyCounters
+[ICS] [02/02/26 11:27:59] (I) Rhp: GUI: Modify counters done
+[ICS] [02/02/26 11:27:59] (I) ICS-GUI: frmMain received ackModifyCounters
+[ICS] [02/02/26 11:27:59] (I) Rhp: GUI: Modify nominal production sheets
+[ICS] [02/02/26 12:04:25] (I) AlertManager raised an alarm [level= NORMAL, id= 1, sheet=16361]
+[ICS] [02/02/26 12:04:25] (I) Rhp: Alert: type=blocking, level=normal
+[ICS] [02/02/26 12:04:25] (I) Rhp: CRD: received auto stop request
+[ICS] [02/02/26 12:04:25] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 12:04:25] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 12:04:25] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 12:04:26] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 12:04:26] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 12:04:26] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 12:04:37] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 12:04:37] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 12:04:37] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 12:04:37] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 12:04:37] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 12:04:37] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 12:06:27] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 12:06:27] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 12:06:35] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 12:06:37] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 12:06:43] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 12:06:43] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 12:06:43] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 12:06:43] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 12:06:43] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 12:06:43] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 12:06:43] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 12:06:43] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 12:06:49] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 12:06:54] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003329' result: 'OK'
+[ICS] [02/02/26 12:07:28] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 12:07:28] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 12:07:28] (I) Rhp: IMG: stop, pending img =   = 2
+[ICS] [02/02/26 12:07:28] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 12:07:28] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 12:07:28] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 12:07:28] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 12:07:28] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 12:07:28] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 12:07:28] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 12:07:28] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 12:07:28] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 12:07:28] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 12:07:28] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 12:07:28] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 12:07:28] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 12:07:28] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 12:07:28] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 12:07:28] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 12:07:33] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 12:07:33] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003329' result: 'OK'
+[ICS] [02/02/26 12:08:04] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 12:08:04] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 12:08:04] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 12:08:04] (I) ICS-GUI: Lot Info from server DB: lot '003330', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 12:08:04] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 12:08:04] (I) Rhp: CRD: start production
+[ICS] [02/02/26 12:08:04] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 12:08:04] (I) SAV: setLotName done
+[ICS] [02/02/26 12:08:04] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 12:08:04] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 12:08:04] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 12:08:04] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 12:08:05] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 12:08:05] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 12:08:05] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 12:08:05] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 12:08:05] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 12:08:05] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 12:08:05] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 12:08:05] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 12:08:05] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 12:08:05] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 12:08:05] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 12:08:05] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 12:08:05] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 12:08:05] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 12:08:05] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 12:08:05] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 12:08:05] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 12:08:05] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 12:08:05] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003330\trace_replacedbarcode.txt
+[ICS] [02/02/26 12:08:05] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003330\trace.txt
+[ICS] [02/02/26 12:08:05] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 12:08:05] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 12:08:05] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 12:08:05] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 12:08:05] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 12:08:05] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 12:08:05] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 12:08:05] (I) Alert_env:init done
+[ICS] [02/02/26 12:08:05] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 12:08:05] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 12:08:05] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 12:08:05] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003330' result: 'OK'
+[ICS] [02/02/26 12:08:05] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 12:13:17] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 12:13:17] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 12:15:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 12:15:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 12:33:40] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 12:33:40] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 13:30:13] (I) AlertManager raised an alarm [level= NORMAL, id= 1, sheet=10305]
+[ICS] [02/02/26 13:30:13] (I) Rhp: Alert: type=blocking, level=normal
+[ICS] [02/02/26 13:30:13] (I) Rhp: CRD: received auto stop request
+[ICS] [02/02/26 13:30:13] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 13:30:13] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 13:30:13] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 13:30:13] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 13:30:13] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 13:30:13] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 13:30:25] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 13:30:25] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 13:30:25] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 13:30:25] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 13:30:25] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 13:30:25] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 13:30:41] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 13:30:41] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 13:30:49] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 13:30:49] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 13:30:53] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 13:30:53] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 13:30:53] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 13:30:53] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 13:30:53] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 13:30:53] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 13:30:53] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 13:30:53] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 13:30:59] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 13:31:02] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003330' result: 'OK'
+[ICS] [02/02/26 13:31:32] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 13:31:32] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 13:31:32] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 13:31:32] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 13:31:32] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 13:31:32] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 13:31:32] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 13:31:32] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 13:31:32] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 13:31:32] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 13:31:32] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 13:31:32] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 13:31:32] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 13:31:32] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 13:31:32] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 13:31:32] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 13:31:32] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 13:31:32] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 13:31:37] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 13:31:37] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003330' result: 'OK'
+[ICS] [02/02/26 13:32:19] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 13:32:19] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 13:32:20] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 13:32:20] (I) ICS-GUI: Lot Info from server DB: lot '003331', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 13:32:20] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 13:32:20] (I) Rhp: CRD: start production
+[ICS] [02/02/26 13:32:20] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 13:32:20] (I) SAV: setLotName done
+[ICS] [02/02/26 13:32:20] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 13:32:20] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 13:32:20] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 13:32:20] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 13:32:21] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 13:32:21] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 13:32:21] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 13:32:21] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 13:32:21] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 13:32:21] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 13:32:21] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 13:32:21] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 13:32:21] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 13:32:21] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 13:32:21] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 13:32:21] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 13:32:21] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 13:32:21] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 13:32:21] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 13:32:21] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 13:32:21] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 13:32:21] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 13:32:21] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003331\trace_replacedbarcode.txt
+[ICS] [02/02/26 13:32:21] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003331\trace.txt
+[ICS] [02/02/26 13:32:21] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 13:32:21] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 13:32:21] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 13:32:21] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 13:32:21] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 13:32:21] (I) Alert_env:init done
+[ICS] [02/02/26 13:32:21] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 13:32:21] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 13:32:21] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 13:32:21] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 13:32:21] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 13:32:21] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003331' result: 'OK'
+[ICS] [02/02/26 13:32:21] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 13:34:36] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 13:34:36] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 13:37:41] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 13:37:41] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 13:37:42] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 13:37:42] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 13:57:37] (I) AlertManager raised an alarm [level=WARNING, id= 2, sheet= 3198]
+[ICS] [02/02/26 14:17:22] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:22] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:25] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:25] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:25] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:25] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:26] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:26] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:26] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:26] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:27] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:27] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:27] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:27] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:28] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:28] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:28] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:28] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:30] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:30] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:30] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:30] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:31] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:31] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:31] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:32] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:34] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:34] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:34] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:34] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:35] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:35] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:35] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:35] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:36] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:36] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:36] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:36] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:36] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:36] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:37] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:37] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:37] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:37] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:38] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:38] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:38] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:38] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:40] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:40] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:41] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:41] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:42] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:42] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:42] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:42] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:45] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:45] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:46] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:46] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:17:50] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:17:50] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:22] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:22] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:25] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:25] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:29] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:29] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:30] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:30] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:31] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:31] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:34] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:34] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:36] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:36] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:37] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:37] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:37] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:37] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:40] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:40] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:41] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:41] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:41] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:41] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:44] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:44] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:47] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:47] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:18:49] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:18:49] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:25:15] (W) IcsDigitalMgr::StateChange took 10.6 ms (progressivi: 0.0 ms, 0.0 ms, 0.0 ms, 10.6 ms)
+[ICS] [02/02/26 14:25:46] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:25:46] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:35:20] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:35:20] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:35:38] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:35:38] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:35:48] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:35:48] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:37:26] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:37:26] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:52:06] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:52:06] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:52:07] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 14:52:07] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 14:54:29] (I) AlertManager raised an alarm [level= NORMAL, id= 1, sheet=10433]
+[ICS] [02/02/26 14:54:29] (I) Rhp: Alert: type=blocking, level=normal
+[ICS] [02/02/26 14:54:29] (I) Rhp: CRD: received auto stop request
+[ICS] [02/02/26 14:54:29] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 14:54:29] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 14:54:29] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 14:54:29] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 14:54:29] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 14:54:29] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 14:54:42] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 14:54:42] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 14:54:42] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 14:54:42] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 14:54:42] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 14:54:42] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 14:54:54] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 14:54:54] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 14:54:57] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 14:54:57] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 14:55:18] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 14:55:18] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 14:55:18] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 14:55:18] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 14:55:18] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 14:55:18] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 14:55:18] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 14:55:18] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 14:55:27] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 14:55:32] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003331' result: 'OK'
+[ICS] [02/02/26 14:56:01] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 14:56:01] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 14:56:01] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 14:56:01] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 14:56:01] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 14:56:01] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 14:56:01] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 14:56:01] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 14:56:01] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 14:56:01] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 14:56:01] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 14:56:01] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 14:56:01] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 14:56:01] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 14:56:01] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 14:56:01] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 14:56:01] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 14:56:01] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 14:56:41] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 14:56:41] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003331' result: 'OK'
+[ICS] [02/02/26 14:57:56] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 14:57:56] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 14:57:56] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 14:57:56] (I) ICS-GUI: Lot Info from server DB: lot '003332', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 14:57:56] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 14:57:56] (I) Rhp: CRD: start production
+[ICS] [02/02/26 14:57:56] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 14:57:56] (I) SAV: setLotName done
+[ICS] [02/02/26 14:57:56] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 14:57:56] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 14:57:57] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 14:57:57] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 14:57:57] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 14:57:57] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 14:57:57] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 14:57:57] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 14:57:57] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 14:57:57] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 14:57:57] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 14:57:57] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 14:57:57] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 14:57:57] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 14:57:57] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 14:57:57] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 14:57:57] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 14:57:57] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 14:57:57] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 14:57:57] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 14:57:57] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 14:57:57] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 14:57:57] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003332\trace_replacedbarcode.txt
+[ICS] [02/02/26 14:57:57] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003332\trace.txt
+[ICS] [02/02/26 14:57:57] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 14:57:57] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 14:57:57] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 14:57:57] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 14:57:57] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 14:57:57] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 14:57:57] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 14:57:57] (I) Alert_env:init done
+[ICS] [02/02/26 14:57:57] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 14:57:57] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 14:57:57] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 14:57:58] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003332' result: 'OK'
+[ICS] [02/02/26 14:57:58] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 15:33:29] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:33:29] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:33:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:33:39] (I) AlertManager raised an alarm [level= ALERT , id= 7, sheet= 2165]
+[ICS] [02/02/26 15:33:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:39] (I) Rhp: CRD: state=wait_empty
+[ICS] [02/02/26 15:33:39] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 15:33:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:33:39] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 15:33:39] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 15:33:39] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 15:33:39] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 15:33:39] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 15:33:39] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 15:33:39] (I) Signal DP2W, 	Rising front 	Current DeltaTime = 63. 	Mean DeltaTime = 868. 	Threshold = 200. 	Count = 39581. 	TimeStamp(hh:mm:ss) = 9:33:23.239164
+[ICS] [02/02/26 15:33:39] (I) Signal DP1W, 	Rising front 	Current DeltaTime = 199. 	Mean DeltaTime = 868. 	Threshold = 200. 	Count = 39588. 	TimeStamp(hh:mm:ss) = 9:33:23.375145
+[ICS] [02/02/26 15:33:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:40] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:40] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:42] (W) Event PileSensor_2 is missing due to send counter expired 
+[ICS] [02/02/26 15:33:42] (W) Trk_watchdog: Event PileSensor_2 is missing 
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 1, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef8c, 	ReceivedState: 0x3ffefbff
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 2, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef8c, 	ReceivedState: 0x3ffefbff
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 3, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffabbfe
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 4, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef08, 	ReceivedState: 0x3ffabbea
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 5, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffabaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 6, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffabaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 7, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 8, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 9, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 10, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 11, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 12, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef00, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 13, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000af00, 	ReceivedState: 0x3bfaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 14, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000af00, 	ReceivedState: 0x3bfaaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 15, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x00008000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 16, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x00008000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 17, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x00008000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 18, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x00008000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 19, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x00008000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:42] (I) m_pMcQueue position: 20, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x00008000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:42] (I) Deque size: 20, cycles with images: 14, m_cycleCounter: 2169 
+[ICS] [02/02/26 15:33:42] (W) Event ElementCompleted is missing due to send counter expired 
+[ICS] [02/02/26 15:33:42] (W) Trk_watchdog: Event ElementCompleted is missing 
+[ICS] [02/02/26 15:33:42] (I) Deque size: 21, cycles with images: 14, m_cycleCounter: 2169 
+[ICS] [02/02/26 15:33:42] (W) Event PileSensor_0 is missing due to send counter expired 
+[ICS] [02/02/26 15:33:42] (W) Trk_watchdog: Event PileSensor_0 is missing 
+[ICS] [02/02/26 15:33:42] (I) Deque size: 22, cycles with images: 16, m_cycleCounter: 2169 
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 1, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef8c, 	ReceivedState: 0x3ffefbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 2, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef8c, 	ReceivedState: 0x3ffefbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 3, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 4, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 5, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 6, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 7, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 8, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 9, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 10, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 11, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 12, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 13, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 14, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 15, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 16, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 17, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 18, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 19, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 20, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 21, 	isToBeNotified: 0, 	isEmptyCycle: 0, 	bitMask: 0x0000ef0c, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 22, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 23, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 24, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 25, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 26, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 27, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 28, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 29, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 30, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 31, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffebbff
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 32, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffabbfe
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 33, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffabbea
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 34, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffabaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 35, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffabaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 36, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 37, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 38, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 39, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 40, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 41, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3ffaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 42, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3bfaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 43, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000800, 	ReceivedState: 0x3bfaaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 44, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 45, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 46, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 47, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 48, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 49, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) m_pMcQueue position: 50, 	isToBeNotified: 0, 	isEmptyCycle: 1, 	bitMask: 0x00000000, 	ReceivedState: 0x3a0aaaaa
+[ICS] [02/02/26 15:33:56] (I) Deque size: 50, cycles with images: 43, m_cycleCounter: 2169 
+[ICS] [02/02/26 15:33:56] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2170, DetectionBitmask = 0x0000ef8c, ReceivedState = 0x3ffefbff, TimedoutState = 0x00001420
+[ICS] [02/02/26 15:33:56] (E) Machine cycle with sensors missing . Cycle ID: 2170. 	DetectionBitmask = 0xef8c, 	getReceivedState = 0x3ffefbff
+[ICS] [02/02/26 15:33:56] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2170]
+[ICS] [02/02/26 15:33:56] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2170]
+[ICS] [02/02/26 15:33:56] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:57] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2171, DetectionBitmask = 0x0000ef8c, ReceivedState = 0x3ffefbff, TimedoutState = 0x00001420
+[ICS] [02/02/26 15:33:57] (E) Machine cycle with sensors missing . Cycle ID: 2171. 	DetectionBitmask = 0xef8c, 	getReceivedState = 0x3ffefbff
+[ICS] [02/02/26 15:33:57] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2171]
+[ICS] [02/02/26 15:33:57] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2171]
+[ICS] [02/02/26 15:33:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:57] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2172, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:33:57] (E) Machine cycle with sensors missing . Cycle ID: 2172. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:33:57] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2172]
+[ICS] [02/02/26 15:33:57] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2172]
+[ICS] [02/02/26 15:33:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:58] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2173, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:33:58] (E) Machine cycle with sensors missing . Cycle ID: 2173. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:33:58] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2173]
+[ICS] [02/02/26 15:33:58] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2173]
+[ICS] [02/02/26 15:33:58] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:33:59] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2174, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:33:59] (E) Machine cycle with sensors missing . Cycle ID: 2174. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:33:59] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2174]
+[ICS] [02/02/26 15:33:59] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2174]
+[ICS] [02/02/26 15:33:59] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:00] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2175, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:00] (E) Machine cycle with sensors missing . Cycle ID: 2175. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:00] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2175]
+[ICS] [02/02/26 15:34:00] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2175]
+[ICS] [02/02/26 15:34:00] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:01] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2176, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:01] (E) Machine cycle with sensors missing . Cycle ID: 2176. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:01] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2176]
+[ICS] [02/02/26 15:34:01] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2176]
+[ICS] [02/02/26 15:34:01] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:02] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2177, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:02] (E) Machine cycle with sensors missing . Cycle ID: 2177. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:02] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2177]
+[ICS] [02/02/26 15:34:02] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2177]
+[ICS] [02/02/26 15:34:02] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:03] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2178, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:03] (E) Machine cycle with sensors missing . Cycle ID: 2178. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:03] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2178]
+[ICS] [02/02/26 15:34:03] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2178]
+[ICS] [02/02/26 15:34:03] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:04] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2179, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:04] (E) Machine cycle with sensors missing . Cycle ID: 2179. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:04] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2179]
+[ICS] [02/02/26 15:34:04] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2179]
+[ICS] [02/02/26 15:34:04] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:05] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2180, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:05] (E) Machine cycle with sensors missing . Cycle ID: 2180. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:05] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2180]
+[ICS] [02/02/26 15:34:05] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2180]
+[ICS] [02/02/26 15:34:05] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:06] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2181, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:06] (E) Machine cycle with sensors missing . Cycle ID: 2181. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:06] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2181]
+[ICS] [02/02/26 15:34:06] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2181]
+[ICS] [02/02/26 15:34:06] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:08] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2182, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:08] (E) Machine cycle with sensors missing . Cycle ID: 2182. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:08] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2182]
+[ICS] [02/02/26 15:34:08] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2182]
+[ICS] [02/02/26 15:34:08] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:09] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2183, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:09] (E) Machine cycle with sensors missing . Cycle ID: 2183. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:09] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2183]
+[ICS] [02/02/26 15:34:09] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2183]
+[ICS] [02/02/26 15:34:09] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:10] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2184, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:10] (E) Machine cycle with sensors missing . Cycle ID: 2184. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:10] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2184]
+[ICS] [02/02/26 15:34:10] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2184]
+[ICS] [02/02/26 15:34:10] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:11] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2185, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:11] (E) Machine cycle with sensors missing . Cycle ID: 2185. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:11] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2185]
+[ICS] [02/02/26 15:34:11] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2185]
+[ICS] [02/02/26 15:34:11] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:12] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2186, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:12] (E) Machine cycle with sensors missing . Cycle ID: 2186. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:12] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2186]
+[ICS] [02/02/26 15:34:12] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2186]
+[ICS] [02/02/26 15:34:12] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:14] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2187, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:14] (E) Machine cycle with sensors missing . Cycle ID: 2187. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:14] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2187]
+[ICS] [02/02/26 15:34:14] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2187]
+[ICS] [02/02/26 15:34:14] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:15] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2188, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:15] (E) Machine cycle with sensors missing . Cycle ID: 2188. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:15] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2188]
+[ICS] [02/02/26 15:34:15] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2188]
+[ICS] [02/02/26 15:34:15] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:16] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2189, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:16] (E) Machine cycle with sensors missing . Cycle ID: 2189. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:16] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2189]
+[ICS] [02/02/26 15:34:16] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2189]
+[ICS] [02/02/26 15:34:16] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:17] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2190, DetectionBitmask = 0x0000ef0c, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:17] (E) Machine cycle with sensors missing . Cycle ID: 2190. 	DetectionBitmask = 0xef0c, 	getReceivedState = 0x3ffebbff
+[ICS] [02/02/26 15:34:17] (I) AlertManager raised an alarm [level= ALERT , id=13, sheet= 2190]
+[ICS] [02/02/26 15:34:17] (I) AlertManager raised an alarm [level= ALERT , id=67, sheet= 2190]
+[ICS] [02/02/26 15:34:17] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:18] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2191, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:18] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:18] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2191]
+[ICS] [02/02/26 15:34:18] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:18] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:20] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2192, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:20] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:20] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2192]
+[ICS] [02/02/26 15:34:20] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:20] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:21] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2193, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:21] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:21] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2193]
+[ICS] [02/02/26 15:34:21] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:21] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:22] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2194, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:22] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:22] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2194]
+[ICS] [02/02/26 15:34:22] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:22] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:23] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2195, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:23] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:23] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2195]
+[ICS] [02/02/26 15:34:23] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:23] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:25] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2196, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:25] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:25] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2196]
+[ICS] [02/02/26 15:34:25] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:25] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:27] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2197, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:27] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:27] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2197]
+[ICS] [02/02/26 15:34:27] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:27] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:28] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2198, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:28] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:28] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2198]
+[ICS] [02/02/26 15:34:28] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:28] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:30] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2199, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:30] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:30] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2199]
+[ICS] [02/02/26 15:34:30] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:30] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:32] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2200, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:32] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:32] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2200]
+[ICS] [02/02/26 15:34:32] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:32] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:34] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2201, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:34] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:34] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2201]
+[ICS] [02/02/26 15:34:34] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:34] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:36] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2202, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:36] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:36] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2202]
+[ICS] [02/02/26 15:34:36] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:36] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:37] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2203, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:37] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:37] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2203]
+[ICS] [02/02/26 15:34:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:37] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:39] (I) Rhp: TRK: empty timeout
+[ICS] [02/02/26 15:34:39] (I) Rhp: TRK:remaining =   = 37
+[ICS] [02/02/26 15:34:39] (I) AlertManager raised an alarm [level=WARNING, id=66, sheet=    0]
+[ICS] [02/02/26 15:34:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:39] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2204, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:39] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2204]
+[ICS] [02/02/26 15:34:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:41] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2205, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:41] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:41] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2205]
+[ICS] [02/02/26 15:34:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:41] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:43] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2206, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:43] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:43] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2206]
+[ICS] [02/02/26 15:34:43] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:43] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:45] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2207, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:45] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:45] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2207]
+[ICS] [02/02/26 15:34:45] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:45] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:46] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2208, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:46] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:46] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2208]
+[ICS] [02/02/26 15:34:46] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:46] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:48] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2209, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:48] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:48] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2209]
+[ICS] [02/02/26 15:34:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:48] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:50] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2210, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:50] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:50] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2210]
+[ICS] [02/02/26 15:34:50] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:50] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:52] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2211, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:52] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:52] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2211]
+[ICS] [02/02/26 15:34:52] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:52] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:54] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2212, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:54] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:54] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2212]
+[ICS] [02/02/26 15:34:54] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:54] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:56] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2213, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:56] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:56] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2213]
+[ICS] [02/02/26 15:34:56] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:56] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:57] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2214, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:57] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:57] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2214]
+[ICS] [02/02/26 15:34:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:57] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:34:59] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2215, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:34:59] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:34:59] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2215]
+[ICS] [02/02/26 15:34:59] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:34:59] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:01] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2216, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:01] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:01] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2216]
+[ICS] [02/02/26 15:35:01] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:01] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:03] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2217, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:03] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:03] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2217]
+[ICS] [02/02/26 15:35:03] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:03] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:05] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2218, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:05] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:05] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2218]
+[ICS] [02/02/26 15:35:05] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:05] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:06] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2219, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:06] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:06] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2219]
+[ICS] [02/02/26 15:35:06] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:06] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:08] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2220, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:08] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:08] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2220]
+[ICS] [02/02/26 15:35:08] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:08] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:10] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2221, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:10] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:10] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2221]
+[ICS] [02/02/26 15:35:10] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:10] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:12] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2222, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:12] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:12] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2222]
+[ICS] [02/02/26 15:35:12] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:12] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:14] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2223, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:14] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:14] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2223]
+[ICS] [02/02/26 15:35:14] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:14] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:15] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2224, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:15] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:15] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2224]
+[ICS] [02/02/26 15:35:15] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:15] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:17] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2225, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:17] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:17] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2225]
+[ICS] [02/02/26 15:35:17] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:17] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:19] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2226, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:19] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:19] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2226]
+[ICS] [02/02/26 15:35:19] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:19] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:21] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2227, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:21] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:21] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2227]
+[ICS] [02/02/26 15:35:21] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:21] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:23] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2228, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:23] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:23] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2228]
+[ICS] [02/02/26 15:35:23] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:23] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:24] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2229, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:24] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:24] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2229]
+[ICS] [02/02/26 15:35:24] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:24] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:26] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2230, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:26] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:26] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2230]
+[ICS] [02/02/26 15:35:26] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:26] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:28] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2231, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:28] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:28] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2231]
+[ICS] [02/02/26 15:35:28] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:28] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:30] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2232, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:30] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:30] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2232]
+[ICS] [02/02/26 15:35:30] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:30] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:32] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2233, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:32] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:32] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2233]
+[ICS] [02/02/26 15:35:32] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:32] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:33] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2234, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:33] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:33] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2234]
+[ICS] [02/02/26 15:35:33] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:33] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:35] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2235, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:35] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:35] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2235]
+[ICS] [02/02/26 15:35:35] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:35] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:37] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2236, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:37] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:37] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2236]
+[ICS] [02/02/26 15:35:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:37] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:39] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2237, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:39] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:39] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2237]
+[ICS] [02/02/26 15:35:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:39] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:41] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2238, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:41] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:41] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2238]
+[ICS] [02/02/26 15:35:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:41] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:43] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2239, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:43] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:43] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2239]
+[ICS] [02/02/26 15:35:43] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:43] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:44] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2240, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:44] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 15:35:44] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 15:35:44] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 15:35:44] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:35:44] (I) AlertManager raised an alarm [level= ALERT , id=20, sheet= 2240]
+[ICS] [02/02/26 15:35:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:44] (I) Rhp: CRD: at least one blocking alert is pending
+[ICS] [02/02/26 15:35:44] (I) Rhp: CRD: check for next state
+[ICS] [02/02/26 15:35:44] (I) Rhp: CRD: state=ICS_alarm
+[ICS] [02/02/26 15:35:44] (I) AlertManager clear an alarm [id=66, sheet=    0]
+[ICS] [02/02/26 15:35:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:44] (I) ICS-GUI: frmMain UpdateState alarm
+[ICS] [02/02/26 15:35:44] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 15:35:44] (I) ICS-GUI: Recouncil request
+[ICS] [02/02/26 15:35:46] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2241, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:46] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:48] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2242, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:50] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2243, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:50] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:52] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2244, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:52] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:53] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2245, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:53] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:55] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2246, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:55] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:57] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2247, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:35:59] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2248, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:35:59] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:01] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2249, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:01] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:02] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2250, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:02] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:04] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2251, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:04] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:06] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2252, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:06] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:08] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2253, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:08] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:10] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2254, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:10] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:11] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2255, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:11] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:13] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2256, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:13] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:15] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2257, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:15] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:17] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2258, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:17] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:19] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2259, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:19] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:20] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2260, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:20] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:22] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2261, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:22] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:24] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2262, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:24] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:26] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2263, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:26] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:28] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2264, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:28] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:30] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2265, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:30] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:31] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2266, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:31] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:33] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2267, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:33] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:35] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2268, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:35] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:37] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2269, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:39] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2270, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:40] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2271, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:40] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:42] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2272, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:42] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:44] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2273, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:46] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2274, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:46] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:48] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2275, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:49] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2276, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:49] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:51] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2277, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:51] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:53] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2278, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:53] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:55] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2279, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:55] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:57] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2280, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:36:58] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2281, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:36:58] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:00] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2282, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:00] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:02] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2283, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:02] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:04] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2284, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:04] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:06] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2285, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:06] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:07] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2286, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:07] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:09] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2287, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:09] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:12] (E) Extracted a timedout element from the list. List size = 49, sheetId = 2288, DetectionBitmask = 0x00000800, ReceivedState = 0x3ffebbff, TimedoutState = 0x00001ca0
+[ICS] [02/02/26 15:37:12] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:37:52] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 15:38:34] (I) AlertManager clear an alarm [id=67, sheet= 2170]
+[ICS] [02/02/26 15:38:34] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:34] (I) AlertManager clear an alarm [id=20, sheet= 2231]
+[ICS] [02/02/26 15:38:34] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:34] (I) AlertManager clear an alarm [id=20, sheet= 2229]
+[ICS] [02/02/26 15:38:34] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:35] (I) AlertManager clear an alarm [id=20, sheet= 2228]
+[ICS] [02/02/26 15:38:35] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:35] (I) AlertManager clear an alarm [id=20, sheet= 2227]
+[ICS] [02/02/26 15:38:35] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:35] (I) AlertManager clear an alarm [id=20, sheet= 2226]
+[ICS] [02/02/26 15:38:35] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:36] (I) AlertManager clear an alarm [id=20, sheet= 2225]
+[ICS] [02/02/26 15:38:36] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:36] (I) AlertManager clear an alarm [id=20, sheet= 2224]
+[ICS] [02/02/26 15:38:36] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:36] (I) AlertManager clear an alarm [id=20, sheet= 2223]
+[ICS] [02/02/26 15:38:36] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:37] (I) AlertManager clear an alarm [id=20, sheet= 2222]
+[ICS] [02/02/26 15:38:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:37] (I) AlertManager clear an alarm [id=20, sheet= 2221]
+[ICS] [02/02/26 15:38:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:37] (I) AlertManager clear an alarm [id=20, sheet= 2220]
+[ICS] [02/02/26 15:38:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:38] (I) AlertManager clear an alarm [id=20, sheet= 2219]
+[ICS] [02/02/26 15:38:38] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:38] (I) AlertManager clear an alarm [id=20, sheet= 2218]
+[ICS] [02/02/26 15:38:38] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:39] (I) AlertManager clear an alarm [id=20, sheet= 2217]
+[ICS] [02/02/26 15:38:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:39] (I) AlertManager clear an alarm [id=20, sheet= 2216]
+[ICS] [02/02/26 15:38:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:39] (I) AlertManager clear an alarm [id=20, sheet= 2215]
+[ICS] [02/02/26 15:38:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:39] (I) AlertManager clear an alarm [id=20, sheet= 2214]
+[ICS] [02/02/26 15:38:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:40] (I) AlertManager clear an alarm [id=20, sheet= 2213]
+[ICS] [02/02/26 15:38:40] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:40] (I) AlertManager clear an alarm [id=20, sheet= 2212]
+[ICS] [02/02/26 15:38:40] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:41] (I) AlertManager clear an alarm [id=20, sheet= 2211]
+[ICS] [02/02/26 15:38:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:41] (I) AlertManager clear an alarm [id=20, sheet= 2210]
+[ICS] [02/02/26 15:38:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:41] (I) AlertManager clear an alarm [id=20, sheet= 2209]
+[ICS] [02/02/26 15:38:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:42] (I) AlertManager clear an alarm [id=20, sheet= 2208]
+[ICS] [02/02/26 15:38:42] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:42] (I) AlertManager clear an alarm [id=20, sheet= 2207]
+[ICS] [02/02/26 15:38:42] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:42] (I) AlertManager clear an alarm [id=20, sheet= 2206]
+[ICS] [02/02/26 15:38:42] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:43] (I) AlertManager clear an alarm [id=20, sheet= 2205]
+[ICS] [02/02/26 15:38:43] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:43] (I) AlertManager clear an alarm [id=20, sheet= 2204]
+[ICS] [02/02/26 15:38:43] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:44] (I) AlertManager clear an alarm [id=20, sheet= 2203]
+[ICS] [02/02/26 15:38:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:44] (I) AlertManager clear an alarm [id=20, sheet= 2202]
+[ICS] [02/02/26 15:38:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:44] (I) AlertManager clear an alarm [id=20, sheet= 2201]
+[ICS] [02/02/26 15:38:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:45] (I) AlertManager clear an alarm [id=20, sheet= 2200]
+[ICS] [02/02/26 15:38:45] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:46] (I) AlertManager clear an alarm [id=20, sheet= 2199]
+[ICS] [02/02/26 15:38:46] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:46] (I) AlertManager clear an alarm [id=20, sheet= 2198]
+[ICS] [02/02/26 15:38:46] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:46] (I) AlertManager clear an alarm [id=20, sheet= 2197]
+[ICS] [02/02/26 15:38:46] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:47] (I) AlertManager clear an alarm [id=20, sheet= 2196]
+[ICS] [02/02/26 15:38:47] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:47] (I) AlertManager clear an alarm [id=20, sheet= 2195]
+[ICS] [02/02/26 15:38:47] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:47] (I) AlertManager clear an alarm [id=20, sheet= 2194]
+[ICS] [02/02/26 15:38:47] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:48] (I) AlertManager clear an alarm [id=20, sheet= 2193]
+[ICS] [02/02/26 15:38:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:48] (I) AlertManager clear an alarm [id=20, sheet= 2192]
+[ICS] [02/02/26 15:38:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:48] (I) AlertManager clear an alarm [id=20, sheet= 2191]
+[ICS] [02/02/26 15:38:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:49] (I) AlertManager clear an alarm [id=67, sheet= 2190]
+[ICS] [02/02/26 15:38:49] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:49] (I) AlertManager clear an alarm [id=13, sheet= 2190]
+[ICS] [02/02/26 15:38:49] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:50] (I) AlertManager clear an alarm [id=67, sheet= 2189]
+[ICS] [02/02/26 15:38:50] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:50] (I) AlertManager clear an alarm [id=13, sheet= 2189]
+[ICS] [02/02/26 15:38:50] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:50] (I) AlertManager clear an alarm [id=67, sheet= 2188]
+[ICS] [02/02/26 15:38:50] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:51] (I) AlertManager clear an alarm [id=13, sheet= 2188]
+[ICS] [02/02/26 15:38:51] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:51] (I) AlertManager clear an alarm [id=67, sheet= 2187]
+[ICS] [02/02/26 15:38:51] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:51] (I) AlertManager clear an alarm [id=13, sheet= 2187]
+[ICS] [02/02/26 15:38:51] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:52] (I) AlertManager clear an alarm [id=67, sheet= 2186]
+[ICS] [02/02/26 15:38:52] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:52] (I) AlertManager clear an alarm [id=13, sheet= 2186]
+[ICS] [02/02/26 15:38:52] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:52] (I) AlertManager clear an alarm [id=67, sheet= 2185]
+[ICS] [02/02/26 15:38:52] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:53] (I) AlertManager clear an alarm [id=13, sheet= 2185]
+[ICS] [02/02/26 15:38:53] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:53] (I) AlertManager clear an alarm [id=67, sheet= 2184]
+[ICS] [02/02/26 15:38:53] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:53] (I) AlertManager clear an alarm [id=13, sheet= 2184]
+[ICS] [02/02/26 15:38:53] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:54] (I) AlertManager clear an alarm [id=67, sheet= 2183]
+[ICS] [02/02/26 15:38:54] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:54] (I) AlertManager clear an alarm [id=13, sheet= 2183]
+[ICS] [02/02/26 15:38:54] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:55] (I) AlertManager clear an alarm [id=67, sheet= 2182]
+[ICS] [02/02/26 15:38:55] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:55] (I) AlertManager clear an alarm [id=13, sheet= 2182]
+[ICS] [02/02/26 15:38:55] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:55] (I) AlertManager clear an alarm [id=67, sheet= 2181]
+[ICS] [02/02/26 15:38:55] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:56] (I) AlertManager clear an alarm [id=13, sheet= 2181]
+[ICS] [02/02/26 15:38:56] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:56] (I) AlertManager clear an alarm [id=67, sheet= 2180]
+[ICS] [02/02/26 15:38:56] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:56] (I) AlertManager clear an alarm [id=13, sheet= 2180]
+[ICS] [02/02/26 15:38:56] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:57] (I) AlertManager clear an alarm [id=67, sheet= 2179]
+[ICS] [02/02/26 15:38:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:57] (I) AlertManager clear an alarm [id=13, sheet= 2179]
+[ICS] [02/02/26 15:38:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:57] (I) AlertManager clear an alarm [id=67, sheet= 2178]
+[ICS] [02/02/26 15:38:57] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:58] (I) AlertManager clear an alarm [id=13, sheet= 2178]
+[ICS] [02/02/26 15:38:58] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:59] (I) AlertManager clear an alarm [id=67, sheet= 2177]
+[ICS] [02/02/26 15:38:59] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:59] (I) AlertManager clear an alarm [id=13, sheet= 2177]
+[ICS] [02/02/26 15:38:59] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:38:59] (I) AlertManager clear an alarm [id=67, sheet= 2176]
+[ICS] [02/02/26 15:38:59] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:00] (I) AlertManager clear an alarm [id=13, sheet= 2176]
+[ICS] [02/02/26 15:39:00] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:00] (I) AlertManager clear an alarm [id=67, sheet= 2175]
+[ICS] [02/02/26 15:39:00] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:01] (I) AlertManager clear an alarm [id=13, sheet= 2175]
+[ICS] [02/02/26 15:39:01] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:01] (I) AlertManager clear an alarm [id=67, sheet= 2174]
+[ICS] [02/02/26 15:39:01] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:02] (I) AlertManager clear an alarm [id=13, sheet= 2174]
+[ICS] [02/02/26 15:39:02] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:02] (I) AlertManager clear an alarm [id=67, sheet= 2173]
+[ICS] [02/02/26 15:39:02] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:02] (I) AlertManager clear an alarm [id=13, sheet= 2173]
+[ICS] [02/02/26 15:39:02] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:03] (I) AlertManager clear an alarm [id=67, sheet= 2172]
+[ICS] [02/02/26 15:39:03] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:03] (I) AlertManager clear an alarm [id=13, sheet= 2172]
+[ICS] [02/02/26 15:39:03] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:04] (I) AlertManager clear an alarm [id=67, sheet= 2171]
+[ICS] [02/02/26 15:39:04] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:04] (I) AlertManager clear an alarm [id=13, sheet= 2171]
+[ICS] [02/02/26 15:39:04] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:04] (I) AlertManager clear an alarm [id=13, sheet= 2170]
+[ICS] [02/02/26 15:39:04] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:05] (I) AlertManager clear an alarm [id= 7, sheet= 2165]
+[ICS] [02/02/26 15:39:05] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:05] (I) AlertManager clear an alarm [id=20, sheet= 2230]
+[ICS] [02/02/26 15:39:05] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:05] (I) AlertManager clear an alarm [id=20, sheet= 2232]
+[ICS] [02/02/26 15:39:05] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:06] (I) AlertManager clear an alarm [id=20, sheet= 2233]
+[ICS] [02/02/26 15:39:06] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:06] (I) AlertManager clear an alarm [id=20, sheet= 2234]
+[ICS] [02/02/26 15:39:06] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:07] (I) AlertManager clear an alarm [id=20, sheet= 2235]
+[ICS] [02/02/26 15:39:07] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:07] (I) AlertManager clear an alarm [id=20, sheet= 2236]
+[ICS] [02/02/26 15:39:07] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:07] (I) AlertManager clear an alarm [id=20, sheet= 2237]
+[ICS] [02/02/26 15:39:07] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:08] (I) AlertManager clear an alarm [id=20, sheet= 2238]
+[ICS] [02/02/26 15:39:08] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:08] (I) AlertManager clear an alarm [id=20, sheet= 2239]
+[ICS] [02/02/26 15:39:08] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 15:39:09] (I) AlertManager clear an alarm [id=20, sheet= 2240]
+[ICS] [02/02/26 15:39:09] (I) Rhp: CRD: state=pause
+[ICS] [02/02/26 15:39:09] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 15:39:09] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 15:39:10] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 15:39:10] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 15:39:12] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 15:39:12] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 15:39:12] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 15:39:12] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 15:39:12] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 15:39:12] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 15:39:12] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 15:39:12] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 15:39:13] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 15:39:14] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003332' result: 'OK'
+[ICS] [02/02/26 15:39:45] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 15:39:45] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 15:39:45] (I) Rhp: IMG: stop, pending img =   = 3
+[ICS] [02/02/26 15:39:45] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 15:39:45] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 15:39:45] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 15:39:45] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 15:39:45] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 15:39:45] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 15:39:45] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 15:39:45] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:39:45] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:39:45] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 15:39:45] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 15:39:45] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 15:39:45] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 15:39:45] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 15:39:45] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 15:39:45] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 15:39:50] (I) Rhp: GUI: Shutdown Requested
+[ICS] [02/02/26 15:39:50] (I) Rhp: CRD: shutdown requested
+[ICS] [02/02/26 15:39:50] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 15:39:50] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 15:39:50] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 15:39:50] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 15:39:50] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:39:50] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:39:50] (I) CVimbaManager::ShutDown start
+[ICS] [02/02/26 15:39:50] (I) CVimbaManager::ShutDown done
+[ICS] [02/02/26 15:39:50] (I) DEV: Inkjet_Off quit with CORE_NOERROR because m_InkjetIsReady==0 or isSimul==0
+[ICS] [02/02/26 15:39:50] (I) Rhp: DEV: state=powerOff_InkjetWait
+[ICS] [02/02/26 15:39:50] (E) Dev_env::SetSemaphore Buzzer Status Update failed
+[ICS] [02/02/26 15:39:50] (I) Rhp: DEV: Inkjet is ON
+[ICS] [02/02/26 15:39:50] (I) Rhp: CRD: shutdown done
+[ICS] [02/02/26 15:39:50] (I) ICS-GUI: frmMain received AckShutDown
+ABACO Release : 8.2.1.6
+Computer Name : ICS-1377
+[ICS] [02/02/26 15:45:21] (I) ################################ ICS-CORE STARTED ###################################################
+[ICS] [02/02/26 15:45:22] (I) Alert_env:init done
+[ICS] [02/02/26 15:45:22] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 15:45:22] (I) Rhp: GUI: active class started
+[ICS] [02/02/26 15:45:22] (I) Rhp: DEV: device handler started
+[ICS] [02/02/26 15:45:22] (I) Rhp: IMG: image handler registered
+[ICS] [02/02/26 15:45:22] (I) Rhp: CRD: (Kernel Version V1.26)
+[ICS] [02/02/26 15:45:22] (I) Rhp: CRD: coordinator started
+[ICS] [02/02/26 15:45:22] (I) Rhp: CRD: state=off
+[ICS] [02/02/26 15:45:22] (I) Rhp: TRK: Tracker started
+[ICS] [02/02/26 15:45:22] (I) Rhp: CRD: state=setup
+[ICS] [02/02/26 15:45:22] (E) Dev_env::SetSemaphore Buzzer Status Update failed
+[ICS] [02/02/26 15:45:22] (I) Dev_env::Trying to start RT_StartApp
+[ICS] [02/02/26 15:45:22] (I) ICS-GUI: frmMain UpdateState setup
+[ICS] [02/02/26 15:45:22] (I) Rhapsody started
+[ICS] [02/02/26 15:45:27] (I) Rta Process File: E:\ABACO\DeployB\bin\Parvis-Rt-NewHw.rta
+[ICS] [02/02/26 15:45:27] (W) StartRtCore: START
+[ICS] [02/02/26 15:45:27] (W) StartRtCore: END
+[ICS] [02/02/26 15:45:27] (I) Dev_env::RT_StartApp succesfully started
+[ICS] [02/02/26 15:45:27] (I) Dev_env::Trying to start RT_ConfigApp
+[ICS] [02/02/26 15:45:27] (I) Dev_env::RT_ConfigApp succesfully started
+[ICS] [02/02/26 15:45:27] (I) Dev_env::Trying to start RT_StartMonitor
+[ICS] [02/02/26 15:45:27] (I) Dev_env::RT_StartMonitor succesfully started
+[ICS] [02/02/26 15:45:28] (I) Rhp: DEV: state=PowerOn_InkjetWait
+[ICS] [02/02/26 15:45:28] (I) Rhp: DEV: Inkjet is ON
+[ICS] [02/02/26 15:45:28] (I) SmartCamera retriving has follow params: 1000, 100, 3, 1000
+[ICS] [02/02/26 15:45:28] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:45:28] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:45:28] (I) Received: IRProcessing,2.1.0.2
+[ICS] [02/02/26 15:45:28] (I) SmartCamera retriving has follow params: 1000, 100, 3, 1000
+[ICS] [02/02/26 15:45:28] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:45:28] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:45:28] (I) Received: IRProcessing,2.1.0.2
+[ICS] [02/02/26 15:45:28] (I) Dev_env::Camera_Init START
+[ICS] [02/02/26 15:45:28] (I) Dev_env::Camera_Init IRFlash Initialize
+[ICS] [02/02/26 15:45:29] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 15:45:29] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 15:45:29] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 15:45:29] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 15:45:29] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 15:45:29] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 15:45:29] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 15:45:29] (I) Dev_env::Camera_Init Set Callback
+[ICS] [02/02/26 15:45:29] (I) FB: Create request
+[ICS] [02/02/26 15:45:29] (I) Vimba Version Major : 1 Minor : 9 Patch : 1
+[ICS] [02/02/26 15:45:30] (I) Opening camera with ID [DEV_000F315E5554] handle [0000000000000DFB]
+[ICS] [02/02/26 15:45:30] (I) VimbaCameraConfig::Load Camera name [Mako] 
+[ICS] [02/02/26 15:45:30] (I) CAMERA [Mako] successfully initialized!
+[ICS] [02/02/26 15:45:30] (I) FB: New Device
+[ICS] [02/02/26 15:45:30] (I) Dev_env::CameraMngrCallBack New Device Event
+[ICS] [02/02/26 15:45:30] (I) VimbaManager Init returning [1]
+[ICS] [02/02/26 15:45:30] (I) Dev_env::Camera_Init END
+[ICS] [02/02/26 15:45:30] (I) Rhp: DEV: state=powerOn_CamerInit
+[ICS] [02/02/26 15:45:30] (I) Camera ID <DEV_000F315E5554> (Model:  - Name: Mako)
+[ICS] [02/02/26 15:45:30] (I) CameraMngr::Camera ID set to 00F315E5554
+[ICS] [02/02/26 15:45:30] (I) CVimbaManager::GetCameraGain Gain [10.000000] converted value [10]
+[ICS] [02/02/26 15:45:30] (I) CameraMngr::Camera Gain set to 10
+[ICS] [02/02/26 15:45:30] (I) Dev_env::Camera_updateSettings: Returning 0
+[ICS] [02/02/26 15:45:30] (I) Dev_env::Camera_FirstImageHack START
+[ICS] [02/02/26 15:45:30] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 15:45:30] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 15:45:30] (I) Dev_env::FirstImageCameraCallBack START
+[ICS] [02/02/26 15:45:30] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 15:45:30] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 15:45:30] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 15:45:31] (I) Dev_env::Camera_FirstImageHack: Returning 0
+[ICS] [02/02/26 15:45:31] (I) Rhp: DEV: PowerOn completed all devices ok
+[ICS] [02/02/26 15:45:31] (I) Rhp: CRD: state=idle
+[ICS] [02/02/26 15:45:31] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 15:50:41] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 15:50:41] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 15:50:41] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 15:50:41] (I) ICS-GUI: Lot Info from server DB: lot '003332', lot info: 'LBI_NEW_LOT_WITH_BARCODE'
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: -------------------------------------------------------------
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: <<<<< WARNING LEVEL AND RECONCILIATION ERROR - CONFIGURATION PARMETERS >>>>>
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: checkBarcode = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: InkJetEnable = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: testSheetAllowed = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: testSheetInProdPileAllowed = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: csAnomalyAllowed = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: checkBarcodeDuplicated = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: barcodeEnabled = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: checkBarcodePresence = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: barcodeDisable = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: barcodeNullAllowed = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: barcodeDuplicatedAllowed = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: barcodeWrongAllowed = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: alarmIfUnexpectedSample = True
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: clientType = Printing
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: isVarnishing = False
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: -------------------------------------------------------------
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: <<<<< WARNING LEVEL AND RECONCILIATION ERROR - CONFIGURED CONDITION >>>>>
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (000) >>> ( uncounted_Sheet | --- | pileNA | barcodeNotRead ) >>> (level0 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (001) >>> ( uncounted_Sheet | --- | pileProduction | --- ) >>> (level3 | --- | iPMREmptyInPile )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (002) >>> ( uncounted_Sheet | --- | pileTestDiscard | --- ) >>> (level3 | --- | iPMREmptyInPile )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (003) >>> ( uncounted_Sheet | --- | --- | barcodeRead ) >>> (level3 | --- | iPMREmptyWithBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (004) >>> ( classUncountedSheet | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (005) >>> ( undefined_Class | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (006) >>> ( --- | --- | pileUndefined | --- ) >>> (level3 | --- | iPMRUndefinedClassPile )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (007) >>> ( --- | --- | pileNA | --- ) >>> (level3 | --- | iPMRSheetNoPile )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (008) >>> ( prod_Sheet_wCountingAlarm | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (009) >>> ( prod_Sheet_double | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (010) >>> ( prod_Sheet_wScWarning | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (011) >>> ( classProductionSheet | --- | --- | barcodeCheckError ) >>> (level3 | prod_Sheet_withWrongBarcode | iPMRGoodWithWrongBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (012) >>> ( prod_Sheet_withWrongBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRGoodWithWrongBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (013) >>> ( classProductionSheet | --- | --- | barcodeDuplicated ) >>> (level3 | prod_Sheet_duplicateBarcode | iPMRDuplicateBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (014) >>> ( prod_Sheet_duplicateBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRDuplicateBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (015) >>> ( classProductionSheet | --- | --- | barcodeNotRead ) >>> (level2 | prod_Sheet_withoutBarcode | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (016) >>> ( prod_Sheet_withoutBarcode | --- | --- | --- ) >>> (level2 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (017) >>> ( prod_Sheet | --- | pileProduction | --- ) >>> (noWarn | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (018) >>> ( test_Sheet_wCountingAlarm | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (019) >>> ( test_Sheet_double | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (020) >>> ( test_Sheet_wScWarning | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (021) >>> ( classTestSheet | --- | --- | barcodeDuplicated ) >>> (level3 | test_Sheet_duplicateBarcode | iPMRDuplicateBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (022) >>> ( test_Sheet_duplicateBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRDuplicateBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (023) >>> ( test_Sheet_inProdPile | --- | pileTestDiscard | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (024) >>> ( test_Sheet_inProdPile | --- | pileProduction | --- ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (025) >>> ( classTestSheet | --- | pileProduction | --- ) >>> (level2 | test_Sheet_inProdPile | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (026) >>> ( classTestSheet | --- | --- | barcodeRead ) >>> (level1 | test_Sheet_withBarcode | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (027) >>> ( test_Sheet_withBarcode | --- | --- | --- ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (028) >>> ( test_Sheet | --- | pileTestDiscard | barcodeNotRead ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (029) >>> ( classChangeSheet | --- | pileProduction | --- ) >>> (level3 | changeSheet_InProdPile | iPMRIncoerentClassification )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (030) >>> ( changeSheet_InProdPile | --- | --- | --- ) >>> (level3 | --- | iPMRTestInProdPile )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (031) >>> ( changeSheet_CountingAlarm | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (032) >>> ( changeSheet_Double | --- | --- | --- ) >>> (level3 | --- | iPMRSheetWithWarning )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (033) >>> ( classChangeSheet | --- | --- | barcodeDuplicated ) >>> (level3 | changeSheet_DuplicateBarcode | iPMRDuplicateBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (034) >>> ( changeSheet_DuplicateBarcode | --- | --- | --- ) >>> (level3 | --- | iPMRDuplicateBarcode )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (035) >>> ( classChangeSheet | --- | --- | barcodeRead ) >>> (level2 | changeSheet_WithBarcode | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (036) >>> ( changeSheet_WithBarcode | --- | --- | --- ) >>> (level2 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: (037) >>> ( changeSheet_Ok | SerialNumber_Not_Present | pileTestDiscard | barcodeNotRead ) >>> (level1 | --- | iPMROk )
+[ICS] [02/02/26 15:50:42] (I) ICS-GUI: -------------------------------------------------------------
+[ICS] [02/02/26 15:50:42] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 15:50:42] (I) Rhp: CRD: start production
+[ICS] [02/02/26 15:50:42] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 15:50:42] (I) SAV: setLotName done
+[ICS] [02/02/26 15:50:42] (I) CVimbaManager::GetCameraGain Gain [10.000000] converted value [10]
+[ICS] [02/02/26 15:50:42] (I) CVimbaManager::GetCameraYOffset returning [356] 
+[ICS] [02/02/26 15:50:42] (I) CameraMngr::CameraMngr::GetCameraData(): GAIN [10] offset [356]
+[ICS] [02/02/26 15:50:42] (I) CameraMngr::SetCameraGain
+[ICS] [02/02/26 15:50:42] (I) CameraMngr::SetCameraGain setting Gain [1]
+[ICS] [02/02/26 15:50:42] (I) CVimbaManager::SetCameraGain VALUE TO SET [1] 
+[ICS] [02/02/26 15:50:42] (I) Gain Range Max <40> - min <0>
+[ICS] [02/02/26 15:50:42] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:50:42] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:50:42] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 15:50:42] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 15:50:43] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 15:50:43] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 15:50:43] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 15:50:43] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 15:50:43] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 15:50:43] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 15:50:43] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 15:50:43] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 15:50:43] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 15:50:43] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 15:50:43] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 15:50:43] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 15:50:43] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 15:50:43] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 15:50:43] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 15:50:43] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 15:50:43] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 15:50:43] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 15:50:43] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003332\trace_replacedbarcode.txt
+[ICS] [02/02/26 15:50:43] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003332\trace.txt
+[ICS] [02/02/26 15:50:43] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 15:50:43] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 15:50:43] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:50:43] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:50:43] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 15:50:43] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 15:50:43] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 15:50:43] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 15:50:43] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 15:50:43] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 15:50:43] (I) Alert_env:init done
+[ICS] [02/02/26 15:50:44] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003332' result: 'OK'
+[ICS] [02/02/26 15:50:44] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 15:51:05] (I) First CycleId = 1
+[ICS] [02/02/26 16:15:10] (I) AlertManager raised an alarm [level=WARNING, id= 2, sheet= 3180]
+[ICS] [02/02/26 16:36:28] (I) AlertManager raised an alarm [level=WARNING, id= 2, sheet= 5648]
+[ICS] [02/02/26 16:43:46] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 16:43:46] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 16:43:47] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 16:43:47] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 16:57:21] (I) AlertManager raised an alarm [level= NORMAL, id= 1, sheet= 8462]
+[ICS] [02/02/26 16:57:21] (I) Rhp: Alert: type=blocking, level=normal
+[ICS] [02/02/26 16:57:21] (I) Rhp: CRD: received auto stop request
+[ICS] [02/02/26 16:57:21] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 16:57:21] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 16:57:21] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 16:57:21] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 16:57:21] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 16:57:21] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 16:57:34] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 16:57:34] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 16:57:34] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 16:57:34] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 16:57:34] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 16:57:34] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 16:58:38] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 16:58:38] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 16:59:34] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 16:59:34] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 17:00:13] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 17:00:13] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 17:00:13] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 17:00:13] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 17:00:13] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 17:00:13] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 17:00:13] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 17:00:13] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 17:00:23] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 17:00:27] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003332' result: 'OK'
+[ICS] [02/02/26 17:01:00] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 17:01:00] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 17:01:00] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 17:01:00] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 17:01:00] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 17:01:00] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 17:01:00] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 17:01:00] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 17:01:00] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 17:01:00] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 17:01:00] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 17:01:00] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 17:01:00] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 17:01:00] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 17:01:00] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 17:01:00] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 17:01:00] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 17:01:00] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 17:01:29] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 17:01:29] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003332' result: 'OK'
+[ICS] [02/02/26 17:02:24] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 17:02:24] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 17:02:24] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 17:02:24] (I) ICS-GUI: Lot Info from server DB: lot '003333', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 17:02:24] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 17:02:24] (I) Rhp: CRD: start production
+[ICS] [02/02/26 17:02:24] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 17:02:24] (I) SAV: setLotName done
+[ICS] [02/02/26 17:02:24] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 17:02:24] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 17:02:24] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 17:02:24] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 17:02:25] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 17:02:25] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 17:02:25] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 17:02:25] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 17:02:25] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 17:02:25] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 17:02:25] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 17:02:25] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 17:02:25] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 17:02:25] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 17:02:25] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 17:02:25] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 17:02:25] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 17:02:25] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 17:02:25] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 17:02:25] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 17:02:25] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 17:02:25] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 17:02:25] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003333\trace_replacedbarcode.txt
+[ICS] [02/02/26 17:02:25] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003333\trace.txt
+[ICS] [02/02/26 17:02:25] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 17:02:25] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 17:02:25] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 17:02:25] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 17:02:25] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 17:02:25] (I) Alert_env:init done
+[ICS] [02/02/26 17:02:25] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 17:02:25] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 17:02:25] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 17:02:25] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 17:02:25] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 17:02:25] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003333' result: 'OK'
+[ICS] [02/02/26 17:02:25] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 17:26:22] (W) IcsDigitalMgr::StateChange took 11.2 ms (progressivi: 0.0 ms, 0.0 ms, 0.0 ms, 11.2 ms)
+[ICS] [02/02/26 17:34:06] (I) ICS-GUI: ackModifyCounters request
+[ICS] [02/02/26 17:34:06] (I) Sending to TAU: reqModifyCounters
+[ICS] [02/02/26 17:34:06] (I) Rhp: GUI: Modify counters done
+[ICS] [02/02/26 17:34:06] (I) ICS-GUI: frmMain received ackModifyCounters
+[ICS] [02/02/26 17:34:06] (I) Rhp: GUI: Modify nominal production sheets
+[ICS] [02/02/26 17:39:11] (I) AlertManager raised an alarm [level= ALERT , id=23, sheet= 3498]
+[ICS] [02/02/26 17:39:11] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:11] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 17:39:11] (I) Rhp: CRD: state=wait_empty
+[ICS] [02/02/26 17:39:11] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 17:39:11] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 17:39:11] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 17:39:11] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 17:39:11] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 17:39:11] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 17:39:11] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 17:39:11] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 17:39:12] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 17:39:12] (I) AlertManager raised an alarm [level= ALERT , id=23, sheet= 3499]
+[ICS] [02/02/26 17:39:12] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:12] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 17:39:13] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:14] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:15] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:17] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:18] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:19] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:20] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:21] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:23] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:24] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:25] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:26] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:27] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:29] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:30] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:31] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:32] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:33] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:35] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:36] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:37] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:38] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:39] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:41] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 17:39:41] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 17:39:41] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 17:39:41] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:41] (I) Rhp: CRD: at least one blocking alert is pending
+[ICS] [02/02/26 17:39:41] (I) Rhp: CRD: check for next state
+[ICS] [02/02/26 17:39:41] (I) Rhp: CRD: state=ICS_alarm
+[ICS] [02/02/26 17:39:41] (I) ICS-GUI: frmMain UpdateState alarm
+[ICS] [02/02/26 17:39:41] (I) ICS-GUI: Recouncil request
+[ICS] [02/02/26 17:39:42] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:43] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:44] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:45] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:47] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:48] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:49] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:50] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:51] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:53] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:53] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 17:39:54] (I) AlertManager clear an alarm [id=23, sheet= 3498]
+[ICS] [02/02/26 17:39:54] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:54] (I) Rhp: Alert: level=alarm
+[ICS] [02/02/26 17:39:54] (I) AlertManager clear an alarm [id=23, sheet= 3499]
+[ICS] [02/02/26 17:39:54] (I) Rhp: CRD: state=pause
+[ICS] [02/02/26 17:39:54] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 17:39:54] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 17:39:55] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 17:39:55] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 17:39:55] (I) Rhp: GUI: Restart Production
+[ICS] [02/02/26 17:39:55] (I) Rhp: CRD: Restart requested
+[ICS] [02/02/26 17:39:55] (I) Rhp: CRD: state=Prod_TrkRestart_wait
+[ICS] [02/02/26 17:39:55] (I) Rhp: TRK: restart 
+[ICS] [02/02/26 17:39:55] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 17:39:55] (I) Rhp: CRD: state=Prod_AlertRestart_wait
+[ICS] [02/02/26 17:39:55] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 17:39:55] (I) ********** - Inkjet_ProgramMessage PASS **********
+[ICS] [02/02/26 17:39:55] (I) Rhp: CRD: state=Prod_DevRestart_wait
+[ICS] [02/02/26 17:39:55] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 17:39:55] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 17:44:11] (I) AlertManager raised an alarm [level=WARNING, id= 2, sheet= 3984]
+[ICS] [02/02/26 17:44:11] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 17:44:11] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 17:44:22] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 17:44:22] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 17:47:12] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 17:47:12] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 18:59:27] (I) AlertManager raised an alarm [level= NORMAL, id= 1, sheet=11257]
+[ICS] [02/02/26 18:59:27] (I) Rhp: Alert: type=blocking, level=normal
+[ICS] [02/02/26 18:59:27] (I) Rhp: CRD: received auto stop request
+[ICS] [02/02/26 18:59:27] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 18:59:27] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 18:59:27] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 18:59:27] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 18:59:27] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 18:59:27] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 18:59:40] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 18:59:40] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 18:59:40] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 18:59:40] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 18:59:40] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 18:59:40] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 19:00:48] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 19:00:48] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 19:00:49] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 19:00:51] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 19:00:55] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 19:00:55] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 19:00:55] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 19:00:55] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 19:00:55] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 19:00:55] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 19:00:55] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 19:00:55] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 19:00:59] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 19:01:04] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003333' result: 'OK'
+[ICS] [02/02/26 19:01:33] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 19:01:33] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 19:01:33] (I) Rhp: IMG: stop, pending img =   = 1
+[ICS] [02/02/26 19:01:33] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 19:01:34] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 19:01:34] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 19:01:34] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 19:01:34] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 19:01:34] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 19:01:34] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 19:01:34] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 19:01:34] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 19:01:34] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 19:01:34] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 19:01:34] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 19:01:34] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 19:01:34] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 19:01:34] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 19:01:34] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 19:01:48] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 19:01:48] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003333' result: 'OK'
+[ICS] [02/02/26 19:04:42] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 19:04:42] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 19:04:42] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 19:04:42] (I) ICS-GUI: Lot Info from server DB: lot '003334', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 19:04:42] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 19:04:42] (I) Rhp: CRD: start production
+[ICS] [02/02/26 19:04:42] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 19:04:42] (I) SAV: setLotName done
+[ICS] [02/02/26 19:04:42] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 19:04:42] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 19:04:42] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 19:04:42] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 19:04:43] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 19:04:43] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 19:04:43] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 19:04:43] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 19:04:43] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 19:04:43] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 19:04:43] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 19:04:43] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 19:04:43] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 19:04:43] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 19:04:43] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 19:04:43] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 19:04:43] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 19:04:43] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 19:04:43] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 19:04:43] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 19:04:43] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 19:04:43] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 19:04:43] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003334\trace_replacedbarcode.txt
+[ICS] [02/02/26 19:04:43] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003334\trace.txt
+[ICS] [02/02/26 19:04:43] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 19:04:43] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 19:04:43] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 19:04:43] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 19:04:43] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 19:04:43] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 19:04:43] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 19:04:43] (I) Alert_env:init done
+[ICS] [02/02/26 19:04:43] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 19:04:43] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 19:04:43] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 19:04:43] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003334' result: 'OK'
+[ICS] [02/02/26 19:04:43] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 19:09:27] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 19:09:27] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 19:15:47] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 19:15:47] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 19:27:53] (I) AlertManager raised an alarm [level=WARNING, id= 2, sheet= 2909]
+[ICS] [02/02/26 20:25:03] (I) AlertManager raised an alarm [level= NORMAL, id= 1, sheet=10366]
+[ICS] [02/02/26 20:25:03] (I) Rhp: Alert: type=blocking, level=normal
+[ICS] [02/02/26 20:25:03] (I) Rhp: CRD: received auto stop request
+[ICS] [02/02/26 20:25:03] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 20:25:03] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 20:25:03] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 20:25:03] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 20:25:03] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 20:25:03] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 20:25:15] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 20:25:15] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 20:25:15] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 20:25:15] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 20:25:15] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 20:25:15] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 20:25:48] (I) Rhp: GUI: Set counters done
+[ICS] [02/02/26 20:25:48] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 20:25:48] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 20:25:48] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 20:26:02] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 20:26:02] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 20:26:02] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 20:26:02] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 20:26:02] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 20:26:02] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 20:26:02] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 20:26:02] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 20:26:07] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 20:26:11] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003334' result: 'OK'
+[ICS] [02/02/26 20:26:39] (I) Rhp: GUI: Stop Production
+[ICS] [02/02/26 20:26:40] (I) Rhp: CRD: state=Prod_AcqStop_wait
+[ICS] [02/02/26 20:26:40] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 20:26:40] (I) Rhp: CRD: img processor stopped
+[ICS] [02/02/26 20:26:40] (I) Rhp: CRD: state=Prod_Exit2_wait
+[ICS] [02/02/26 20:26:40] (I) Dev_env::Camera_Stop START
+[ICS] [02/02/26 20:26:40] (I) CameraMngr::StopAcquisition()
+[ICS] [02/02/26 20:26:40] (I) CVimbaManager::StopAcquisition START
+[ICS] [02/02/26 20:26:40] (I) CVimbaManager::StopAcquisition stop acquisition
+[ICS] [02/02/26 20:26:40] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 20:26:40] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 20:26:40] (I) Rhp: CRD: state=Prod_TrkStop_wait
+[ICS] [02/02/26 20:26:40] (I) Rhp: TRK: state=idle
+[ICS] [02/02/26 20:26:40] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 20:26:40] (I) Crd_env::stopTracing done
+[ICS] [02/02/26 20:26:40] (I) Rhp: CRD: Stop requested
+[ICS] [02/02/26 20:26:40] (I) Rhp: CRD: state=ICS_idle
+[ICS] [02/02/26 20:26:40] (I) ICS-GUI: frmMain UpdateState idle
+[ICS] [02/02/26 20:26:50] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 20:26:50] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003334' result: 'OK'
+[ICS] [02/02/26 20:28:07] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 20:28:07] (I) ICS-GUI: ProductionPrerequirementCheck: prerequirements OK
+[ICS] [02/02/26 20:28:07] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'
+[ICS] [02/02/26 20:28:07] (I) ICS-GUI: Lot Info from server DB: lot '003335', lot info: 'LBI_UNKNOWN'
+[ICS] [02/02/26 20:28:08] (I) Rhp: GUI: Start Production
+[ICS] [02/02/26 20:28:08] (I) Rhp: CRD: start production
+[ICS] [02/02/26 20:28:08] (I) Rhp: CRD: state=loadModel_wait
+[ICS] [02/02/26 20:28:08] (I) SAV: setLotName done
+[ICS] [02/02/26 20:28:08] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 20:28:08] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 20:28:08] (I) Rhp: IMG: state = LoadedModel
+[ICS] [02/02/26 20:28:08] (I) Rhp: CRD: state=Prod_EnterDev1_wait
+[ICS] [02/02/26 20:28:08] (I) IRFlash: cmd T? [test] OK
+[ICS] [02/02/26 20:28:08] (I) IRFlash: Flash Trigger Delay (FD) = 05
+[ICS] [02/02/26 20:28:08] (I) IRFlash: Flash Trigger Width (FW) = 05
+[ICS] [02/02/26 20:28:08] (I) IRFlash:   Out Trigger Delay (OD) = 00
+[ICS] [02/02/26 20:28:08] (I) IRFlash:   Out Trigger Width (OW) = 03
+[ICS] [02/02/26 20:28:08] (I) IRFlash:     Loopmode Period (LP) = 10
+[ICS] [02/02/26 20:28:08] (I) IRFlash: Version = 150710
+[ICS] [02/02/26 20:28:08] (I) Camera_Check: Returning 0
+[ICS] [02/02/26 20:28:08] (I) Dev_env::Camera_Start START
+[ICS] [02/02/26 20:28:08] (I) CameraMngr::StartAcquisition()
+[ICS] [02/02/26 20:28:08] (I) CVimbaManager::StartAcquisition START
+[ICS] [02/02/26 20:28:08] (I) Rhp: DEV: Enter Production - step #1 done
+[ICS] [02/02/26 20:28:08] (I) Rhp: CRD: state=Prod_TrkStart_wait
+[ICS] [02/02/26 20:28:08] (I) Rhp: TRK: state=ready
+[ICS] [02/02/26 20:28:08] (I) Rhp: TRK: ready to accept production data
+[ICS] [02/02/26 20:28:08] (I) Rhp: CRD: state=startImg_wait
+[ICS] [02/02/26 20:28:08] (I) Rhp: IMG: state = InspectionAcq _ triggers tot =   = 4
+[ICS] [02/02/26 20:28:08] (I) Rhp: CRD: AlertInit
+[ICS] [02/02/26 20:28:08] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003335\trace_replacedbarcode.txt
+[ICS] [02/02/26 20:28:08] (I) Crd_env startTracing open file: E:\ABACO\DeployB\data\2026-02-02\ICS-1377_B\lots\INTAGLIO_B/038/003335\trace.txt
+[ICS] [02/02/26 20:28:08] (I) Rhp: DEV: Enter Production - step #2 start
+[ICS] [02/02/26 20:28:08] (I) ********** - Inkjet_Check PASS **********
+[ICS] [02/02/26 20:28:08] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 20:28:08] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 20:28:08] (I) Alert_env::opened trace file data
+[ICS] [02/02/26 20:28:08] (I) ### SMARTCAMERA, Reset ImageResult handling -> TRUE
+[ICS] [02/02/26 20:28:08] (I) #### SmartCamera_IRProcessing::flush()
+[ICS] [02/02/26 20:28:08] (I) Alert_env:init done
+[ICS] [02/02/26 20:28:09] (I) Rhp: DEV: Enter Production - step #2 done
+[ICS] [02/02/26 20:28:09] (I) Rhp: CRD: state=production
+[ICS] [02/02/26 20:28:09] (I) ICS-GUI: frmMain UpdateState production
+[ICS] [02/02/26 20:28:09] (I) ICS-GUI: LotServerManager: CommitChangeStatus Lot '003335' result: 'OK'
+[ICS] [02/02/26 20:28:09] (I) ICS-GUI: frmMain::MngCoreEvents_OnUpdateState CoreStatuses.production CommitChangeStatus return true 
+[ICS] [02/02/26 20:33:59] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 20:33:59] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 20:47:23] (I) Rhp: SAV: saving sample
+[ICS] [02/02/26 20:47:23] (I) Rhp: SAV: sample saved
+[ICS] [02/02/26 21:14:31] (I) AlertManager raised an alarm [level=WARNING, id= 2, sheet= 4999]
+[ICS] [02/02/26 22:09:22] (I) Rhp: GUI: Pause Production
+[ICS] [02/02/26 22:09:22] (I) Rhp: CRD: state=Prod_DevPause_wait
+[ICS] [02/02/26 22:09:22] (I) Rhp: CRD: pause received
+[ICS] [02/02/26 22:09:22] (I) Rhp: CRD: state=wait empty
+[ICS] [02/02/26 22:09:22] (I) Rhp: TRK: state=production_waitEmpty
+[ICS] [02/02/26 22:09:22] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 22:09:22] (I) ICS-GUI: frmMain UpdateState waitEmpty
+[ICS] [02/02/26 22:10:22] (I) Rhp: TRK: empty timeout
+[ICS] [02/02/26 22:10:22] (I) Rhp: TRK:remaining =   = 25
+[ICS] [02/02/26 22:10:22] (I) AlertManager raised an alarm [level=WARNING, id=66, sheet=    0]
+[ICS] [02/02/26 22:11:00] (I) Rhp: TRK: state=pause
+[ICS] [02/02/26 22:11:00] (I) Rhp: CRD: tracker stopped
+[ICS] [02/02/26 22:11:00] (I) Rhp: CRD: state=Prod_isBlockingAlertPending_wait
+[ICS] [02/02/26 22:11:00] (I) Rhp: CRD: no blocking alert is pending
+[ICS] [02/02/26 22:11:00] (I) Rhp: CRD: state=ICS_pause
+[ICS] [02/02/26 22:11:00] (I) ICS-GUI: frmMain UpdateState pause
+[ICS] [02/02/26 22:11:07] (I) AlertManager clear an alarm [id=66, sheet=    0]
+[ICS] [02/02/26 22:11:11] (I) ICS-GUI: ExitProduction: IsLocalConfigured è settato a false
+[ICS] [02/02/26 22:11:11] (I) ICS-GUI: Config Traceability IsEnable: True
+[ICS] [02/02/26 22:11:13] (I) ICS-GUI: frmExitProductions::ValidateLotData Begin
+[ICS] [02/02/26 22:11:13] (I) Rhp: GUI: Serial Number Requested
+[ICS] [02/02/26 22:11:13] (I) Rhp: CRD: forward req_GetSerialNumber from GUI to DEV
+[ICS] [02/02/26 22:11:13] (I) Rhp: DEV: ack_GetSerialNumber sent to CRD
+[ICS] [02/02/26 22:11:13] (I) Rhp: CRD: forward ack_GetSerialNumber from DEV to GUI
+[ICS] [02/02/26 22:11:13] (I) Rhp: GUI: Serial Number returned
+[ICS] [02/02/26 22:11:13] (I) ICS-GUI: Setting Barcode list: null, isFirstPhase='False', lotTaceability: 'True'
+[ICS] [02/02/26 22:11:13] (I) ICS-GUI: frmExitProductions::ValidateLotData End
+[ICS] [02/02/26 22:11:15] (I) ICS-GUI: LotServerManager: RequestChangeStatus result: 'OK'

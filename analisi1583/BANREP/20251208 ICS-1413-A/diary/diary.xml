@@ -1,0 +1,1328 @@
+﻿<diary ClientTag="ICS-1413-A" date="2025/12/08 10:23:38" desc="PARVIS Systems - Daily log" FileVersion="2.0" >
+<Action Time="2025/12/08 10:23:38" User="jsuarego" Type="SystemStart" DenTag="06" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha iniciado el sistema</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:21:27" User="jsuarego" Type="SystemStart" DenTag="06" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha iniciado el sistema</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:55:08" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:55:08" User="jsuarego" Type="AlertAck" DenTag="01" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha reconocido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez acknowledged alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:55:12" User="jsuarego" Type="FeederKey" DenTag="01" Lot="">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha habilitado el control del paso de papel</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' enabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:55:12" User="jsuarego" Type="FeederKey" DenTag="01" Lot="">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha deshabilitado el control del paso de papel</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' disabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:55:12" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 11:55:18" User="jsuarego" Type="LotCreation" DenTag="01" Lot="">
+  <Msg>Creación del lote '28001'</Msg>
+  <Eng>Created batch '28001'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 12:00:18" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 10 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 10 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 12:00:30" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 20 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 20 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 12:00:33" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 22 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 22 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 12:00:33" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 22 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 22 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 12:08:53" User="jsuarego" Type="SystemStart" DenTag="01" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha iniciado el sistema</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:35" User="jsuarego" Type="ApplyCounters" DenTag="01" Lot="">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' está tratando de recuperar el lote '28001' con los siguientes contadores de producción: hojas totales = 11 (era 11); pila 1 = 11 (era 11), pila 2 = 0 (era 0), pila 3 = 0 (era 0), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' is attempting to recover batch '28001' with the following counters: total production sheets = 11 (was 11); production in pile 1 = 11 (was 11), pile 2 = 0 (was 0), pile 3 = 0 (was 0), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:38" User="jsuarego" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:46" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 13 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 13 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:47" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 26 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 26 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:48" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 39 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 39 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:50" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 52 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 52 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:51" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 65 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 65 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:53" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 78 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 78 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:54" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 91 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 91 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:03:56" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 104 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 104 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:06:39" User="jsuarego" Type="SystemStart" DenTag="01" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha iniciado el sistema</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:06:45" User="jsuarego" Type="ApplyCounters" DenTag="01" Lot="">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' está tratando de recuperar el lote '28001' con los siguientes contadores de producción: hojas totales = 11 (era 11); pila 1 = 11 (era 11), pila 2 = 0 (era 0), pila 3 = 0 (era 0), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' is attempting to recover batch '28001' with the following counters: total production sheets = 11 (was 11); production in pile 1 = 11 (was 11), pile 2 = 0 (was 0), pile 3 = 0 (was 0), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:06:48" User="jsuarego" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:25" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:07:30" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha recuperado con éxito el lote '28001'</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has correctly recovered batch '28001'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:08:10" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 52 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 52 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:08:22" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 62 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 62 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:08:24" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 64 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 64 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:08:24" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 64 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 64 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:09:24" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:09:24" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 1 de 'Hoja no contada porque no se detecta en el monitoreo de la visión' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified classification of sheet 'NOREAD' in pile 1 from 'Hoja no contada porque no se detecta en el monitoreo de la visión' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:09:24" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:09:58" User="jsuarego" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 12; producción de no producidas = 9969; producción de parciales = 12; inicialización de parciales = 0; hojas en pila 1 = 12, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 12; unproduced production = 9969; partial production = 12; partial test = 0; sheets in pile 1 = 12, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:11:50" User="jsuarego" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:12:29" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 16 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 16 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:12:41" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 26 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 26 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:12:43" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 28 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 28 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:13:21" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja no contada porque no se detecta en el monitoreo de la visión' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja no contada porque no se detecta en el monitoreo de la visión' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:13:21" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:13:21" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:13:54" User="jsuarego" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 23; producción de no producidas = 9958; producción de parciales = 11; inicialización de parciales = 0; hojas en pila 1 = 23, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 23; unproduced production = 9958; partial production = 11; partial test = 0; sheets in pile 1 = 23, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:15:14" User="jsuarego" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:14" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 1 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 1 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:15" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 2 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 2 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:17" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 3 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 3 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:18" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 4 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 4 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:19" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 5 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 5 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:20" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 6 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 6 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:21" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 7 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 7 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:23" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 8 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 8 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:24" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 9 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 9 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:25" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 10 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 10 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:26" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 11 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 11 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:27" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 12 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 12 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:29" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 13 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 13 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:30" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 14 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 14 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:31" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 15 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 15 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:32" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 16 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 16 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:33" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 17 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 17 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:35" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:35" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:35" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:36" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 19 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 19 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:36" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 19 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 19 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:37" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 20 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 20 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:38" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 21 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 21 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:39" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 22 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 22 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:41" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 23 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 23 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:42" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 24 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 24 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:43" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 25 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 25 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:44" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 26 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con sensores no recibidos'</Msg>
+  <Eng>At cycle 26 the following process alarm raised: 'Ciclo de máquina con sensores no recibidos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:45" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 27 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 27 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:45" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 27 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 27 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:47" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 28 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 28 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:47" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 28 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 28 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:48" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 29 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 29 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:49" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 30 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 30 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:50" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 31 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 31 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:51" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 32 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 32 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:53" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 33 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 33 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:54" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 34 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 34 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:16:55" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:19:55" User="jsuarego" Type="SystemStart" DenTag="01" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha iniciado el sistema</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:20:02" User="jsuarego" Type="ApplyCounters" DenTag="01" Lot="">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' está tratando de recuperar el lote '28001' con los siguientes contadores de producción: hojas totales = 30 (era 30); pila 1 = 30 (era 30), pila 2 = 0 (era 0), pila 3 = 0 (era 0), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' is attempting to recover batch '28001' with the following counters: total production sheets = 30 (was 30); production in pile 1 = 30 (was 30), pile 2 = 0 (was 0), pile 3 = 0 (was 0), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:20:35" User="jsuarego" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:03" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:03" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:03" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:04" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha recuperado con éxito el lote '28001'</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has correctly recovered batch '28001'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:54" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 48 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 48 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:54" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 48 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 48 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:21:55" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 49 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 49 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:22:07" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 59 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 59 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:22:08" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 60 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 60 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:22:08" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 60 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 60 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:22:09" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 61 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 61 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:22:09" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 61 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 61 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:24:20" User="jsuarego" Type="FeederKey" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha deshabilitado el control del paso de papel</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' disabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:24:20" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:25:24" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Hoja no contada porque ha sido recibida después del vaciado'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Hoja no contada porque ha sido recibida después del vaciado'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja no contada porque ha sido recibida después del vaciado' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja no contada porque ha sido recibida después del vaciado' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja no contada porque ha sido recibida después del vaciado' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja no contada porque ha sido recibida después del vaciado' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque ha sido recibida después del vaciado' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque ha sido recibida después del vaciado' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque ha sido recibida después del vaciado' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque ha sido recibida después del vaciado' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque ha sido recibida después del vaciado' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque ha sido recibida después del vaciado' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:27:51" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:30:41" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:33:53" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:33:54" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:33:55" User="jsuarego" Type="AlertAck" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha reconocido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez acknowledged alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:34:00" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:34:01" User="jsuarego" Type="AlertAck" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha reconocido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez acknowledged alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:34:04" User="jsuarego" Type="FeederKey" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha habilitado el control del paso de papel</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' enabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:34:04" User="jsuarego" Type="FeederKey" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha habilitado el control del paso de papel</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' enabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:34:04" User="jsuarego" Type="FeederKey" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha deshabilitado el control del paso de papel</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' disabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:34:04" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Jonathan Alberto Suarez Gonzalez received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:34" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 435 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 435 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:34" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 435 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 435 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:35" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 436 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 436 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:47" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 446 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 446 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:47" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 446 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 446 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:48" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 447 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 447 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:35:48" User="jsuarego" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 447 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 447 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:37:59" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha desplazado la hoja de producción 'NOREAD' de la pila N/A a la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has moved the production sheet 'NOREAD' from pile N/A to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:37:59" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha desplazado la hoja de producción 'NOREAD' de la pila N/A a la pila 1.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has moved the production sheet 'NOREAD' from pile N/A to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:37:59" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:37:59" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:37:59" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:38:13" User="jsuarego" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'Jonathan Alberto Suarez Gonzalez' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:38:20" User="jsuarego" Type="90000" DenTag="01" Lot="28001">
+  <Msg>0</Msg>
+  <Eng>0</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:38:32" User="jsuarego" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 51; producción de no producidas = 9930; producción de parciales = 51; inicialización de parciales = 0; hojas en pila 1 = 51, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 51; unproduced production = 9930; partial production = 51; partial test = 0; sheets in pile 1 = 51, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:39:36" User="jsuarego" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:43:07" User="mpenaloz" Type="SystemStart" DenTag="01" Lot="">
+  <Msg>El usuario María Fernanda Peña Lozano ha iniciado el sistema</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:44:40" User="mpenaloz" Type="ApplyCounters" DenTag="01" Lot="">
+  <Msg>El usuario 'María Fernanda Peña Lozano' está tratando de recuperar el lote '28001' con los siguientes contadores de producción: hojas totales = 51 (era 51); pila 1 = 51 (era 51), pila 2 = 0 (era 0), pila 3 = 0 (era 0), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' is attempting to recover batch '28001' with the following counters: total production sheets = 51 (was 51); production in pile 1 = 51 (was 51), pile 2 = 0 (was 0), pile 3 = 0 (was 0), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:44:42" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:44:48" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:44:49" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha recuperado con éxito el lote '28001'</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has correctly recovered batch '28001'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:44" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 7 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 7 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:44" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 7 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 7 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:45" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 8 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 8 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:57" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:57" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:58" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 19 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 19 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:45:58" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 19 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 19 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado el código de barras de una hoja de la pila 1 de '012800108161' a 'NOREAD'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the barcode of a sheet in pile 1 from '012800108161' to 'NOREAD'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la hoja '012800108161' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the sheet '012800108161' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado el código de barras de una hoja de la pila 1 de '012800108160' a 'NOREAD'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the barcode of a sheet in pile 1 from '012800108160' to 'NOREAD'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la hoja '012800108160' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the sheet '012800108160' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:47" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:48:58" User="mpenaloz" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 60; producción de no producidas = 9921; producción de parciales = 60; inicialización de parciales = 0; hojas en pila 1 = 60, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 60; unproduced production = 9921; partial production = 60; partial test = 0; sheets in pile 1 = 60, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:50:08" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:50:58" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 25 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 25 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:51:05" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 31 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 31 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:51:29" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>El usuario María Fernanda Peña Lozano ha recibido la alarma: 'Hoja no contada porque ha sido recibida después del vaciado'.</Msg>
+  <Eng>User María Fernanda Peña Lozano received alert: 'Hoja no contada porque ha sido recibida después del vaciado'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja 'NOREAD' en la pila N/A de 'Hoja no contada porque no se detecta en el monitoreo de la visión' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet 'NOREAD' in pile N/A from 'Hoja no contada porque no se detecta en el monitoreo de la visión' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108154' en la pila 1 de 'Hoja de producción con anomalía del sensor de contraste' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108154' in pile 1 from 'Hoja de producción con anomalía del sensor de contraste' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108151' en la pila 1 de 'Hoja no contada porque ha sido recibida después del vaciado' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108151' in pile 1 from 'Hoja no contada porque ha sido recibida después del vaciado' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108150' en la pila 1 de 'Hoja no contada porque ha sido recibida después del vaciado' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108150' in pile 1 from 'Hoja no contada porque ha sido recibida después del vaciado' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108149' en la pila 1 de 'Hoja no contada porque ha sido recibida después del vaciado' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108149' in pile 1 from 'Hoja no contada porque ha sido recibida después del vaciado' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108148' en la pila 1 de 'Hoja no contada porque ha sido recibida después del vaciado' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108148' in pile 1 from 'Hoja no contada porque ha sido recibida después del vaciado' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:26" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:52:32" User="mpenaloz" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 70; producción de no producidas = 9911; producción de parciales = 10; inicialización de parciales = 0; hojas en pila 1 = 70, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 70; unproduced production = 9911; partial production = 10; partial test = 0; sheets in pile 1 = 70, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:53:16" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:54:00" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 20 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 20 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:54:12" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 30 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 30 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:54:12" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 30 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 30 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:56:50" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:56:50" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado el código de barras de una hoja de la pila 1 de '012800108140' a 'NOREAD'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the barcode of a sheet in pile 1 from '012800108140' to 'NOREAD'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:56:50" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la hoja '012800108140' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the sheet '012800108140' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:56:50" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:57:04" User="mpenaloz" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 79; producción de no producidas = 9902; producción de parciales = 9; inicialización de parciales = 0; hojas en pila 1 = 79, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 79; unproduced production = 9902; partial production = 9; partial test = 0; sheets in pile 1 = 79, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:57:42" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:29" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 23 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 23 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:30" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 24 se ha producido la siguiente alarma de proceso: 'Hoja no detectada en las pilas de salida'</Msg>
+  <Eng>At cycle 24 the following process alarm raised: 'Hoja no detectada en las pilas de salida'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:42" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 34 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 34 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:42" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 34 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 34 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:43" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:43" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:58:43" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:45" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha extraído la hoja 'NOREAD' de la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has removed the sheet 'NOREAD' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:45" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha extraído la hoja '012800108139' de la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has removed the sheet '012800108139' from the pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:45" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado el código de barras de una hoja de la pila 1 de '012800108126' a 'NOREAD'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the barcode of a sheet in pile 1 from '012800108126' to 'NOREAD'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:45" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la hoja '012800108126' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the sheet '012800108126' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:45" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la hoja 'NOREAD' de 'Hoja no contada porque no se detecta en el monitoreo de la visión' en la pila 1 a 'Ciclo de máquina vacío' en la pila N/A.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the sheet 'NOREAD' from 'Hoja no contada porque no se detecta en el monitoreo de la visión' in pile 1 to 'Ciclo de máquina vacío' in pile N/A.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:45" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 13:59:53" User="mpenaloz" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 88; producción de no producidas = 9893; producción de parciales = 9; inicialización de parciales = 0; hojas en pila 1 = 88, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 88; unproduced production = 9893; partial production = 9; partial test = 0; sheets in pile 1 = 88, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:00:41" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:01:18" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 14 se ha producido la siguiente alarma de proceso: 'Detección incoherente entre dos sensores de la misma pila'</Msg>
+  <Eng>At cycle 14 the following process alarm raised: 'Detección incoherente entre dos sensores de la misma pila'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:01:30" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 24 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 24 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:04:01" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado el código de barras de una hoja de la pila N/A de '012800108116' a 'NOREAD'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the barcode of a sheet in pile N/A from '012800108116' to 'NOREAD'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:04:01" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108116' en la pila N/A de 'Hoja no contada porque no se detecta en el monitoreo de la visión' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108116' in pile N/A from 'Hoja no contada porque no se detecta en el monitoreo de la visión' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:04:01" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:04:08" User="mpenaloz" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 98; producción de no producidas = 9883; producción de parciales = 10; inicialización de parciales = 0; hojas en pila 1 = 98, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 98; unproduced production = 9883; partial production = 10; partial test = 0; sheets in pile 1 = 98, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:07:21" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:08:14" User="mpenaloz" Type="RaiseAlert" DenTag="01" Lot="28001">
+  <Msg>En el ciclo de máquina 28 se ha producido la siguiente alarma de proceso: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Msg>
+  <Eng>At cycle 28 the following process alarm raised: 'Hoja de producción no detectada por el monitoreo de la visión: posible hoja detenida dentro del transporte'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:09:18" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado el código de barras de una hoja de la pila N/A de '012800108105' a 'NOREAD'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified the barcode of a sheet in pile N/A from '012800108105' to 'NOREAD'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:09:18" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha cambiado la clasificación de la hoja '012800108105' en la pila N/A de 'Hoja no contada porque no se detecta en el monitoreo de la visión' a 'Ciclo de máquina vacío'.</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' has modified classification of sheet '012800108105' in pile N/A from 'Hoja no contada porque no se detecta en el monitoreo de la visión' to 'Ciclo de máquina vacío'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:09:18" User="mpenaloz" Type="Reconciliation" DenTag="01" Lot="28001">
+  <Msg>El usuario 'María Fernanda Peña Lozano' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'María Fernanda Peña Lozano' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:09:37" User="mpenaloz" Type="LotSuspended" DenTag="01" Lot="">
+  <Msg>Suspensión del lote '28001': hojas de producción totales = 109; producción de no producidas = 9872; producción de parciales = 11; inicialización de parciales = 0; hojas en pila 1 = 109, pila 2 = 0, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '28001': total production sheets = 109; unproduced production = 9872; partial production = 11; partial test = 0; sheets in pile 1 = 109, pile 2 = 0, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/08 14:12:34" User="mpenaloz" Type="LotOpen" DenTag="01" Lot="">
+  <Msg>Apertura del lote '28001' (plantilla '01_08_12_2025')</Msg>
+  <Eng>Opened batch '28001' (model '01_08_12_2025')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+</diary>

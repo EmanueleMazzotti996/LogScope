@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LogScope - Abaco Server Log Analyzer</title>
+  <link rel="icon" type="image/png" href="/icon.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="root">
+    <style>
+      .startup-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #0a0e1a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        z-index: 9999;
+        font-family: 'Inter', sans-serif;
+      }
+      .loader-spinner {
+        width: 48px;
+        height: 48px;
+        border: 3px solid rgba(99, 102, 241, 0.1);
+        border-top-color: #6366f1;
+        border-right-color: #06b6d4;
+        border-radius: 50%;
+        animation: startup-spin 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+        box-shadow: 0 0 20px rgba(99, 102, 241, 0.15);
+      }
+      .loader-text {
+        color: #f1f5f9;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        animation: startup-pulse 1.5s ease-in-out infinite;
+      }
+      @keyframes startup-spin { to { transform: rotate(360deg); } }
+      @keyframes startup-pulse { 0%, 100% { opacity: 0.5; transform: scale(0.98); } 50% { opacity: 1; transform: scale(1); } }
+    </style>
+    <div class="startup-loader">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Inizializzazione...</div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,1028 @@
+﻿<diary ClientTag="ICS-1411" date="2026/01/28 05:42:39" desc="PARVIS Systems - Daily log" FileVersion="2.0" >
+<Action Time="2026/01/28 05:42:39" User="" Type="RaiseAlert" DenTag="03" Lot="">
+  <Msg>El usuario  ha recibido la alarma: 'No se encuentra la máquina de impresión. Verifique las conexiones y la alimentación eléctrica y reinicie el ordenador.'.</Msg>
+  <Eng>User  received alert: 'No se encuentra la máquina de impresión. Verifique las conexiones y la alimentación eléctrica y reinicie el ordenador.'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 05:54:47" User="achocoba" Type="SystemStart" DenTag="03" Lot="">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha iniciado el sistema</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 05:55:03" User="achocoba" Type="FeederKey" DenTag="03" Lot="">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha deshabilitado el control del paso de papel</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' disabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 05:55:03" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User Andrés Leonardo Chocontá Bayona received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 06:06:41" User="achocoba" Type="FeederKey" DenTag="03" Lot="">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha habilitado el control del paso de papel</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' enabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 06:06:57" User="achocoba" Type="LotOpen" DenTag="03" Lot="">
+  <Msg>Apertura del lote '13087' (plantilla '03_22_03_2023')</Msg>
+  <Eng>Opened batch '13087' (model '03_22_03_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 06:06:57" User="achocoba" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 06:56:43" User="achocoba" Type="StartWithoutAutoStop" DenTag="03" Lot="13087">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 06:56:44" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13087">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '9995'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '9995'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:02:19" User="achocoba" Type="LotClosed" DenTag="03" Lot="">
+  <Msg>Cierre del lote '13087': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 6020; inicialización de parciales = 218; hojas en pila 1 = 2099, pila 2 = 8211, pila 3 = 16, pila 4 = 0; notas: 3 Hojas blancas: Se sacan 3 hojas para orlof; 3 Hojas blancas: Se sacan 3 hojas para orlof; </Msg>
+  <Eng>Closed batch '13087': total production sheets = 10000; unproduced production = 0; partial production = 6020; partial test = 218; sheets in pile 1 = 2099, pile 2 = 8211, pile 3 = 16, pile 4 = 0; notes: 3 Hojas blancas: Se sacan 3 hojas para orlof; 3 Hojas blancas: Se sacan 3 hojas para orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:02:28" User="achocoba" Type="LotCreation" DenTag="03" Lot="">
+  <Msg>Creación del lote '13088'</Msg>
+  <Eng>Created batch '13088'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:02:28" User="achocoba" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:30:50" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13088">
+  <Msg>En el ciclo de máquina 3659 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 3659 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:31:51" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13088">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha recibido la alarma: 'Hoja no contada porque ha sido recibida después del vaciado'.</Msg>
+  <Eng>User Andrés Leonardo Chocontá Bayona received alert: 'Hoja no contada porque ha sido recibida después del vaciado'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:32:54" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13088">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha cambiado el código de barras de una hoja de la pila 3 de 'NOREAD' a '031308803619'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has modified the barcode of a sheet in pile 3 from 'NOREAD' to '031308803619'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:32:54" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13088">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de producción con código de barras no detectada' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de producción con código de barras no detectada' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:32:54" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13088">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308803620' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308803620' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:32:54" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13088">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha cambiado la hoja '031308803621' de 'Hoja no contada porque ha sido recibida después del vaciado' en la pila 3 a 'Hoja de Producción' en la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has modified the sheet '031308803621' from 'Hoja no contada porque ha sido recibida después del vaciado' in pile 3 to 'Hoja de Producción' in pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:32:54" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13088">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 07:33:05" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13088">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '3622'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '3622'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:29:44" User="achocoba" Type="LotClosed" DenTag="03" Lot="">
+  <Msg>Cierre del lote '13088': hojas de producción totales = 9997; producción de no producidas = 3; producción de parciales = 9997; inicialización de parciales = 34; hojas en pila 1 = 5034, pila 2 = 4996, pila 3 = 1, pila 4 = 0; notas: 2 Hojas blancas: Se sacan 2 hojas blancas para Orlof; </Msg>
+  <Eng>Closed batch '13088': total production sheets = 9997; unproduced production = 3; partial production = 9997; partial test = 34; sheets in pile 1 = 5034, pile 2 = 4996, pile 3 = 1, pile 4 = 0; notes: 2 Hojas blancas: Se sacan 2 hojas blancas para Orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:32:30" User="achocoba" Type="LotCreation" DenTag="03" Lot="">
+  <Msg>Creación del lote '13089'</Msg>
+  <Eng>Created batch '13089'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:32:30" User="achocoba" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:35:05" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 176 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 176 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:36:46" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:36:46" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:40:15" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '126'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '126'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:55:17" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 1830 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 1830 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:56:26" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:56:26" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 08:56:32" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '1640'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '1640'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:03:53" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 2734 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 2734 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:04:42" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:04:42" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:04:54" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '2473'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '2473'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:06:56" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 2977 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 2977 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:07:26" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:07:26" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:07:40" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '2638'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '2638'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:16:00" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 4054 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 4054 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:17:55" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:17:55" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:18:05" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '3644'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '3644'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:26:37" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 5108 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 5108 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:27:12" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:27:12" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:27:22" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '4635'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '4635'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:33:35" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 5858 se ha producido la siguiente alarma de proceso: 'Hoja de producción con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 5858 the following process alarm raised: 'Hoja de producción con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:40:00" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:40:00" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:40:10" User="achocoba" Type="LotSuspended" DenTag="03" Lot="">
+  <Msg>Suspensión del lote '13089': hojas de producción totales = 5322; producción de no producidas = 4678; producción de parciales = 5322; inicialización de parciales = 115; hojas en pila 1 = 362, pila 2 = 5075, pila 3 = 0, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '13089': total production sheets = 5322; unproduced production = 4678; partial production = 5322; partial test = 115; sheets in pile 1 = 362, pile 2 = 5075, pile 3 = 0, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:40:18" User="achocoba" Type="UserLogoff" DenTag="03" Lot="">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona se ha desconectado</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' logged off</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:40:44" User="jsuarego" Type="UserLogon" DenTag="03" Lot="">
+  <Msg>El usuario Jonathan Alberto Suarez Gonzalez se ha conectado</Msg>
+  <Eng>User 'Jonathan Alberto Suarez Gonzalez' logged on</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:45:50" User="jsuarego" Type="LotOpen" DenTag="03" Lot="">
+  <Msg>Apertura del lote '13089' (plantilla '03_22_03_2023')</Msg>
+  <Eng>Opened batch '13089' (model '03_22_03_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:45:50" User="jsuarego" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:22" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 2 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 2 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:24" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 3 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 3 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:26" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 4 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 4 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:28" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 5 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 5 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:29" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 6 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 6 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:31" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 7 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 7 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:33" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 8 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 8 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:35" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 9 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 9 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:37" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 10 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 10 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:38" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 11 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 11 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:40" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 12 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 12 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:42" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 13 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 13 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:44" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 14 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 14 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:46" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 15 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 15 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:47" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 16 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 16 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:49" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 17 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 17 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:46:50" User="jsuarego" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'El lector de código de barras no está sincronizado. El código de barras no puede acoplarse adecuadamente con la hoja'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:49:25" User="achocoba" Type="SystemStart" DenTag="03" Lot="">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha iniciado el sistema</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:49:41" User="achocoba" Type="ApplyCounters" DenTag="03" Lot="">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' está tratando de recuperar el lote '13089' con los siguientes contadores de producción: hojas totales = 5322 (era 5322); pila 1 = 322 (era 322), pila 2 = 5000 (era 5000), pila 3 = 0 (era 0), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' is attempting to recover batch '13089' with the following counters: total production sheets = 5322 (was 5322); production in pile 1 = 322 (was 322), pile 2 = 5000 (was 5000), pile 3 = 0 (was 0), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:49:45" User="achocoba" Type="LotOpen" DenTag="03" Lot="">
+  <Msg>Apertura del lote '13089' (plantilla '03_22_03_2023')</Msg>
+  <Eng>Opened batch '13089' (model '03_22_03_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:49:45" User="achocoba" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:49:54" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:49:56" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha recuperado con éxito el lote '13089'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has correctly recovered batch '13089'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 09:50:01" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '5323'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '5323'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:15:24" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 3221 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 3221 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:15:25" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13089">
+  <Msg>En el ciclo de máquina 3222 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 3222 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:17:11" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308908509' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308908509' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:17:11" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308908510' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308908510' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:17:11" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308908511' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308908511' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:17:12" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:17:20" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '8512'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '8512'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:33:48" User="achocoba" Type="StartWithoutAutoStop" DenTag="03" Lot="13089">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:33:50" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '9976'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '9976'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308909994' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308909994' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308909995' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308909995' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308909996' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308909996' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308909997' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308909997' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308909998' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308909998' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308909999' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308909999' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:14" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031308910000' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031308910000' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:38:15" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13089">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:40:41" User="achocoba" Type="LotClosed" DenTag="03" Lot="">
+  <Msg>Cierre del lote '13089': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 10000; inicialización de parciales = 176; hojas en pila 1 = 5063, pila 2 = 5106, pila 3 = 7, pila 4 = 0; notas: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Msg>
+  <Eng>Closed batch '13089': total production sheets = 10000; unproduced production = 0; partial production = 10000; partial test = 176; sheets in pile 1 = 5063, pile 2 = 5106, pile 3 = 7, pile 4 = 0; notes: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:49:54" User="achocoba" Type="AcknowledgeInfoPaper" DenTag="03" Lot="">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha confirmado los datos de Paper Mill para el lote 13090 (03)</Msg>
+  <Eng>User Andrés Leonardo Chocontá Bayona has aknowledge Paper Mill data for batch 13090 (03)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:49:55" User="achocoba" Type="LotCreation" DenTag="03" Lot="">
+  <Msg>Creación del lote '13090'</Msg>
+  <Eng>Created batch '13090'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:49:55" User="achocoba" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:41" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha recibido la alarma: 'Impresora de inyección de tinta en estado de error'.</Msg>
+  <Eng>User Andrés Leonardo Chocontá Bayona received alert: 'Impresora de inyección de tinta en estado de error'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:47" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 574 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 574 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:47" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 575 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 575 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:48" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 576 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 576 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:48" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 577 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 577 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:49" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 578 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 578 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:49" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 579 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 579 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:50" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 580 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 580 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:50" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 581 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 581 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:51" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 582 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 582 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:51" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 583 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 583 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:51" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 584 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 584 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:52" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 585 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 585 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:52" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 586 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 586 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 10:55:53" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 587 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 587 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha extraído la hoja 'NOREAD' de la pila 2.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has removed the sheet 'NOREAD' from the pile 2.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:02:28" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:04:23" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha recibido la alarma: 'Impresora de inyección de tinta en estado de error'.</Msg>
+  <Eng>User Andrés Leonardo Chocontá Bayona received alert: 'Impresora de inyección de tinta en estado de error'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 11:05:22" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '412'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '412'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:22:56" User="achocoba" Type="StartWithoutAutoStop" DenTag="03" Lot="13090">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:22:57" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '9984'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '9984'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:23:53" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 10434 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 10434 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:17" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009984' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009984' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:17" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009985' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009985' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:17" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009986' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009986' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:17" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009987' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009987' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:17" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009988' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009988' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:18" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009989' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009989' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:18" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009990' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009990' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:18" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009991' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009991' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:18" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009992' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009992' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:18" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:29" User="achocoba" Type="StartWithoutAutoStop" DenTag="03" Lot="13090">
+  <Msg>Producción iniciada sin la posibilidad de detención automática del paso del papel al alcanzar la cantidad a producir</Msg>
+  <Eng>Production started with no possibility of automatic paper feeding stop at expected production quantity</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:25:30" User="achocoba" Type="FirstBarcode" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha confirmado el nuevo valor del código de barras '9993'</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has confirmed first barcode value '9993'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:28:41" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13090">
+  <Msg>En el ciclo de máquina 10580 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 10580 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009993' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009993' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009994' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009994' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009995' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009995' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009996' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009996' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009997' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009997' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha cambiado el código de barras de una hoja de la pila 3 de 'NOREAD' a '031309009998'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has modified the barcode of a sheet in pile 3 from 'NOREAD' to '031309009998'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:47" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción 'NOREAD' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet 'NOREAD' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:48" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309009999' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309009999' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:48" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha desplazado la hoja de producción '031309010000' de la pila 3 a la pila 1.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has moved the production sheet '031309010000' from pile 3 to pile 1.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:29:48" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:30:26" User="achocoba" Type="LotForceClosed" DenTag="03" Lot="13090">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha eliminado los códigos de barras no validos para cerrar el lote '13090'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has erased the invalid barcodes found in the batch '13090'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:30:37" User="achocoba" Type="LotClosed" DenTag="03" Lot="">
+  <Msg>Cierre del lote '13090': hojas de producción totales = 10000; producción de no producidas = 0; producción de parciales = 10000; inicialización de parciales = 169; hojas en pila 1 = 5217, pila 2 = 4940, pila 3 = 12, pila 4 = 0; notas: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Msg>
+  <Eng>Closed batch '13090': total production sheets = 10000; unproduced production = 0; partial production = 10000; partial test = 169; sheets in pile 1 = 5217, pile 2 = 4940, pile 3 = 12, pile 4 = 0; notes: 3 Hojas blancas: Se sacan 3 hojas para orlof; </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:30:45" User="achocoba" Type="AcknowledgeInfoPaper" DenTag="03" Lot="">
+  <Msg>El usuario Andrés Leonardo Chocontá Bayona ha confirmado los datos de Paper Mill para el lote 13091 (03)</Msg>
+  <Eng>User Andrés Leonardo Chocontá Bayona has aknowledge Paper Mill data for batch 13091 (03)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:30:45" User="achocoba" Type="LotCreation" DenTag="03" Lot="">
+  <Msg>Creación del lote '13091'</Msg>
+  <Eng>Created batch '13091'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:30:45" User="achocoba" Type="PartialConfig" DenTag="03" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor inductivo de pila .</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor inductivo de pila .</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:40:10" User="achocoba" Type="RaiseAlert" DenTag="03" Lot="13091">
+  <Msg>En el ciclo de máquina 1018 se ha producido la siguiente alarma de proceso: 'Hojas de producción sin código de barras'</Msg>
+  <Eng>At cycle 1018 the following process alarm raised: 'Hojas de producción sin código de barras'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:41:10" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13091">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha cambiado el código de barras de una hoja de la pila 3 de 'NOREAD' a '031309100927'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has modified the barcode of a sheet in pile 3 from 'NOREAD' to '031309100927'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:41:10" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13091">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de producción con código de barras no detectada' a 'Hoja de Producción'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de producción con código de barras no detectada' to 'Hoja de Producción'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:41:10" User="achocoba" Type="Reconciliation" DenTag="03" Lot="13091">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:41:28" User="achocoba" Type="LotSuspended" DenTag="03" Lot="">
+  <Msg>Suspensión del lote '13091': hojas de producción totales = 927; producción de no producidas = 9073; producción de parciales = 927; inicialización de parciales = 18; hojas en pila 1 = 22, pila 2 = 922, pila 3 = 1, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '13091': total production sheets = 927; unproduced production = 9073; partial production = 927; partial test = 18; sheets in pile 1 = 22, pile 2 = 922, pile 3 = 1, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:56:24" User="achocoba" Type="LotValidation" DenTag="03" Lot="">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' con la confirmación del usuario 'Damian Stid Palacios Rodriguez' ha convalidado el lote '13087'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' with the confirmation of user 'Damian Stid Palacios Rodriguez' validated batch 13087</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:57:05" User="achocoba" Type="LotValidation" DenTag="03" Lot="">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' con la confirmación del usuario 'Damian Stid Palacios Rodriguez' ha convalidado el lote '13088'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' with the confirmation of user 'Damian Stid Palacios Rodriguez' validated batch 13088</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2026/01/28 12:57:43" User="achocoba" Type="LotValidation" DenTag="03" Lot="">
+  <Msg>El usuario 'Andrés Leonardo Chocontá Bayona' con la confirmación del usuario 'Damian Stid Palacios Rodriguez' ha convalidado el lote '13089'.</Msg>
+  <Eng>User 'Andrés Leonardo Chocontá Bayona' with the confirmation of user 'Damian Stid Palacios Rodriguez' validated batch 13089</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+</diary>

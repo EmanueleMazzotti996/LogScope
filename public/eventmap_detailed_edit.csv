@@ -1,0 +1,72 @@
+ID,Event,Description,Label Description
+0,UNDEFINED_ALERT_TYPE,categoria indefinita,Errore indefinito
+1,PROC_PRODUCTION_END_PAUSE,fermata automatica a fine produzione,Fermata automatica a fine produzione
+2,PROC_PROD_SHEETS_WITHOUT_BARCODE_WARNING,fogli di produzione senza barcode,Foglio di produzione con barcode non letto
+3,PROC_PROD_SHEETS_WITH_WRONG_BARCODE_WARNING,fogli di produzione con barcode errato,Foglio di produzione con barcode errato / non atteso
+4,PROC_PROD_SHEETS_WITH_SCWARNING,fogli di produzione con anomalia sensore di contrasto,Foglio di produzione con anomalia sensore di contrasto
+5,PROC_PROD_SHEETS_DUPLICATE_BARCODE,fogli di produzione con barcode duplicato,Foglio di produzione con barcode duplicato
+6,PROC_TEST_SHEETS_WITH_BARCODE,fogli di avviamento con barcode,Foglio di test con barcode
+7,PROC_TEST_SHEETS_WITH_SCWARNING,fogli di avviamento con anomalia sensore di contrasto,Foglio di test con anomalia sensore di contrasto
+8,PROC_TEST_SHEETS_DUPLICATE_BARCODE,fogli di avviamento con barcode duplicato,Foglio di test con barcode duplicato
+9,PROC_PROD_SHEETS_WITHOUT_BARCODE_ALARM,fogli di produzione senza barcode,Stop produzione per troppi barcode non letti
+10,PROC_PROD_SHEETS_WITH_WRONG_BARCODE_ALARM,fogli di produzione con barcode errato,Stop produzione per barcode errato / non atteso
+11,PROC_TEST_SHEETS,fogli di avviamento (generico),Foglio di test (generico)
+12,PROC_TEST_SHEETS_IN_PROD_PILE,fogli di avviamento in pila di produzione,Foglio di test in pila di produzione
+13,PROC_SHEET_LOST_BEFORE_PILES,foglio perso prima delle pile di uscita,Foglio non rilevato alle pile di uscita
+14,PROC_PROD_SHEETS_DOUBLE,possibile foglio di produzione doppio,Possibile foglio di produzione doppio (sfondo troppo scuro)
+15,PROC_TEST_SHEETS_DOUBLE,possibile foglio di avviamento doppio,Possibile foglio di test doppio (sfondo troppo scuro)
+16,PROC_SHEET_RETURNED_AFTER_PILES,foglio non deposto nelle pile di uscita ritornato insieme alle pinze,Problema pile: foglio rilevato dal sensore di ritorno
+17,PROC_SHEET_NUMBERING_UNDEFINED,Abaco Numero: Undefined numbering status,Errore indefinito ncs
+18,PROC_PROD_SHEET_NUMBERED_IN_TEST_PILE,Abaco Numero: Numbered production sheet in test pile,Foglio di produzione numerato in pila di test
+19,PROC_CS_PGO_INCOHERENT,PGO and CS read are not coherent (probably Abaco and Camma read different value),Problema trigger stampa barcode (incorenza tra segnale PGO e CS)
+20,PROC_INCOMPLETE_SAMPLE,dati di campione non completi,Ciclo macchina con dati incompleti
+21,PROC_UNEXPECTED_SAMPLE,campione non vuoto ricevuto dopo lo svuotamento,Ciclo macchina non vuoto ricevuto dopo lo svuotamento
+22,PROC_MAX_PROD_LIMIT,superato numero massimo fogli di produzione,Over-produzione contatori
+23,PROC_TRANSPORT_ALARM,campione non rilevato nè dalla telecamera nè dalle pile di uscita,Foglio non rilevato nè da watermark camera nè da sensori di pila
+24,PROC_PILES_NOTCONFORMANT_ALARM,discrepanza nei sensori di pila (tra due fotocellule o tra fotocellula e attuatore),Incoerenza nella rilevazione dei sensori di pila
+25,PROC_PILES_UNEXPECTED_ALARM,rilevati sia sfondo sia foglio in una pila di uscita (caso tipico: scavallo),Incoerenza pile: probabile scavallo foglio
+26,PROC_CAMERA_SYNCHRO_ALARM,errore di sincronismo rilevato da inconsistenza sulle immagini di campione,Errore di sincronismo watermark camera
+27,PROC_SMARTCAM_OUTOFSYNCH_ALARM,La SmartCamera si è desincronizzata dal tracker (ha perso un trigger?),La camera barcode si è desincronizzata
+28,SYS_GENERIC_CONFIG_ALARM,segnalazione generica configurazione,Errore generico configurazione
+29,SYS_GENERIC_DIGIO_ALARM,segnalazione generica Digital IO,Errore generico Digital IO
+30,SYS_GENERIC_SERIALCOM_ALARM,segnalazione generica comunicazione seriale,Errore generico comunicazione seriale
+31,SYS_GENERIC_INKJET_ALARM,segnalazione generica inkjet,Allarme generico stampante barcode
+32,SYS_GENERIC_BARCODE_ALARM,segnalazione generica barcode,Errore generico barcode
+33,SYS_GENERIC_INKJET_WARNING,anomalia generica riportata dalla inkjet si prega di controllare lo stato della stampante,Warning generico stampante barcode
+34,SYS_GENERIC_INTERNALSW_ALARM,problema sw bloccante interno all'applicativo. Contattare supporto tecnico,Problema software bloccante applicativo
+35,SYS_GENERIC_CAMERA_ALARM,la telecamera ha riportato un errore,Errore telecamera generico
+36,SYS_GENERIC_PILE_ALARM,Errore generico riportato dalla lettura dei sensori di pila,Errore generico rilevazione sensori di pila
+37,SYS_POWOFF_DENIED_ERROR_ALARM,spegnimento non consentito nella modalità errore. è necessario riconoscere tutti gli allarmi pendenti,Spegnimento non consentito con errori pendenti
+38,SYS_POWOFF_DENIED_ACQ_ALARM,spegnimento non consentito nella modalità acquisizione. è necessario uscire dalla modalità,Spegnimento non consentito in modalità acquisizione
+39,SYS_POWOFF_DENIED_PROD_ALARM,spegnimento non consentito nella modalità produzione. è necessario chiudere o terminare il lotto corrente,Spegnimento non consentito in modalità produzione
+40,SYS_INKJET_OFFLINE_ALARM,inkjet non in linea alla partenza della produzione,Stampande barcode offline al momento dellìavvio produzione
+41,SYS_INKJET_CONFIG_ALARM,errore nell'avvio della inkjet,Errore durante l'avvio della stampante barcode
+42,SYS_INKJET_FAIL_ALARM,inkjet in errore,Failure stampante barcode
+43,SYS_INKJET_TRANSIT_ALARM,inkjet in stato TRANSIT attendere prego,Stampante barcode in stato transit
+44,SYS_INKJET_CMDDENIED_ALARM,la inkjet non è in grado di eseguire il comando ricevuto,Stampante barcode non in grado di eseguire il comando ricevuto
+45,SYS_CAMERA_OFFLINE,telecamera non risponde,Watermark camera offline
+46,SYS_CAMERA_DISABLED,impossibile eseguire le funzioni di istruzione e servizio se la telecamera non è configurata,Watermark camera disabilitata problema configurazione
+47,SYS_CAMERA_CHANGED_WARNING,La telecamera è stata sostituita,Watermark camera sostituita
+48,SYS_CAMERA_MODEL_MISMATCH,Le impostazioni della telecamera sono diverse da quelle contenute nel modello,Mismatch del modello Watermark camera
+49,SYS_LOWDISKSPACE_ALARM,spazio su disco esaurito,Spazio su disco esaurito
+50,SYS_LOADMODEL_ALARM,errore nel caricamento modello,Errore nel caricamento del modello
+51,SYS_FEEDERKEY_WARNING,Abilitazione mettifoglio inibita all'applicativo ICS. si prega di girare la chiave,"Warning applicazione mettifoglio inibita da ABACO, girare la chiave"
+52,SYS_FEEDERKEY_ALARM,Abilitazione mettifoglio inibita all'applicativo ICS. si prega di girare la chiave,"Allarme applicazione mettifoglio inibita da ABACO, girare la chiave"
+53,SYS_ENCODER_ALARM,Errore critico riportato dall'encoder,Errore critico dell' encoder
+54,SYS_LEDBAR_ALARM,Errore riportato dall'illuminatore (flash non pronto),Errore dell'illuminatore: flash non pronto
+55,SYS_PILE1_ALARM,Valore inatteso ricevuto dai sensori della pila 1,Valore inatteso ricevuto dai sensori della pila 1
+56,SYS_PILE2_ALARM,Valore inatteso ricevuto dai sensori della pila 2,Valore inatteso ricevuto dai sensori della pila 2
+57,SYS_PILE3_ALARM,Valore inatteso ricevuto dai sensori della pila 3,Valore inatteso ricevuto dai sensori della pila 3
+58,SYS_PSENSE_CABINET_ALARM,allarme alimentazione cabinet,Allarme alimentazione cabinet
+59,SYS_PSENSE_PLC_ALARM,allarme alimentazione camma,Allarme alimentazione camma
+60,SYS_PSENSE_DIGITAL_ALARM,allarme alimentazione dispositivi digitali,Allarme alimentazione dispositivi digitali
+61,SYS_CSENSOR_ALARM,sensore di contrasto attivo alla partenza,Sensore di contrasto attivo alla partenza
+62,SYS_CAM_WRITE_ALARM,errore nella configurazione della camma,Errore nella configurazione della camma
+63,SYS_UPS_ON_ALARM,è intervenuto l'UPS. Si prega di salvare i dati e terminare l'applicazione,Intervento dell UPS 
+64,SYS_TIMEOUT_SVUOTAMENTO,timeout nello svuotamento,Time out nello svuotamento
+65,SYS_STDSENS_NOT_RECEIVED,allarme nel caso in cui un barcode non viene ricevuto. Il foglio viene comunque contato,Allarme barcode non ricevuto
+66,SYS_PRODUCTIVITY_LOW,allarme di produttività,Allarme produttività (verboso)
+67,SYS_SAVE_LIMIT_WTRMARK,allarme raggiunto limite salvataggio immagini watermark,Limite salvataggio immagini watermark raggiunto
+68,SYS_SAVE_LIMIT_CS,allarme raggiunto limite salvataggio immagini anomalia sensore di contrasto/watermark,Limite salvataggio immagini nomalia sensore di contrasto raggiunto
+69,SYS_WRONG_CONFIG,errore critico di configurazione,Errore critico di configurazione
+70,ALERT_TYPE_COUNT,numero di elementi nell'enumerativo,Verbose

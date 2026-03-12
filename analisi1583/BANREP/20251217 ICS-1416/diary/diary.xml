@@ -1,0 +1,968 @@
+﻿<diary ClientTag="ICS-1416" date="2025/12/17 07:10:56" desc="PARVIS Systems - Daily log" FileVersion="2.0" >
+<Action Time="2025/12/17 07:10:56" User="mramirqu" Type="SystemStart" DenTag="04" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga ha iniciado el sistema</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 07:29:29" User="mramirqu" Type="FeederKey" DenTag="06" Lot="">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha deshabilitado el control del paso de papel</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' disabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 07:29:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga ha recibido la alarma: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Msg>
+  <Eng>User miguel angel ramirez quiroga received alert: 'Llave de habilitación del paso de papel introducida: desactive la llave'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 08:30:48" User="mramirqu" Type="SystemShutdown" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga ha detenido el sistema</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' shut down the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 08:39:10" User="mramirqu" Type="SystemStart" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga ha iniciado el sistema</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:06:48" User="mramirqu" Type="FeederKey" DenTag="06" Lot="">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha habilitado el control del paso de papel</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' enabled feeder control</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:06:56" User="mramirqu" Type="UserLogoff" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga se ha desconectado</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' logged off</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:08:43" User="esalingi" Type="UserLogon" DenTag="06" Lot="">
+  <Msg>El usuario Edwin Jahir Salinas Giraldo se ha conectado</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' logged on</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:09:16" User="esalingi" Type="LotCreation" DenTag="06" Lot="">
+  <Msg>Creación del lote '12141'</Msg>
+  <Eng>Created batch '12141'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:10" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 18 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 18 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:23" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 31 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 31 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:23" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 32 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 32 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:24" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 33 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 33 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:25" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 34 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 34 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:26" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 35 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 35 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:11:27" User="esalingi" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 36 se ha producido la siguiente alarma de proceso: 'Hoja de inicio con anomalía del sensor de contraste'</Msg>
+  <Eng>At cycle 36 the following process alarm raised: 'Hoja de inicio con anomalía del sensor de contraste'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha cambiado la clasificación de la hoja 'NOREAD' en la pila 3 de 'Hoja de inicio con anomalía del sensor de contraste' a 'Hoja de inicio'.</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' has modified classification of sheet 'NOREAD' in pile 3 from 'Hoja de inicio con anomalía del sensor de contraste' to 'Hoja de inicio'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:13:52" User="esalingi" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'Edwin Jahir Salinas Giraldo' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:14:01" User="esalingi" Type="LotSuspended" DenTag="06" Lot="">
+  <Msg>Suspensión del lote '12141': hojas de producción totales = 6; producción de no producidas = 9778; producción de parciales = 6; inicialización de parciales = 7; hojas en pila 1 = 6, pila 2 = 0, pila 3 = 7, pila 4 = 0; notas: </Msg>
+  <Eng>Suspended batch '12141': total production sheets = 6; unproduced production = 9778; partial production = 6; partial test = 7; sheets in pile 1 = 6, pile 2 = 0, pile 3 = 7, pile 4 = 0; notes: </Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:14:12" User="esalingi" Type="UserLogoff" DenTag="06" Lot="">
+  <Msg>El usuario Edwin Jahir Salinas Giraldo se ha desconectado</Msg>
+  <Eng>User 'Edwin Jahir Salinas Giraldo' logged off</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:14:30" User="mramirqu" Type="UserLogon" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga se ha conectado</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' logged on</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:14:38" User="mramirqu" Type="LotOpen" DenTag="06" Lot="">
+  <Msg>Apertura del lote '12141' (plantilla '06_26_01_2023')</Msg>
+  <Eng>Opened batch '12141' (model '06_26_01_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:14:38" User="mramirqu" Type="PartialConfig" DenTag="06" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor de contrast.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor de contrast.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:22:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 214 se ha producido la siguiente alarma de proceso: 'Hoja de inicio en la pila de producción'</Msg>
+  <Eng>At cycle 214 the following process alarm raised: 'Hoja de inicio en la pila de producción'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:22:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 215 se ha producido la siguiente alarma de proceso: 'Hoja de inicio en la pila de producción'</Msg>
+  <Eng>At cycle 215 the following process alarm raised: 'Hoja de inicio en la pila de producción'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:23:53" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha desplazado la hoja de inicio 'NOREAD' de la pila 1 a la pila 3.</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' has moved the test sheet 'NOREAD' from pile 1 to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:23:53" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha desplazado la hoja de inicio 'NOREAD' de la pila 1 a la pila 3.</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' has moved the test sheet 'NOREAD' from pile 1 to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:23:53" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:24:44" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>El usuario miguel angel ramirez quiroga ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User miguel angel ramirez quiroga received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:34:55" User="mramirqu" Type="SystemStart" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga ha iniciado el sistema</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:37:54" User="mramirqu" Type="ApplyCounters" DenTag="06" Lot="">
+  <Msg>El usuario 'miguel angel ramirez quiroga' está tratando de recuperar el lote '12141' con los siguientes contadores de producción: hojas totales = 801 (era 463); pila 1 = 787 (era 449), pila 2 = 0 (era 0), pila 3 = 14 (era 14), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' is attempting to recover batch '12141' with the following counters: total production sheets = 801 (was 463); production in pile 1 = 787 (was 449), pile 2 = 0 (was 0), pile 3 = 14 (was 14), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:37:56" User="mramirqu" Type="LotOpen" DenTag="06" Lot="">
+  <Msg>Apertura del lote '12141' (plantilla '06_26_01_2023')</Msg>
+  <Eng>Opened batch '12141' (model '06_26_01_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:37:56" User="mramirqu" Type="PartialConfig" DenTag="06" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor de contrast.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor de contrast.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:22" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:23" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha recuperado con éxito el lote '12141'</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' has correctly recovered batch '12141'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:24" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 114 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 114 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 115 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 115 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 116 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 116 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 117 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 117 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 118 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 118 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 119 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 119 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 120 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 120 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:26" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 121 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 121 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:26" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 122 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 122 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:26" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 123 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 123 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:26" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 124 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 124 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:26" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 125 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 125 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:26" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 126 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 126 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 127 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 127 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 128 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 128 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 129 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 129 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 130 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 130 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 131 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 131 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 132 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 132 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 133 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 133 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 134 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 134 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 135 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 135 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 136 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 136 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 137 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 137 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:28" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 138 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 138 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 139 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 139 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 140 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 140 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 141 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 141 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 142 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 142 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 143 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 143 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:29" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 144 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 144 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 145 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 145 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 146 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 146 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 147 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 147 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 148 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 148 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 149 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 149 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 150 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 150 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 151 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 151 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 152 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 152 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 153 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 153 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 154 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 154 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 155 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 155 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 156 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 156 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 157 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 157 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 158 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 158 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 159 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 159 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 160 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 160 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 161 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 161 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 162 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 162 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:33" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 163 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 163 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:33" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 164 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 164 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:33" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 165 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 165 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:33" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 166 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 166 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:33" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 167 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 167 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:33" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 168 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 168 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 169 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 169 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 170 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 170 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 171 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 171 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 172 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 172 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 173 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 173 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 174 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 174 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 175 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 175 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 176 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 176 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 177 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 177 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 178 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 178 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 179 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 179 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 180 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 180 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:36" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 181 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 181 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:36" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 182 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 182 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:36" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 183 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 183 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:36" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 184 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 184 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:36" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 185 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 185 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:36" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 186 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 186 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:37" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 187 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 187 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:38:37" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 188 se ha producido la siguiente alarma de proceso: 'Ciclo de máquina con datos de detección incompletos'</Msg>
+  <Eng>At cycle 188 the following process alarm raised: 'Ciclo de máquina con datos de detección incompletos'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:43:53" User="mramirqu" Type="SystemStart" DenTag="06" Lot="">
+  <Msg>El usuario miguel angel ramirez quiroga ha iniciado el sistema</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' booted the system</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:44:24" User="mramirqu" Type="ApplyCounters" DenTag="06" Lot="">
+  <Msg>El usuario 'miguel angel ramirez quiroga' está tratando de recuperar el lote '12141' con los siguientes contadores de producción: hojas totales = 801 (era 801); pila 1 = 787 (era 787), pila 2 = 0 (era 0), pila 3 = 14 (era 14), pila 4 = 0 (era 0)</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' is attempting to recover batch '12141' with the following counters: total production sheets = 801 (was 801); production in pile 1 = 787 (was 787), pile 2 = 0 (was 0), pile 3 = 14 (was 14), pile 4 = 0 (was 0)</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:44:30" User="mramirqu" Type="LotOpen" DenTag="06" Lot="">
+  <Msg>Apertura del lote '12141' (plantilla '06_26_01_2023')</Msg>
+  <Eng>Opened batch '12141' (model '06_26_01_2023')</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:44:30" User="mramirqu" Type="PartialConfig" DenTag="06" Lot="">
+  <Msg>Inicio de la producción con los siguientes dispositivos deshabilitados: Sensor de contrast.</Msg>
+  <Eng>Starting Production with the following devices disabled: Sensor de contrast.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:44:45" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 11:44:47" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha recuperado con éxito el lote '12141'</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' has correctly recovered batch '12141'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:19:42" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5099 se ha producido la siguiente alarma de proceso: 'Hoja detectada en el trayecto de regreso de la barra de pinzas'</Msg>
+  <Eng>At cycle 5099 the following process alarm raised: 'Hoja detectada en el trayecto de regreso de la barra de pinzas'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:15" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5113 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5113 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:16" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5114 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5114 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:19" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5116 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5116 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:21" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5117 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5117 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:22" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5118 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5118 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:24" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5119 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5119 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:25" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5120 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5120 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:27" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5121 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5121 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:30" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5123 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5123 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:31" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5124 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5124 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:32" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5125 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5125 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:34" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5126 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5126 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:35" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5127 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5127 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:37" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5128 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5128 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:38" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5129 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5129 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:40" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5130 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5130 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:41" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5131 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5131 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:43" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5132 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5132 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:44" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5133 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5133 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:46" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5134 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5134 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:47" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5135 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5135 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:48" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5136 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5136 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:50" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5137 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5137 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:51" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5138 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5138 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:53" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5139 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5139 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:54" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5140 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5140 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:56" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5141 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5141 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:57" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5142 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5142 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:21:59" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5143 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5143 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:22:00" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5144 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5144 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:22:02" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5145 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5145 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:22:03" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5146 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5146 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:22:04" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5147 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5147 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:22:06" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>En el ciclo de máquina 5148 se ha producido la siguiente alarma de proceso: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Msg>
+  <Eng>At cycle 5148 the following process alarm raised: 'Detección inesperada de los sensores de pila: posible hoja detenida sobre los sensores'</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:24:49" User="mramirqu" Type="RaiseAlert" DenTag="06" Lot="12141">
+  <Msg>El usuario miguel angel ramirez quiroga ha recibido la alarma: 'Productividad demasiado baja'.</Msg>
+  <Eng>User miguel angel ramirez quiroga received alert: 'Productividad demasiado baja'.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:33:11" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha desplazado la hoja de producción '061214106615' de la pila N/A a la pila 3.</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' has moved the production sheet '061214106615' from pile N/A to pile 3.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:33:11" User="mramirqu" Type="Reconciliation" DenTag="06" Lot="12141">
+  <Msg>El usuario 'miguel angel ramirez quiroga' ha realizado los cambios sin más confirmación</Msg>
+  <Eng>User 'miguel angel ramirez quiroga' confirmed modifications with no further confirmation</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+<Action Time="2025/12/17 12:39:06" User="mramirqu" Type="90000" DenTag="06" Lot="12141">
+  <Msg>.</Msg>
+  <Eng>.</Eng>
+  <Effort>0</Effort>
+  <Note />
+</Action>
+</diary>
