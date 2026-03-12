@@ -1,7 +1,7 @@
 {
-  "name": "logscope",
+  "name": "parvis-loggy-eye",
   "version": "1.0.0",
-  "description": "LogScope - Abaco Server Log Analyzer by EM",
+  "description": "Parvis Loggy-Eye - The Friendly Abaco Log Companion",
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
@@ -26,8 +26,8 @@
     "wait-on": "^8.0.3"
   },
   "build": {
-    "appId": "com.em.logscope",
-    "productName": "LogScope",
+    "appId": "com.parvis.loggyeye",
+    "productName": "Parvis Loggy-Eye",
     "directories": {
       "output": "dist-electron"
     },
@@ -44,7 +44,7 @@
       "icon": "public/icon.png"
     },
     "portable": {
-      "artifactName": "LogScope-${version}-portable.exe"
+      "artifactName": "Parvis-Loggy-Eye-${version}-portable.exe"
     }
   }
 }

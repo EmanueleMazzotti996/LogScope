@@ -129,16 +129,16 @@ export default function App() {
     }
   }, [config]);
 
-  const handleOpenViewer = useCallback(async (filePath) => {
+  const handleOpenViewer = useCallback(async (filePath, clientName = null) => {
     if (!isElectron) return;
     await withLoading(async () => {
-      setViewerFile({ path: filePath, loading: true });
+      setViewerFile({ path: filePath, clientName, loading: true });
       setActiveTab('viewer');
       try {
         const data = await window.godlog.readLogFile(filePath);
-        setViewerFile({ path: filePath, ...data, loading: false });
+        setViewerFile({ path: filePath, clientName, ...data, loading: false });
       } catch (err) {
-        setViewerFile({ path: filePath, error: err.message, loading: false });
+        setViewerFile({ path: filePath, clientName, error: err.message, loading: false });
       }
     });
   }, []);
@@ -210,7 +210,7 @@ export default function App() {
               </svg>
             </div>
             <div className="logo-text">
-              <span className="logo-title">LogScope</span>
+              <span className="logo-title">Parvis Loggy-Eye</span>
               <span className="logo-subtitle">by EM</span>
             </div>
           </div>
@@ -413,7 +413,7 @@ export default function App() {
                     </div>
                   </div>
                   {filteredFiles.map((f, i) => (
-                      <div key={i} className="file-item" onClick={() => handleOpenViewer(f.path)}>
+                      <div key={i} className="file-item" onClick={() => handleOpenViewer(f.path, f.clientName)}>
                         <div className="file-icon">
                           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />

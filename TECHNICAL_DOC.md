@@ -1,11 +1,11 @@
-# LogScope — Technical Documentation
+# Parvis Loggy-Eye — Technical Documentation
 **Advanced Abaco Server Log Diagnostic & Analysis Suite**
 *Revision 1.0 | Project Lead: EM*
 
 ---
 
 ## 1. Project Overview
-LogScope is a high-performance desktop application designed for handy analysis of Parvis systems logs (ICS Log & Server Library). It transforms raw, voluminous text logs into actionable insights through an intelligent diagnostic engine and a premium, responsive UI.
+Parvis Loggy-Eye is a high-performance desktop application designed for handy analysis of Parvis systems logs (ICS Log & Server Library). It transforms raw, voluminous text logs into actionable insights through an intelligent diagnostic engine and a premium, responsive UI.
 
 ## 2. Technical Stack
 - **Framework**: React 18.3 (Component-based architecture)
@@ -50,7 +50,7 @@ The production EXE is not automatically updated during development. To generate 
    ```
 2. **Output**: 
    The updated portable executable will be located in the `dist-electron/` directory:
-   `LogScope-1.0.0-portable.exe`
+   `Parvis-Loggy-Eye-1.0.0-portable.exe`
 
 ---
-*© 2026 LogScope Project*
+*© 2026 Parvis Loggy-Eye Project*

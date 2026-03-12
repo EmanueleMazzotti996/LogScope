@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 
-export default function AnalyzerDashboard({ fileContent, fileName, onJumpToLine, eventMap }) {
+export default function AnalyzerDashboard({ fileContent, fileName, clientName, onJumpToLine, eventMap }) {
     const { t, locale } = useLanguage();
     const [showAlarms, setShowAlarms] = useState(true); // Mostra di default per visibilità immediata
     const [showOperations, setShowOperations] = useState(true); // Mostra di default per Server Lib
@@ -39,7 +39,7 @@ export default function AnalyzerDashboard({ fileContent, fileName, onJumpToLine,
             }
             
             console.log(`[DEBUG] Final isServerLib: ${isServerLib}`);
-            let computerName = t('unknown');
+            let computerName = clientName || t('unknown');
             let abacoVersion = t('unknown');
             let logDate = null;
 
@@ -109,6 +109,18 @@ export default function AnalyzerDashboard({ fileContent, fileName, onJumpToLine,
                                 }
                             }
                             restarts.push({ lineIndex: i, version: abacoVersion, dateBoot, type: 'release' });
+                        }
+                    }
+                }
+
+                // Cerca versione Server Library
+                if (isServerLib && line.includes('VERSION OF ICS-CA')) {
+                    const match = line.match(/VERSION OF ICS-CA.*:\s*([\d\.]+)/i);
+                    if (match) {
+                        abacoVersion = match[1].trim();
+                        // Aggiorna l'ultimo boot se non aveva versione
+                        if (restarts.length > 0 && restarts[restarts.length - 1].version === t('unknown')) {
+                            restarts[restarts.length - 1].version = abacoVersion;
                         }
                     }
                 }
@@ -361,17 +373,17 @@ export default function AnalyzerDashboard({ fileContent, fileName, onJumpToLine,
                         <span className="stat-value">{analysis.displayDate}</span>
                     </div>
                 )}
-                {!analysis.isServerLib && (
-                    <>
-                        <div className="stat-box">
-                            <span className="stat-label">{t('stat_computer_name')}</span>
-                            <span className="stat-value">{analysis.computerName}</span>
-                        </div>
-                        <div className="stat-box">
-                            <span className="stat-label">{t('stat_version')}</span>
-                            <span className="stat-value">{analysis.abacoVersion}</span>
-                        </div>
-                    </>
+                {analysis.computerName && (
+                    <div className="stat-box">
+                        <span className="stat-label">{t('stat_computer_name')}</span>
+                        <span className="stat-value">{analysis.computerName}</span>
+                    </div>
+                )}
+                {analysis.abacoVersion && (
+                    <div className="stat-box">
+                        <span className="stat-label">{t('stat_version')}</span>
+                        <span className="stat-value">{analysis.abacoVersion}</span>
+                    </div>
                 )}
                 {analysis.lots.length > 0 && (
                     <div className={`stat-box safe`}>
@@ -379,7 +391,7 @@ export default function AnalyzerDashboard({ fileContent, fileName, onJumpToLine,
                         <span className="stat-value">{analysis.lots.length}</span>
                     </div>
                 )}
-                {!analysis.isServerLib && (
+                {analysis.restarts.length > 0 && (
                     <div className={`stat-box ${analysis.restarts.length > 1 ? 'danger' : 'safe'}`}>
                         <span className="stat-label">{t('stat_restarts')}</span>
                         <span className="stat-value">{analysis.restarts.length}</span>
@@ -417,10 +429,14 @@ export default function AnalyzerDashboard({ fileContent, fileName, onJumpToLine,
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '12px' }}>
                                 <span style={{ fontSize: '18px', marginTop: '2px' }}>⚠️</span>
                                 <span>
-                                    {t('analysis_boot_multi', { 
-                                        time: analysis.restarts[0].dateBoot, 
-                                        count: analysis.restarts.length - 1 
-                                    })}
+                                    {analysis.restarts.length - 1 === 1 ? (
+                                        t('analysis_boot_once', { time: analysis.restarts[0].dateBoot })
+                                    ) : (
+                                        t('analysis_boot_multi', { 
+                                            time: analysis.restarts[0].dateBoot, 
+                                            count: analysis.restarts.length - 1 
+                                        })
+                                    )}
                                 </span>
                             </div>
                             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginLeft: '28px' }}>

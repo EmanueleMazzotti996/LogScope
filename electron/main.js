@@ -269,9 +269,16 @@ ipcMain.handle('list-extracted-files', async (event, destination) => {
             // Clean client name
             if (clientName) clientName = clientName.replace(/'/g, '');
 
-            // Regex for ABACO Release
+            // Regex for ABACO Release (ICS)
             const versionMatch = head.match(/ABACO Release\s*:\s*([^\r\n]+)/i);
-            if (versionMatch) abacoVersion = versionMatch[1].trim();
+            // Regex for ServerLibrary version
+            const srvVersionMatch = head.match(/VERSION OF ICS-CA.*:\s*([\d\.]+)/i);
+            
+            if (versionMatch) {
+              abacoVersion = versionMatch[1].trim();
+            } else if (srvVersionMatch) {
+              abacoVersion = srvVersionMatch[1].trim();
+            }
 
             // Regex for Date: 
             // 1. [MM/DD/YY] as in icslog: [11/15/26 16:16:17]

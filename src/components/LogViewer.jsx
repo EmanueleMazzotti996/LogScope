@@ -218,6 +218,7 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
           <AnalyzerDashboard 
             fileContent={file.content} 
             fileName={fileName} 
+            clientName={file.clientName}
             onJumpToLine={handleJumpToLine} 
             eventMap={eventMap} 
           />
