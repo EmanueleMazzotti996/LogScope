@@ -1,7 +1,9 @@
 import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import AnalyzerDashboard from './AnalyzerDashboard';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export default function LogViewer({ file, onOpenFile, isElectron }) {
+  const { t } = useLanguage();
   const [searchTerm, setSearchTerm] = useState('');
   const [showFindAll, setShowFindAll] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);
@@ -106,7 +108,7 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
 
   const handleBrowseFile = useCallback(async () => {
     if (!isElectron) return;
-    const result = await window.godlog.browseFolder({ title: 'Seleziona cartella con log' });
+    const result = await window.godlog.browseFolder({ title: t('viewer_browse_title') });
     if (result) {
       const files = await window.godlog.listExtractedFiles(result);
       if (files.length > 0) {
@@ -172,9 +174,9 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
             <line x1="16" y1="13" x2="8" y2="13" />
             <line x1="16" y1="17" x2="8" y2="17" />
           </svg>
-          <p>Nessun file selezionato</p>
+          <p>{t('viewer_no_file')}</p>
           <button className="btn btn-secondary" onClick={handleBrowseFile} disabled={!isElectron}>
-            Sfoglia file...
+            {t('viewer_browse_btn')}
           </button>
         </div>
       </div>
@@ -186,7 +188,7 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
       <div className="card">
         <div className="viewer-loading">
           <span className="spinner" />
-          Caricamento file...
+          {t('viewer_loading')}
         </div>
       </div>
     );
@@ -197,7 +199,7 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
       <div className="card">
         <div className="result-item error">
           <span className="result-icon">⚠</span>
-          <span className="result-message">Errore: {file.error}</span>
+          <span className="result-message">{t('error')}: {file.error}</span>
         </div>
       </div>
     );
@@ -232,13 +234,13 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
             </svg>
             <input
               type="text"
-              placeholder="Cerca nel log..."
+              placeholder={t('viewer_search_placeholder')}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
             {searchTerm && searchTerm.length < 3 && (
               <span style={{ fontSize: 10, color: 'var(--text-muted)', marginLeft: 8, opacity: 0.7 }}>
-                Digita almeno 3 caratteri...
+                {t('viewer_search_min_chars')}
               </span>
             )}
             {searchTerm && searchTerm.length >= 3 && (
@@ -247,14 +249,14 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
                 onClick={() => setShowFindAll(!showFindAll)}
                 style={{ marginLeft: 8, whiteSpace: 'nowrap' }}
               >
-                Trova Tutti
+                {t('viewer_find_all')}
               </button>
             )}
           </div>
           <div className="viewer-info">
             {searchTerm && searchTerm.length >= 3 && (
               <span className="viewer-info-badge">
-                {matchCount} righe trovate
+                {t('viewer_matches_found', { count: matchCount })}
               </span>
             )}
             <span className="viewer-info-badge">{formatSize(file.size)}</span>
@@ -264,7 +266,7 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
         {/* Preset Searches */}
         <div style={{ marginTop: 12, display: 'flex', alignItems: 'center', gap: 8 }}>
           <span style={{ fontSize: 11, color: 'var(--text-muted)', fontWeight: 600, marginRight: 4 }}>
-            RICERCHE RAPIDE:
+            {t('viewer_preset_label')}
           </span>
 
           {file.path && file.path.toLowerCase().includes('icslog') ? (
@@ -273,20 +275,20 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
                 className="btn-preset badge-level err"
                 onClick={() => { setSearchTerm('(E)'); setShowFindAll(true); }}
               >
-                Errore (E)
+                {t('viewer_preset_err')} (E)
               </button>
               <button
                 className="btn-preset badge-level wrn"
                 onClick={() => { setSearchTerm('(W)'); setShowFindAll(true); }}
               >
-                Warning (W)
+                {t('viewer_preset_wrn')} (W)
               </button>
               <button
                 className="btn-preset"
                 style={{ background: 'rgba(239, 68, 68, 0.1)', color: '#fca5a5', borderColor: 'rgba(239, 68, 68, 0.2)' }}
                 onClick={() => { setSearchTerm('AlertManager raised an alarm [level'); setShowFindAll(true); }}
               >
-                🚨 Analisi Allarmi
+                🚨 {t('viewer_preset_alarms')}
               </button>
             </>
           ) : (
@@ -295,13 +297,13 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
                 className="btn-preset badge-level err"
                 onClick={() => { setSearchTerm('[ERR]'); setShowFindAll(true); }}
               >
-                Errore [ERR]
+                {t('viewer_preset_err')} [ERR]
               </button>
               <button
                 className="btn-preset badge-level wrn"
                 onClick={() => { setSearchTerm('[WRN]'); setShowFindAll(true); }}
               >
-                Warning [WRN]
+                {t('viewer_preset_wrn')} [WRN]
               </button>
             </>
           )}
@@ -312,13 +314,13 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
               style={{ marginLeft: 'auto', background: 'rgba(255,255,255,0.05)', color: 'var(--text-muted)', fontSize: 10 }}
               onClick={() => { setSearchTerm(''); setShowFindAll(false); }}
             >
-              Resetta ricerca
+              {t('viewer_reset_search')}
             </button>
           )}
         </div>
 
         <div style={{ marginTop: 10, fontSize: 11, color: 'var(--accent-light)', fontFamily: 'var(--font-mono)', opacity: 0.8 }}>
-          <span style={{ color: 'var(--text-muted)' }}>FILE APERTO:</span> {fileName}
+          <span style={{ color: 'var(--text-muted)' }}>{t('viewer_open_file')}:</span> {fileName}
         </div>
       </div>
 
@@ -354,19 +356,19 @@ export default function LogViewer({ file, onOpenFile, isElectron }) {
             {showFindAll && (
               <div className="find-all-panel">
                 <div className="panel-header">
-                  <span>Risultati: {results.length}</span>
+                  <span>{t('viewer_results_count', { count: results.length })}</span>
                   <button className="close-btn" onClick={() => setShowFindAll(false)}>&times;</button>
                 </div>
                 <div className="panel-results">
                   {results.length === 0 ? (
-                    <div className="empty-results">Nessun risultato trovato</div>
+                    <div className="empty-results">{t('viewer_no_results')}</div>
                   ) : (
                     results.map((res, i) => (
                       <div key={i} className="result-card" onClick={() => handleJumpToLine(res.lineNum)}>
                         <div className="result-card-header">
                           <span className={`badge-level ${res.level.toLowerCase()}`}>{res.level}</span>
                           <span className="result-timestamp">{res.timestamp}</span>
-                          <span className="result-line-num">  Riga {res.lineNum + 1}</span>
+                          <span className="result-line-num">  {t('viewer_line_num', { num: res.lineNum + 1 })}</span>
                         </div>
                         <div className="result-line-content">{res.line}</div>
                       </div>

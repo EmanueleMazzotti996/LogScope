@@ -1,6 +1,8 @@
 import React, { useState, useCallback } from 'react';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export default function ConfigPanel({ config, setConfig, onExtract, isExtracting, isElectron }) {
+  const { t } = useLanguage();
   const [dateInput, setDateInput] = useState('');
   const [clientInput, setClientInput] = useState('');
   const [scanning, setScanning] = useState(false);
@@ -9,7 +11,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
 
   const handleBrowse = useCallback(async (field) => {
     if (!isElectron) return;
-    const title = field === 'sourceRoot' ? 'Seleziona cartella AbacoServerData' : 'Seleziona cartella di destinazione';
+    const title = field === 'sourceRoot' ? t('config_source_title') : t('config_dest_title');
     const defaultPath = config[field] || undefined;
     const result = await window.godlog.browseFolder({ title, defaultPath });
     if (result) {
@@ -102,8 +104,8 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
             <line x1="12" y1="9" x2="12" y2="13" />
             <line x1="12" y1="17" x2="12.01" y2="17" />
           </svg>
-          Interfaccia in modalità preview — le operazioni filesystem richiedono Electron.
-          Avvia con <strong style={{ marginLeft: 4 }}>npm run electron:dev</strong>
+          {t('config_no_electron')}
+          <strong style={{ marginLeft: 4 }}>npm run electron:dev</strong>
         </div>
       )}
 
@@ -113,21 +115,21 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
           </svg>
-          Percorsi
+          {t('config_paths')}
         </div>
 
         <div className="form-group">
-          <label className="form-label">Cartella Radice Log (contiene le date)</label>
+          <label className="form-label">{t('config_source')}</label>
           <div className="form-row">
             <input
               type="text"
               className="form-input"
               value={config.sourceRoot}
               onChange={(e) => setConfig((prev) => ({ ...prev, sourceRoot: e.target.value }))}
-              placeholder="Es. C:\Logs o cartella estratta..."
+              placeholder={t('config_source_placeholder')}
             />
             <button className="browse-btn" onClick={() => handleBrowse('sourceRoot')} disabled={!isElectron}>
-              Sfoglia
+              {t('browse')}
             </button>
             <button
               className="btn btn-scan btn-sm"
@@ -135,14 +137,14 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
               disabled={!isElectron || scanning || !config.sourceRoot}
             >
               {scanning ? (
-                <><span className="spinner" style={{ width: 14, height: 14 }} /> Scansione...</>
+                <><span className="spinner" style={{ width: 14, height: 14 }} /> {t('scanning')}</>
               ) : (
                 <>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="11" cy="11" r="8" />
                     <line x1="21" y1="21" x2="16.65" y2="16.65" />
                   </svg>
-                  Scansiona
+                  {t('scan')}
                 </>
               )}
             </button>
@@ -150,17 +152,17 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
         </div>
 
         <div className="form-group">
-          <label className="form-label">Destinazione</label>
+          <label className="form-label">{t('config_dest')}</label>
           <div className="form-row">
             <input
               type="text"
               className="form-input"
               value={config.destination}
               onChange={(e) => setConfig((prev) => ({ ...prev, destination: e.target.value }))}
-              placeholder="Seleziona cartella di destinazione..."
+              placeholder={t('config_dest_placeholder')}
             />
             <button className="browse-btn" onClick={() => handleBrowse('destination')} disabled={!isElectron}>
-              Sfoglia
+              {t('browse')}
             </button>
           </div>
         </div>
@@ -175,7 +177,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
         {scanData && (
           <div className="scan-results">
             <div className="scan-column">
-              <div className="scan-column-title">Date trovate ({scanData.dates.length})</div>
+              <div className="scan-column-title">{t('config_scan_found_dates', { count: scanData.dates.length })}</div>
               <div style={{ maxHeight: 200, overflowY: 'auto' }}>
                 {scanData.dates.map((d) => (
                   <label key={d} className="scan-item">
@@ -190,7 +192,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
               </div>
             </div>
             <div className="scan-column">
-              <div className="scan-column-title">Client trovati ({scanData.clients.length})</div>
+              <div className="scan-column-title">{t('config_scan_found_clients', { count: scanData.clients.length })}</div>
               <div style={{ maxHeight: 200, overflowY: 'auto' }}>
                 {scanData.clients.map((c) => (
                   <label key={c} className="scan-item">
@@ -217,11 +219,11 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
             <line x1="8" y1="2" x2="8" y2="6" />
             <line x1="3" y1="10" x2="21" y2="10" />
           </svg>
-          Date e Client
+          {t('config_dates_clients')}
         </div>
 
         <div className="form-group">
-          <label className="form-label">Date (YYYY-MM-DD)</label>
+          <label className="form-label">{t('config_dates')}</label>
           <div className="form-row">
             <input
               type="text"
@@ -229,7 +231,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
               value={dateInput}
               onChange={(e) => setDateInput(e.target.value)}
               onKeyDown={handleDateKeyDown}
-              placeholder="es. 2026-02-16 poi premi Invio"
+              placeholder={t('config_dates_placeholder')}
             />
             <button className="btn-icon" onClick={() => addDate(dateInput)} disabled={!dateInput.trim()}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -249,7 +251,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
         </div>
 
         <div className="form-group">
-          <label className="form-label">Client ID</label>
+          <label className="form-label">{t('config_clients')}</label>
           <div className="form-row">
             <input
               type="text"
@@ -257,7 +259,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
               value={clientInput}
               onChange={(e) => setClientInput(e.target.value)}
               onKeyDown={handleClientKeyDown}
-              placeholder="es. ICS-1380 poi premi Invio"
+              placeholder={t('config_clients_placeholder')}
             />
             <button className="btn-icon" onClick={() => addClient(clientInput)} disabled={!clientInput.trim()}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -281,11 +283,13 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
       <div className="extract-actions">
         <div className="extract-summary">
           {canExtract ? (
-            <>
-              Pronto: <strong>{config.dates.length}</strong> date × <strong>{config.clients.length}</strong> client = <strong>{config.dates.length * config.clients.length * 2}</strong> file da estrarre
-            </>
+            t('config_ready', { 
+              dates: config.dates.length, 
+              clients: config.clients.length, 
+              total: config.dates.length * config.clients.length * 2 
+            })
           ) : (
-            <>Compila tutti i campi per procedere con l'estrazione</>
+            t('config_not_ready')
           )}
         </div>
         <button
@@ -294,7 +298,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
           disabled={!canExtract || isExtracting || !isElectron}
         >
           {isExtracting ? (
-            <><span className="spinner" /> Estrazione...</>
+            <><span className="spinner" /> {t('extracting')}</>
           ) : (
             <>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -302,7 +306,7 @@ export default function ConfigPanel({ config, setConfig, onExtract, isExtracting
                 <polyline points="7 10 12 15 17 10" />
                 <line x1="12" y1="15" x2="12" y2="3" />
               </svg>
-              Estrai Log
+              {t('extract')}
             </>
           )}
         </button>

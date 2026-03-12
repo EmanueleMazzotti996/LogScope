@@ -3,11 +3,14 @@ import ConfigPanel from './components/ConfigPanel';
 import ResultsPanel from './components/ResultsPanel';
 import LogViewer from './components/LogViewer';
 import AboutTab from './components/AboutTab';
+import SettingsTab from './components/SettingsTab';
+import { useLanguage } from './i18n/LanguageContext';
 
 // Check if running inside Electron
 const isElectron = typeof window !== 'undefined' && window.godlog;
 
 export default function App() {
+  const { t, locale } = useLanguage();
   const [activeTab, setActiveTab] = useState('extract');
   const [config, setConfig] = useState({
     sourceRoot: 'D:\\DataDisk\\AbacoServerData',
@@ -39,12 +42,12 @@ export default function App() {
   const processFiles = (files) => {
     return files.map(f => ({
       ...f,
-      displayDate: formatLogDate(f.logDate),
+      displayDate: formatLogDateLocalized(f.logDate, locale, t),
       displaySize: formatFileSize(f.size),
       nameLower: (f.name || '').toLowerCase()
     })).sort((a, b) => {
-      const dateA = parseLogDate(a.logDate);
-      const dateB = parseLogDate(b.logDate);
+      const dateA = parseLogDate(a.logDate, t);
+      const dateB = parseLogDate(b.logDate, t);
       return dateB - dateA; // Descendente
     });
   };
@@ -186,7 +189,7 @@ export default function App() {
       {globalLoading && (
         <div className="global-loading-overlay">
           <div className="spinner-premium"></div>
-          <div className="loading-text">Caricamento dati in corso...</div>
+          <div className="loading-text">{t('loading_data')}</div>
         </div>
       )}
 
@@ -223,7 +226,7 @@ export default function App() {
               <polyline points="7 10 12 15 17 10" />
               <line x1="12" y1="15" x2="12" y2="3" />
             </svg>
-            Estrai Log
+            {t('nav_extract')}
           </button>
           <button
             className={`nav-item ${activeTab === 'files' ? 'active' : ''}`}
@@ -232,7 +235,7 @@ export default function App() {
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
             </svg>
-            Analisi Log
+            {t('nav_analysis')}
           </button>
           <button
             className={`nav-item ${activeTab === 'viewer' ? 'active' : ''}`}
@@ -245,7 +248,7 @@ export default function App() {
               <line x1="16" y1="17" x2="8" y2="17" />
               <polyline points="10 9 9 9 8 9" />
             </svg>
-            Log Viewer
+            {t('nav_viewer')}
           </button>
           <button
             className={`nav-item ${activeTab === 'about' ? 'active' : ''}`}
@@ -256,7 +259,18 @@ export default function App() {
               <line x1="12" y1="16" x2="12" y2="12" />
               <line x1="12" y1="8" x2="12.01" y2="8" />
             </svg>
-            Guida
+            {t('nav_about')}
+          </button>
+          <button
+            className={`nav-item ${activeTab === 'settings' ? 'active' : ''}`}
+            onClick={() => setActiveTab('settings')}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+            {t('nav_settings')}
           </button>
         </nav>
 
@@ -270,8 +284,8 @@ export default function App() {
         {activeTab === 'extract' && (
           <div className="page">
             <div className="page-header">
-              <h1>Estrazione Log</h1>
-              <p className="page-desc">Configura sorgente, destinazione, date e client per estrarre i log di Abaco Server.</p>
+              <h1>{t('config_header')}</h1>
+              <p className="page-desc">{t('config_desc')}</p>
             </div>
             <ConfigPanel
               config={config}
@@ -294,13 +308,13 @@ export default function App() {
         {activeTab === 'files' && (
           <div className="page">
             <div className="page-header">
-              <h1>File Estratti</h1>
-              <p className="page-desc">Log precedentemente estratti nella cartella di destinazione.</p>
+              <h1>{t('analysis_header')}</h1>
+              <p className="page-desc">{t('analysis_desc')}</p>
             </div>
             <div className="card">
               <div className="card-toolbar" style={{ padding: '0 0 16px 0', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <button className="btn btn-secondary" onClick={async () => {
-                  const folder = await window.godlog.browseFolder({ title: 'Seleziona cartella Log da analizzare' });
+                  const folder = await window.godlog.browseFolder({ title: t('analysis_import') });
                   if (folder) {
                     await withLoading(async () => {
                       setConfig(prev => ({ ...prev, destination: folder }));
@@ -312,17 +326,17 @@ export default function App() {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: 8 }}>
                     <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"></path>
                   </svg>
-                  Importa cartella log...
+                  {t('analysis_import')}
                 </button>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                   {config.destination && (
                     <button className="btn btn-danger btn-sm" onClick={handleResetFiles} style={{ padding: '4px 8px', fontSize: 11 }}>
-                      Resetta Analisi
+                      {t('analysis_reset')}
                     </button>
                   )}
                   {config.destination && (
                     <span style={{ fontSize: 12, color: 'var(--text-muted)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '200px' }}>
-                      Percorso: {config.destination}
+                      {t('analysis_path', { path: config.destination })}
                     </span>
                   )}
                 </div>
@@ -333,7 +347,7 @@ export default function App() {
                   <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" opacity="0.3">
                     <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
                   </svg>
-                  <p>Seleziona una cartella di log da analizzare o usa la tab "Estrai Log"</p>
+                  <p>{t('analysis_empty')}</p>
                 </div>
               ) : extractedFiles.length === 0 ? (
                 <div className="empty-state">
@@ -341,41 +355,41 @@ export default function App() {
                     <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
                     <polyline points="14 2 14 8 20 8" />
                   </svg>
-                  <p>Nessun file trovato in questa cartella</p>
+                  <p>{t('analysis_no_files')}</p>
                   <div style={{ display: 'flex', gap: 10 }}>
-                    <button className="btn btn-secondary" onClick={handleRefreshFiles}>Aggiorna</button>
+                    <button className="btn btn-secondary" onClick={handleRefreshFiles}>{t('refresh')}</button>
                   </div>
                 </div>
               ) : (
                 <div className="file-list">
                   <div className="file-list-header">
-                  <span style={{ marginRight: '16px' }}>{filteredFiles.length} file trovati</span>
+                  <span style={{ marginRight: '16px' }}>{t('analysis_files_found', { count: filteredFiles.length })}</span>
                     <button className="btn btn-secondary btn-sm" onClick={handleRefreshFiles}>
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <polyline points="23 4 23 10 17 10" />
                         <path d="M20.49 15a9 9 0 11-2.12-9.36L23 10" />
                       </svg>
-                      Aggiorna
+                      {t('refresh')}
                     </button>
                     <div className="search-row-layout">
                       <div className="filter-chips">
                         <button 
-                          className={`filter-chip ${filterTypes.includes('ics') ? 'active' : ''}`}
-                          onClick={() => toggleFilter('ics')}
+                           className={`filter-chip ${filterTypes.includes('ics') ? 'active' : ''}`}
+                           onClick={() => toggleFilter('ics')}
                         >
-                          ICS Log
+                          {t('analysis_type_ics')}
                         </button>
                         <button 
                           className={`filter-chip ${filterTypes.includes('server') ? 'active' : ''}`}
                           onClick={() => toggleFilter('server')}
                         >
-                          Server Lib
+                          {t('analysis_type_server')}
                         </button>
                       </div>
                       <div className="search-box-sm">
                         <input
                           type="text"
-                          placeholder="Filtra per Client o Data..."
+                          placeholder={t('analysis_filter_client_date')}
                           value={fileSearch}
                           style={{ 
                             fontSize: 12, 
@@ -411,11 +425,11 @@ export default function App() {
                             <span className="main-client">{f.clientName}</span>
                             <span className="main-date">{f.displayDate}</span>
                             {f.nameLower.includes('icslog') ? (
-                              <span className="log-type-badge badge-ics">ICS Log</span>
+                              <span className="log-type-badge badge-ics">{t('analysis_type_ics')}</span>
                             ) : f.nameLower.includes('serverlibrary') ? (
-                              <span className="log-type-badge badge-server">Server Lib</span>
+                              <span className="log-type-badge badge-server">{t('analysis_type_server')}</span>
                             ) : (
-                              <span className="log-type-badge badge-generic">Log</span>
+                              <span className="log-type-badge badge-generic">{t('analysis_type_generic')}</span>
                             )}
                           </div>
                           <span className="file-name-sub">{f.name}</span>
@@ -437,22 +451,23 @@ export default function App() {
         {activeTab === 'viewer' && (
           <div className="page">
             <div className="page-header">
-              <h1>Log Viewer</h1>
-              <p className="page-desc">Visualizza e cerca nel contenuto dei file di log.</p>
+              <h1>{t('viewer_header')}</h1>
+              <p className="page-desc">{t('viewer_desc')}</p>
             </div>
             <LogViewer file={viewerFile} onOpenFile={handleOpenViewer} isElectron={isElectron} />
           </div>
         )}
 
         {activeTab === 'about' && <AboutTab />}
+        {activeTab === 'settings' && <SettingsTab />}
       </main>
     </div>
   );
 }
 
 // Date Parsing Utility: Handles MM/DD/YY and YYYY-MM-DD
-function parseLogDate(dateStr) {
-  if (!dateStr || dateStr === 'Sconosciuta') return new Date(0);
+function parseLogDate(dateStr, t) {
+  if (!dateStr || (t && dateStr === t('unknown'))) return new Date(0);
 
   // Format 1: MM/DD/YY (icslog)
   if (dateStr.includes('/')) {
@@ -477,17 +492,12 @@ function parseLogDate(dateStr) {
   return new Date(dateStr);
 }
 
-// Date Formatting Utility: Displays as "12 Feb 2025"
-function formatLogDate(dateStr) {
-  const date = parseLogDate(dateStr);
-  if (date.getTime() === 0) return 'Sconosciuta';
-
-  const months = ['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu', 'Lug', 'Ago', 'Set', 'Ott', 'Nov', 'Dic'];
-  const day = date.getDate();
-  const month = months[date.getMonth()];
-  const year = date.getFullYear();
-
-  return `${day} ${month} ${year}`;
+// Date Formatting Utility: Displays as "12 Feb 2025" localized
+function formatLogDateLocalized(dateStr, locale, t) {
+  const date = parseLogDate(dateStr, t);
+  if (date.getTime() === 0) return t ? t('unknown') : 'Unknown';
+  
+  return date.toLocaleDateString(locale, { day: '2-digit', month: 'short', year: 'numeric' });
 }
 
 function formatFileSize(bytes) {

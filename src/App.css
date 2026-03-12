@@ -1371,11 +1371,11 @@ body {
 }
 
 .badge-level {
-  font-size: 9px !important;
-  font-weight: 800 !important;
-  padding: 1px 4px !important;
-  border-radius: 3px !important;
-  text-transform: uppercase !important;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
 
 .badge-level.err {
@@ -2029,6 +2029,28 @@ body {
   font-weight: 500;
 }
 
+.event-name-large {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: block;
+}
+
+.event-description-box {
+  font-size: 11px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  padding-top: 6px;
+  font-style: italic;
+}
+
 
 .process-tile {
   padding: 8px 10px !important;
@@ -2259,4 +2281,90 @@ body {
   color: var(--text-muted);
   font-size: 11px;
   letter-spacing: 0.5px;
+}
+
+/* --- Language Selection Premium UI --- */
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.lang-button {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  color: var(--text-dim);
+  width: 100%;
+}
+
+.lang-button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  color: var(--text-main);
+}
+
+.lang-button.active {
+  background: rgba(var(--accent-rgb), 0.1);
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.2);
+}
+
+.lang-flag-wrapper {
+  width: 52px;
+  height: 38px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.lang-button:hover .lang-flag-wrapper {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.lang-flag-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.lang-name {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.lang-check {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease;
+  color: var(--accent);
+}
+
+.lang-button.active .lang-check {
+  opacity: 1;
+  transform: scale(1);
 }

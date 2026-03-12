@@ -5,7 +5,7 @@
 ---
 
 ## 1. Project Overview
-LogScope is a high-performance desktop application designed for deep forensic analysis of **Abaco Server Logs** (ICS Log & Server Library). It transforms raw, voluminous text logs into actionable insights through an intelligent diagnostic engine and a premium, responsive UI.
+LogScope is a high-performance desktop application designed for handy analysis of Parvis systems logs (ICS Log & Server Library). It transforms raw, voluminous text logs into actionable insights through an intelligent diagnostic engine and a premium, responsive UI.
 
 ## 2. Technical Stack
 - **Framework**: React 18.3 (Component-based architecture)
@@ -33,7 +33,7 @@ Specialized profiling for backend processes:
 - **Anomaly Filtering**: Direct toggle to isolate failed operations or those exceeding the **60-second** performance threshold.
 
 ### 3.4 Production Intelligence
-- **Lot Tracking**: Identifies and groups production lots.
+- **Lot Tracking**: Identifies production lots.
 - **Compliance Check**: Detects systematic anomalies in lot status changes (Production/Closed/Cancelled).
 
 ## 4. UI/UX Principles
@@ -53,4 +53,4 @@ The production EXE is not automatically updated during development. To generate 
    `LogScope-1.0.0-portable.exe`
 
 ---
-*© 2026 LogScope Project — Designed for Excellence.*
+*© 2026 LogScope Project*

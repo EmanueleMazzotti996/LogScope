@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import { useLanguage } from '../i18n/LanguageContext';
 
 function formatFileSize(bytes) {
   if (!bytes) return '';
@@ -9,6 +10,7 @@ function formatFileSize(bytes) {
 }
 
 export default function ResultsPanel({ results, progress, isExtracting, onOpenFile }) {
+  const { t } = useLanguage();
   const stats = useMemo(() => {
     const s = { success: 0, warning: 0, error: 0, not_found: 0, total: results.length };
     for (const r of results) {
@@ -25,7 +27,7 @@ export default function ResultsPanel({ results, progress, isExtracting, onOpenFi
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
         </svg>
-        Risultati Estrazione
+        {t('results_header')}
       </div>
 
       {/* Progress */}
@@ -35,7 +37,7 @@ export default function ResultsPanel({ results, progress, isExtracting, onOpenFi
             <div className="progress-fill" style={{ width: `${progressPercent}%` }} />
           </div>
           <div className="progress-text">
-            <span>Estrazione in corso...</span>
+            <span>{t('results_progress')}</span>
             <span>{progress.completed}/{progress.total} ({progressPercent}%)</span>
           </div>
         </div>
@@ -47,19 +49,19 @@ export default function ResultsPanel({ results, progress, isExtracting, onOpenFi
           <div className="stats-row">
             <div className="stat-card">
               <div className="stat-value total">{stats.total}</div>
-              <div className="stat-label">Totale</div>
+              <div className="stat-label">{t('results_total')}</div>
             </div>
             <div className="stat-card">
               <div className="stat-value success">{stats.success}</div>
-              <div className="stat-label">Copiati</div>
+              <div className="stat-label">{t('results_copied')}</div>
             </div>
             <div className="stat-card">
               <div className="stat-value warning">{stats.warning + stats.not_found}</div>
-              <div className="stat-label">Non trovati</div>
+              <div className="stat-label">{t('results_not_found')}</div>
             </div>
             <div className="stat-card">
               <div className="stat-value error">{stats.error}</div>
-              <div className="stat-label">Errori</div>
+              <div className="stat-label">{t('results_errors')}</div>
             </div>
           </div>
 
@@ -106,7 +108,7 @@ export default function ResultsPanel({ results, progress, isExtracting, onOpenFi
                       );
                     }}
                   >
-                    Apri
+                    {t('open')}
                   </button>
                 )}
               </div>
